@@ -1,0 +1,1192 @@
+{
+    "version": "0.4",
+    "title": "Pricing Block 2",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-pricing",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "2efe6e13",
+            "settings": {
+                "structure": "30",
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": 0,
+                    "bottom": "0",
+                    "left": 0,
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "100",
+                    "bottom": "0",
+                    "left": "100",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "10",
+                    "right": "10",
+                    "bottom": "10",
+                    "left": "10",
+                    "isLinked": true
+                },
+                "background_background": "classic",
+                "background_color": "#FBF5F1",
+                "padding": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": "0",
+                    "bottom": "80",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "__globals__": {
+                    "background_color": ""
+                }
+            },
+            "elements": [
+                {
+                    "id": "983108b",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null,
+                        "_inline_size_tablet": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "2d1fc9d9",
+                            "settings": {
+                                "ekit_pricing_table_title": "Starter",
+                                "ekit_pricing_title_size": "h2",
+                                "ekit_pricing_table_subtitle": "Etiam porta sem malesuada magna mollis euismod.",
+                                "ekit_pricing_icon_type": "icon",
+                                "ekit_pricing_image": {
+                                    "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/drawing-conclusions.jpg",
+                                    "id": 320
+                                },
+                                "ekit_pricing_thumbnail_size": "medium",
+                                "ekit_pricing_currency_icon": "$",
+                                "ekit_pricing_table_price": "25.99",
+                                "ekit_pricing_table_duration": "Per Month",
+                                "ekit_pricing_content_style": "list",
+                                "ekit_pricing_table_content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam",
+                                "ekit_pricing_table_content_repeater": [
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "_id": "e577887",
+                                        "ekit_pricing_list": "Lorem Quam Fringilla Aenean",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-check",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        }
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Vehicula Purus Malesuada Sit",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-check",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "22d749f"
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Justo Lorem Etiam Aenean",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-times",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_icon_color": "#A42F2F",
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "d5539e1"
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Ipsum Bibendum Euismod",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-check",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "18023d7"
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Sollicitudin Purus Etiam Mattis",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-times",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_icon_color": "#A42F2F",
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "c1083eb"
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Ullamcorper Nibh Euismod",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-times",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_icon_color": "#A42F2F",
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "0cc998e"
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Vulputate Sollicitudin Dolor",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-check",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "8520d02"
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Tortor Vehicula Elit Fermentum",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-times",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_icon_color": "#A42F2F",
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "a9815b7"
+                                    }
+                                ],
+                                "ekit_pricing_btn_text": "Book Now",
+                                "ekit_pricing_btn_icons__switch": "",
+                                "ekit_pricing_icon_spacing": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_title_align": "center",
+                                "ekit_pricing_title_typography_group_typography": "custom",
+                                "ekit_pricing_title_typography_group_font_size": {
+                                    "unit": "px",
+                                    "size": 26,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_title_typography_group_font_weight": "600",
+                                "ekit_pricing_title_typography_group_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0.6,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_title_text_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "30",
+                                    "bottom": "0",
+                                    "left": "30",
+                                    "isLinked": false
+                                },
+                                "ekit_pricing_subtitle_text_color": "#939EAB",
+                                "ekit_pricing_subtitle_typography_group_typography": "custom",
+                                "ekit_pricing_subtitle_typography_group_font_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_subtitle_typography_group_line_height": {
+                                    "unit": "em",
+                                    "size": 1.4,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_subtitle_text_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "30",
+                                    "bottom": "0",
+                                    "left": "30",
+                                    "isLinked": false
+                                },
+                                "ekit_pricing_image_space": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_price_typography_group_typography": "custom",
+                                "ekit_pricing_price_typography_group_font_family": "Catamaran",
+                                "ekit_pricing_price_typography_group_font_size": {
+                                    "unit": "px",
+                                    "size": 52,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_price_typography_group_font_weight": "600",
+                                "ekit_pricing_price_typography_group_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0.4,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_period_typography_group_typography": "custom",
+                                "ekit_pricing_period_typography_group_font_family": "Catamaran",
+                                "ekit_pricing_period_typography_group_font_size": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_period_typography_group_font_weight": "500",
+                                "ekit_pricing_period_typography_group_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0.4,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_period_vertical_position": "middle",
+                                "ekit_pricing_tag_text_color": "#FFFFFF",
+                                "ekit_pricing_tag_bg_color_background": "classic",
+                                "ekit_pricing_tag_bg_color_color": "#033EA5",
+                                "ekit_pricing_tag_hover_color": "#022E7E",
+                                "ekit_pricing_tag_bg_hover_color_group_background": "classic",
+                                "ekit_pricing_tag_bg_hover_color_group_color": "#FDE427",
+                                "ekit_pricing_tag_border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_pricing_btn_align": "left",
+                                "ekit_pricing_content_typography_group_typography": "custom",
+                                "ekit_pricing_content_typography_group_font_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_content_text_color": "#44484D",
+                                "ekit_pricing_list_divider": "",
+                                "ekit_pricing_divider_gap": {
+                                    "unit": "px",
+                                    "size": 12,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_features_body_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "30",
+                                    "bottom": "0",
+                                    "left": "30",
+                                    "isLinked": false
+                                },
+                                "ekit_pricing_btn_typography_group_typography": "custom",
+                                "ekit_pricing_btn_typography_group_font_family": "Catamaran",
+                                "ekit_pricing_btn_typography_group_font_size": {
+                                    "unit": "px",
+                                    "size": 17,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_btn_typography_group_font_weight": "500",
+                                "ekit_pricing_btn_typography_group_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0.6,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_btn_bg_color_group_background": "classic",
+                                "ekit_pricing_btn_bg_color_group_color": "#033EA5",
+                                "ekit_pricing_btn_hover_color": "#022E7E",
+                                "ekit_pricing_btn_bg_hover_color_group_background": "classic",
+                                "ekit_pricing_btn_bg_hover_color_group_color": "#FDE427",
+                                "ekit_pricing_btn_border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_pricing_pricing_body_bg_sp": "#FFFFFF",
+                                "ekit_pricing_order_enable": "",
+                                "ekit_pricing_order_header": {
+                                    "unit": "px",
+                                    "size": 2,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_order_price": {
+                                    "unit": "px",
+                                    "size": 3,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_order_features": {
+                                    "unit": "px",
+                                    "size": 4,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_order_button": {
+                                    "unit": "px",
+                                    "size": 1,
+                                    "sizes": []
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_padding": {
+                                    "unit": "px",
+                                    "top": "40",
+                                    "right": "0",
+                                    "bottom": "40",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_background_background": "classic",
+                                "_background_color": "#FFFFFF",
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 3,
+                                    "blur": 15,
+                                    "spread": 0,
+                                    "color": "rgba(0, 0, 0, 0.07)"
+                                },
+                                "__globals__": {
+                                    "ekit_pricing_content_text_color": "",
+                                    "ekit_pricing_subtitle_text_color": "",
+                                    "ekit_pricing_tag_bg_color_color": "",
+                                    "ekit_pricing_tag_bg_hover_color_group_color": "",
+                                    "ekit_pricing_tag_hover_color": "",
+                                    "ekit_pricing_btn_bg_color_group_color": "",
+                                    "ekit_pricing_btn_hover_color": "",
+                                    "ekit_pricing_btn_bg_hover_color_group_color": "",
+                                    "ekit_pricing_tag_text_color": "",
+                                    "ekit_pricing_icon_primary_color": "",
+                                    "ekit_pricing_icon_secondary_color_normal": "",
+                                    "ekit_pricing_hover_secondary_color": "",
+                                    "ekit_pricing_hover_primary_color": ""
+                                },
+                                "ekit_pricing_icons": {
+                                    "value": "far fa-object-ungroup",
+                                    "library": "fa-regular"
+                                },
+                                "ekit_pricing_icon_primary_color": "#033EA5",
+                                "ekit_pricing_hover_primary_color": "#FDE427",
+                                "ekit_pricing_hover_secondary_color": "#022E7E",
+                                "ekit_pricing_icon_size": {
+                                    "unit": "px",
+                                    "size": 64,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "elementskit-pricing",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "5ded35cc",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null,
+                        "_inline_size_tablet": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "7d4730f1",
+                            "settings": {
+                                "ekit_pricing_table_title": "Professional",
+                                "ekit_pricing_title_size": "h2",
+                                "ekit_pricing_table_subtitle": "Etiam porta sem malesuada magna mollis euismod.",
+                                "ekit_pricing_icon_type": "icon",
+                                "ekit_pricing_image": {
+                                    "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/managers-working-with-financial-chart.jpg",
+                                    "id": 317
+                                },
+                                "ekit_pricing_thumbnail_size": "medium",
+                                "ekit_pricing_currency_icon": "$",
+                                "ekit_pricing_table_price": "55.99",
+                                "ekit_pricing_table_duration": "Per Month",
+                                "ekit_pricing_content_style": "list",
+                                "ekit_pricing_table_content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam",
+                                "ekit_pricing_table_content_repeater": [
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "_id": "e577887",
+                                        "ekit_pricing_list": "Lorem Quam Fringilla Aenean",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-check",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        }
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Vehicula Purus Malesuada Sit",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-check",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "22d749f"
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Aenean Dolor Malesuada Fermentum",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-check",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "1ea774e"
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Ipsum Bibendum Euismod",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-check",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "18023d7"
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Venenatis Consectetur",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-check",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "4545933"
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Ullamcorper Nibh Euismod",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-times",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_icon_color": "#A42F2F",
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "0cc998e"
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Vulputate Sollicitudin Dolor",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-check",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "8520d02"
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Tortor Vehicula Elit Fermentum",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-times",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_icon_color": "#A42F2F",
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "a9815b7"
+                                    }
+                                ],
+                                "ekit_pricing_btn_text": "Book Now",
+                                "ekit_pricing_btn_icons__switch": "",
+                                "ekit_pricing_icon_spacing": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_title_align": "center",
+                                "ekit_pricing_title_typography_group_typography": "custom",
+                                "ekit_pricing_title_typography_group_font_size": {
+                                    "unit": "px",
+                                    "size": 26,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_title_typography_group_font_weight": "600",
+                                "ekit_pricing_title_typography_group_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0.6,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_title_text_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "30",
+                                    "bottom": "0",
+                                    "left": "30",
+                                    "isLinked": false
+                                },
+                                "ekit_pricing_subtitle_text_color": "#939EAB",
+                                "ekit_pricing_subtitle_typography_group_typography": "custom",
+                                "ekit_pricing_subtitle_typography_group_font_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_subtitle_typography_group_line_height": {
+                                    "unit": "em",
+                                    "size": 1.4,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_subtitle_text_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "30",
+                                    "bottom": "0",
+                                    "left": "30",
+                                    "isLinked": false
+                                },
+                                "ekit_pricing_image_space": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_price_typography_group_typography": "custom",
+                                "ekit_pricing_price_typography_group_font_family": "Catamaran",
+                                "ekit_pricing_price_typography_group_font_size": {
+                                    "unit": "px",
+                                    "size": 52,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_price_typography_group_font_weight": "600",
+                                "ekit_pricing_price_typography_group_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0.4,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_period_typography_group_typography": "custom",
+                                "ekit_pricing_period_typography_group_font_family": "Catamaran",
+                                "ekit_pricing_period_typography_group_font_size": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_period_typography_group_font_weight": "500",
+                                "ekit_pricing_period_typography_group_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0.4,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_period_vertical_position": "middle",
+                                "ekit_pricing_tag_text_color": "#022E7E",
+                                "ekit_pricing_tag_bg_color_background": "classic",
+                                "ekit_pricing_tag_bg_color_color": "#FDE427",
+                                "ekit_pricing_tag_hover_color": "#FFFFFF",
+                                "ekit_pricing_tag_bg_hover_color_group_background": "classic",
+                                "ekit_pricing_tag_bg_hover_color_group_color": "#033EA5",
+                                "ekit_pricing_tag_border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_pricing_btn_align": "left",
+                                "ekit_pricing_content_typography_group_typography": "custom",
+                                "ekit_pricing_content_typography_group_font_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_content_text_color": "#44484D",
+                                "ekit_pricing_list_divider": "",
+                                "ekit_pricing_divider_gap": {
+                                    "unit": "px",
+                                    "size": 12,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_features_body_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "30",
+                                    "bottom": "0",
+                                    "left": "30",
+                                    "isLinked": false
+                                },
+                                "ekit_pricing_btn_typography_group_typography": "custom",
+                                "ekit_pricing_btn_typography_group_font_family": "Catamaran",
+                                "ekit_pricing_btn_typography_group_font_size": {
+                                    "unit": "px",
+                                    "size": 17,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_btn_typography_group_font_weight": "500",
+                                "ekit_pricing_btn_typography_group_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0.6,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_btn_bg_color_group_background": "classic",
+                                "ekit_pricing_btn_bg_color_group_color": "#033EA5",
+                                "ekit_pricing_btn_hover_color": "#022E7E",
+                                "ekit_pricing_btn_bg_hover_color_group_background": "classic",
+                                "ekit_pricing_btn_bg_hover_color_group_color": "#FDE427",
+                                "ekit_pricing_btn_border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_pricing_pricing_body_bg_sp": "#FFFFFF",
+                                "ekit_pricing_order_enable": "",
+                                "ekit_pricing_order_header": {
+                                    "unit": "px",
+                                    "size": 2,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_order_price": {
+                                    "unit": "px",
+                                    "size": 3,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_order_features": {
+                                    "unit": "px",
+                                    "size": 4,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_order_button": {
+                                    "unit": "px",
+                                    "size": 1,
+                                    "sizes": []
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_padding": {
+                                    "unit": "px",
+                                    "top": "40",
+                                    "right": "0",
+                                    "bottom": "40",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_background_background": "classic",
+                                "_background_color": "#FFFFFF",
+                                "__globals__": {
+                                    "ekit_pricing_content_text_color": "",
+                                    "ekit_pricing_subtitle_text_color": "",
+                                    "ekit_pricing_tag_bg_color_color": "",
+                                    "ekit_pricing_tag_bg_hover_color_group_color": "",
+                                    "ekit_pricing_tag_hover_color": "",
+                                    "ekit_pricing_btn_bg_color_group_color": "",
+                                    "ekit_pricing_btn_hover_color": "",
+                                    "ekit_pricing_btn_bg_hover_color_group_color": "",
+                                    "ekit_pricing_tag_text_color": "",
+                                    "ekit_pricing_hover_primary_color": "",
+                                    "ekit_pricing_hover_secondary_color": ""
+                                },
+                                "ekit_pricing_icons": {
+                                    "value": "far fa-snowflake",
+                                    "library": "fa-regular"
+                                },
+                                "ekit_pricing_icon_primary_color": "#033EA5",
+                                "ekit_pricing_hover_primary_color": "#FDE427",
+                                "ekit_pricing_hover_secondary_color": "#022E7E",
+                                "ekit_pricing_icon_size": {
+                                    "unit": "px",
+                                    "size": 64,
+                                    "sizes": []
+                                },
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 3,
+                                    "blur": 15,
+                                    "spread": 0,
+                                    "color": "rgba(0, 0, 0, 0.07)"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "elementskit-pricing",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "b4c04c4",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null,
+                        "_inline_size_tablet": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "7702ffa1",
+                            "settings": {
+                                "ekit_pricing_table_title": "Enterprixe",
+                                "ekit_pricing_title_size": "h2",
+                                "ekit_pricing_table_subtitle": "Etiam porta sem malesuada magna mollis euismod.",
+                                "ekit_pricing_icon_type": "icon",
+                                "ekit_pricing_image": {
+                                    "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/businessman-with-report.jpg",
+                                    "id": 325
+                                },
+                                "ekit_pricing_thumbnail_size": "medium",
+                                "ekit_pricing_currency_icon": "$",
+                                "ekit_pricing_table_price": "95.99",
+                                "ekit_pricing_table_duration": "Per Month",
+                                "ekit_pricing_content_style": "list",
+                                "ekit_pricing_table_content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam",
+                                "ekit_pricing_table_content_repeater": [
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "_id": "e577887",
+                                        "ekit_pricing_list": "Lorem Quam Fringilla Aenean",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-check",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        }
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Vehicula Purus Malesuada Sit",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-check",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "22d749f"
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Ipsum Bibendum Euismod",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-check",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "18023d7"
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Vulputate Sollicitudin Dolor",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-check",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "8520d02"
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Ipsum Vestibulum  Pharetra",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-check",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "ebfb167"
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Adipiscing  Justo Sollicitudin",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-check",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "9d32da3"
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Egestas Porta Parturient",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-check",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "4d80018"
+                                    },
+                                    {
+                                        "item": "15 Email Account",
+                                        "check_icon": "icon icon-tick",
+                                        "ekit_pricing_list": "Malesuada Commodo Etiam",
+                                        "ekit_pricing_check_icons": {
+                                            "value": "fas fa-check",
+                                            "library": "fa-solid"
+                                        },
+                                        "ekit_pricing_list_content_typography_group": {
+                                            "unit": "px",
+                                            "size": 14,
+                                            "sizes": []
+                                        },
+                                        "_id": "cd19392"
+                                    }
+                                ],
+                                "ekit_pricing_btn_text": "Book Now",
+                                "ekit_pricing_btn_icons__switch": "",
+                                "ekit_pricing_icon_spacing": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_title_align": "center",
+                                "ekit_pricing_title_typography_group_typography": "custom",
+                                "ekit_pricing_title_typography_group_font_size": {
+                                    "unit": "px",
+                                    "size": 26,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_title_typography_group_font_weight": "600",
+                                "ekit_pricing_title_typography_group_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0.6,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_title_text_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "30",
+                                    "bottom": "0",
+                                    "left": "30",
+                                    "isLinked": false
+                                },
+                                "ekit_pricing_subtitle_text_color": "#939EAB",
+                                "ekit_pricing_subtitle_typography_group_typography": "custom",
+                                "ekit_pricing_subtitle_typography_group_font_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_subtitle_typography_group_line_height": {
+                                    "unit": "em",
+                                    "size": 1.4,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_subtitle_text_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "30",
+                                    "bottom": "0",
+                                    "left": "30",
+                                    "isLinked": false
+                                },
+                                "ekit_pricing_image_space": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_price_typography_group_typography": "custom",
+                                "ekit_pricing_price_typography_group_font_family": "Catamaran",
+                                "ekit_pricing_price_typography_group_font_size": {
+                                    "unit": "px",
+                                    "size": 52,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_price_typography_group_font_weight": "600",
+                                "ekit_pricing_price_typography_group_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0.4,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_period_typography_group_typography": "custom",
+                                "ekit_pricing_period_typography_group_font_family": "Catamaran",
+                                "ekit_pricing_period_typography_group_font_size": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_period_typography_group_font_weight": "500",
+                                "ekit_pricing_period_typography_group_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0.4,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_period_vertical_position": "middle",
+                                "ekit_pricing_tag_text_color": "#FFFFFF",
+                                "ekit_pricing_tag_bg_color_background": "classic",
+                                "ekit_pricing_tag_bg_color_color": "#033EA5",
+                                "ekit_pricing_tag_hover_color": "#022E7E",
+                                "ekit_pricing_tag_bg_hover_color_group_background": "classic",
+                                "ekit_pricing_tag_bg_hover_color_group_color": "#FDE427",
+                                "ekit_pricing_tag_border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_pricing_btn_align": "left",
+                                "ekit_pricing_content_typography_group_typography": "custom",
+                                "ekit_pricing_content_typography_group_font_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_content_text_color": "#44484D",
+                                "ekit_pricing_list_divider": "",
+                                "ekit_pricing_divider_gap": {
+                                    "unit": "px",
+                                    "size": 12,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_features_body_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "30",
+                                    "bottom": "0",
+                                    "left": "30",
+                                    "isLinked": false
+                                },
+                                "ekit_pricing_btn_typography_group_typography": "custom",
+                                "ekit_pricing_btn_typography_group_font_family": "Catamaran",
+                                "ekit_pricing_btn_typography_group_font_size": {
+                                    "unit": "px",
+                                    "size": 17,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_btn_typography_group_font_weight": "500",
+                                "ekit_pricing_btn_typography_group_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0.6,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_btn_bg_color_group_background": "classic",
+                                "ekit_pricing_btn_bg_color_group_color": "#033EA5",
+                                "ekit_pricing_btn_hover_color": "#022E7E",
+                                "ekit_pricing_btn_bg_hover_color_group_background": "classic",
+                                "ekit_pricing_btn_bg_hover_color_group_color": "#FDE427",
+                                "ekit_pricing_btn_border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_pricing_pricing_body_bg_sp": "#FFFFFF",
+                                "ekit_pricing_order_enable": "",
+                                "ekit_pricing_order_header": {
+                                    "unit": "px",
+                                    "size": 2,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_order_price": {
+                                    "unit": "px",
+                                    "size": 3,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_order_features": {
+                                    "unit": "px",
+                                    "size": 4,
+                                    "sizes": []
+                                },
+                                "ekit_pricing_order_button": {
+                                    "unit": "px",
+                                    "size": 1,
+                                    "sizes": []
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_padding": {
+                                    "unit": "px",
+                                    "top": "40",
+                                    "right": "0",
+                                    "bottom": "40",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_background_background": "classic",
+                                "_background_color": "#FFFFFF",
+                                "__globals__": {
+                                    "ekit_pricing_content_text_color": "",
+                                    "ekit_pricing_subtitle_text_color": "",
+                                    "ekit_pricing_tag_bg_color_color": "",
+                                    "ekit_pricing_tag_bg_hover_color_group_color": "",
+                                    "ekit_pricing_tag_hover_color": "",
+                                    "ekit_pricing_btn_bg_color_group_color": "",
+                                    "ekit_pricing_btn_hover_color": "",
+                                    "ekit_pricing_btn_bg_hover_color_group_color": "",
+                                    "ekit_pricing_tag_text_color": "",
+                                    "ekit_pricing_icon_primary_color": "",
+                                    "ekit_pricing_icon_secondary_color_normal": "",
+                                    "ekit_pricing_hover_secondary_color": "",
+                                    "ekit_pricing_hover_primary_color": ""
+                                },
+                                "ekit_pricing_icons": {
+                                    "value": "far fa-sun",
+                                    "library": "fa-regular"
+                                },
+                                "ekit_pricing_icon_primary_color": "#033EA5",
+                                "ekit_pricing_hover_primary_color": "#FDE427",
+                                "ekit_pricing_hover_secondary_color": "#022E7E",
+                                "ekit_pricing_icon_size": {
+                                    "unit": "px",
+                                    "size": 64,
+                                    "sizes": []
+                                },
+                                "_box_shadow_box_shadow_type": "yes",
+                                "_box_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 3,
+                                    "blur": 15,
+                                    "spread": 0,
+                                    "color": "rgba(0, 0, 0, 0.07)"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "elementskit-pricing",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "hide_title": "yes",
+        "ha_grid_zindex": "1000",
+        "content_wrapper_html_tag": "section",
+        "template": "elementor_header_footer"
+    }
+}

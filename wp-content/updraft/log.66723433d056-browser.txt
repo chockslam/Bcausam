@@ -1,0 +1,37 @@
+0000.014 (R) [notice] Looking for plugins archive: file name: backup_2021-10-17-1459_bcausam_32a628c2ce73-plugins.zip
+0000.014 (R) [notice] Archive is expected to be size: 58686.5 KB: OK
+0000.014 (R) [notice] Looking for themes archive: file name: backup_2021-10-17-1459_bcausam_32a628c2ce73-themes.zip
+0000.014 (R) [notice] Archive is expected to be size: 9647.6 KB: OK
+0000.014 (R) [notice] Looking for uploads archive: file name: backup_2021-10-17-1459_bcausam_32a628c2ce73-uploads.zip
+0000.014 (R) [notice] Archive is expected to be size: 29099.4 KB: OK
+0000.014 (R) [notice] Looking for others archive: file name: backup_2021-10-17-1459_bcausam_32a628c2ce73-others.zip
+0000.014 (R) [notice] Archive is expected to be size: 2.2 KB: OK
+0000.018 (R) [notice] Unpacking backup... (backup_2021-10-17-1459_bcausam_32a628c2ce73-plugins.zip, 57.3 MB)
+0000.233 (R) [notice] Unzip progress: 2094 out of 10422 files (14.8 KB, plugins/astra-addon/classes/modules/target-rule/select2.css)
+0000.385 (R) [notice] Unzip progress: 3095 out of 10422 files (14.4 MB, plugins/branda-white-labeling/inc/modules/admin/custom-admin-menu/branda-admin-menu-builder.php)
+0000.754 (R) [notice] Unzip progress: 4096 out of 10422 files (31.7 MB, plugins/updraftplus/vendor/components/jquery/component.json)
+0000.949 (R) [notice] Unzip progress: 5097 out of 10422 files (55 MB, plugins/defender-security/assets/img/tab-tutorial2@1x.png)
+0001.139 (R) [notice] Unzip progress: 6098 out of 10422 files (74.7 MB, plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff)
+0001.373 (R) [notice] Unzip progress: 7099 out of 10422 files (100.8 MB, plugins/elementor-pro/modules/dynamic-tags/tags/site-title.php)
+0001.554 (R) [notice] Unzip progress: 8100 out of 10422 files (121.6 MB, plugins/happy-elementor-addons/assets/admin/css/dashboard.css)
+0001.704 (R) [notice] Unzip progress: 9101 out of 10422 files (136.5 MB, plugins/hummingbird-performance/vendor/predis/predis/src/Command/TransactionExec.php)
+0001.875 (R) [notice] Unzip progress: 10102 out of 10422 files (155.4 MB, plugins/astra-sites/inc/assets/images/elementor.jpg)
+0001.950 (R) [notice] Unzip progress: 10422 out of 10422 files (164.7 MB, plugins/wp-smushit/_src/js/modules/bulk-restore.js)
+0001.959 (R) [notice] Moving old data out of the way...
+0009.370 (R) [notice] Moving unpacked backup into place...
+0016.109 (R) [notice] Cleaning up rubbish...
+0016.116 (R) [notice] Unpacking backup... (backup_2021-10-17-1459_bcausam_32a628c2ce73-themes.zip, 9.4 MB)
+0016.308 (R) [notice] Unzip progress: 1002 out of 1399 files (20 MB, themes/twentytwentyone/assets/sass/07-utilities/print.scss)
+0016.388 (R) [notice] Unzip progress: 1399 out of 1399 files (26.2 MB, themes/astra/assets/css/unminified/compatibility/woocommerce/woocommerce-layout-grid-rtl.css)
+0016.392 (R) [notice] Moving old data out of the way...
+0017.297 (R) [notice] Moving unpacked backup into place...
+0018.226 (R) [notice] Cleaning up rubbish...
+0018.237 (R) [notice] Unpacking backup... (backup_2021-10-17-1459_bcausam_32a628c2ce73-uploads.zip, 28.4 MB)
+0018.366 (R) [notice] Unzip progress: 278 out of 278 files (39.8 MB, uploads/2021/04/keith-1.gif)
+0018.376 (R) [notice] Moving old data out of the way...
+0018.661 (R) [notice] Moving unpacked backup into place...
+0018.857 (R) [notice] Cleaning up rubbish...
+0018.869 (R) [notice] Unpacking backup... (backup_2021-10-17-1459_bcausam_32a628c2ce73-others.zip, 0 MB)
+0018.874 (R) [notice] Unzip progress: 8 out of 8 files (2.4 KB, index.php)
+0018.917 (R) [notice] Cleaning up rubbish...
+0019.029 (R) [notice] Restore successful!

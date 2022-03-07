@@ -1,0 +1,110 @@
+@import 'mixins';
+
+// WP Customizer tweaks
+.wp-customizer {
+    #TB_window, #TB_overlay {
+        z-index: 999999;
+    }
+    .card-lightbox {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+        border-radius: 3px;
+
+        #TB_ajaxContent {
+            padding: 0;
+            border-radius: 2px;
+
+            div, :before, :after {
+                box-sizing: border-box;
+                .vendor(animation-fill-mode, ~"forwards !important");
+            }
+            p, ul, ol {
+                font-size: 15px;
+                line-height: 1.5;
+            }
+        }
+    }
+}
+
+// Assistant global styles
+body.assistant-page {
+    color: #ffffff;
+    background-color: #f1f1f1;
+    background-size: 100% 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+
+    section {
+        padding: @padding;
+    }
+    section, div, :before, :after {
+        box-sizing: border-box;
+        .vendor(transition, 0.3s cubic-bezier(0.55, 0, 0.1, 1));
+        .vendor(animation-fill-mode, ~"forwards !important");
+    }
+
+    .header {
+        line-height: 34px;
+        width: 100%;
+        height: @headerHeight;
+        position: relative;
+        z-index: 1;
+
+        img.logo {
+            vertical-align: top;
+            height: 50px;
+        }
+    }
+
+    // MUI progress elements
+    .linear-progress-container {
+        padding: 0 @padding;
+
+        .linear-progress {
+            position: relative;
+            height: 4px;
+            display: block;
+            width: 100%;
+            background-color: #dddddd;
+            background-clip: padding-box;
+            margin: 3em 0 @padding;
+            overflow: hidden;
+            .vendor(border-radius, 2px);
+
+            .indeterminate {
+                opacity: 0.8;
+                background-color: #ffb25f;
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    background-color: inherit;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    will-change: left, right;
+                    .vendor(animation, indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite);
+                }
+                &:after {
+                    content: '';
+                    position: absolute;
+                    background-color: inherit;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    will-change: left, right;
+                    .vendor(animation, indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite);
+                    .vendor(animation-delay, 1.15s);
+                }
+            }
+        }
+    }
+}

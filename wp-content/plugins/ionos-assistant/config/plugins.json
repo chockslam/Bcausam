@@ -1,0 +1,142 @@
+{
+    "plugins": {
+        "real-cookie-banner": {
+            "markets": "any",
+            "category": {
+                "any": "recommended"
+            }
+        },
+        "woocommerce": {
+            "markets": "any",
+            "category": {
+                "eshop": "recommended"
+            }
+        },
+        "woocommerce-german-market-light": {
+            "markets": [
+                "DE"
+            ],
+            "category": {
+                "eshop": "recommended"
+            },
+            "custom_link": "https://marketpress.de/mp-download/no-key-woocommerce-german-market-light/woocommerce-german-market-light/1und1/"
+        },
+        "tinymce-advanced": {
+            "markets": "any",
+            "category": {
+                "any": "recommended"
+            }
+        },
+        "statify": {
+            "markets": "any",
+            "category": {
+                "any": "recommended"
+            }
+        },
+        "limit-login-attempts-reloaded": {
+            "markets": "any",
+            "category": {
+                "any": "recommended"
+            }
+        },
+        "wpforms-lite": {
+            "markets": "any",
+            "category": {
+                "business": "recommended",
+                "eshop": "recommended",
+                "club": "recommended"
+            }
+        },
+        "nextgen-gallery": {
+            "markets": "any",
+            "category": {
+                "gallery": "recommended",
+                "personal": "recommended",
+                "club": "recommended"
+            }
+        },
+        "shariff": {
+            "markets": "any",
+            "category": {
+                "blog": "recommended"
+            }
+        },
+        "regenerate-thumbnails-advanced": {
+            "markets": "any",
+            "category": {
+                "gallery": "recommended",
+                "blog": "recommended",
+                "eshop": "recommended",
+                "club": "recommended"
+            }
+        },
+        "tablepress": {
+            "markets": "any",
+            "category": {
+                "club": "recommended"
+            }
+        },
+        "the-events-calendar": {
+            "markets": "any",
+            "category": {
+                "business": "recommended",
+                "club": "recommended"
+            }
+        },
+        "broken-link-checker": {
+            "markets": "any",
+            "category": {
+                "any": "recommended"
+            }
+        },
+        "wp-maintenance-mode": {
+            "markets": "any",
+            "category": {
+                "eshop": "recommended"
+            }
+        },
+        "podlove-podcasting-plugin-for-wordpress": {
+            "markets": "any",
+            "category": {
+                "podcast": "recommended"
+            }
+        },
+        "podlove-web-player": {
+            "markets": "any",
+            "category": {
+                "podcast": "recommended"
+            }
+        },
+        "podlove-subscribe-button": {
+            "markets": "any",
+            "category": {
+                "podcast": "recommended"
+            }
+        },
+        "antispam-bee": {
+            "markets": "any",
+            "category": {
+                "any": "recommended"
+            }
+        },
+        "ultimate-member": {
+            "markets": "any",
+            "category": {
+                "club": "recommended",
+                "podcast": "recommended"
+            }
+        },
+        "bsk-pdf-manager": {
+            "markets": "any",
+            "category": {
+                "club": "recommended"
+            }
+        },
+        "kadence-blocks": {
+            "markets": "any",
+            "category": {
+                "any": "recommended"
+            }
+        }
+    }
+}

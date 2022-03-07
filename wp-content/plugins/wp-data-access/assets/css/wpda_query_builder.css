@@ -1,0 +1,150 @@
+fieldset {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.wpda_query_builder_actions {
+    float: right;
+    padding-bottom: 10px;
+}
+
+.wpda_query_builder_taskbar {
+    background-color: #f0f0f1;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.wpda_query_builder_taskbar label {
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.wpda_query_builder_taskbar select {
+    margin-left: 5px;
+}
+
+.wpda_query_builder_statusbar {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.wpda_query_builder_statusbar span {
+    padding-left: 10px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.CodeMirror {
+    border: 1px solid #ddd;
+}
+
+.nav-tab span {
+    padding-left: 2px;
+}
+
+.wpda_query_builder_taskbar span {
+    padding-left: 5px;
+}
+.wpda_query_builder_taskbar span:first-child {
+    padding-left: 0;
+}
+
+table.wpda_query_builder_table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+table.wpda_query_builder_table thead {
+    display: block;
+    overflow-y: scroll;
+}
+
+table.wpda_query_builder_table tbody {
+    display: block;
+    overflow: scroll;
+    height: 400px;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+}
+
+table.wpda_query_builder_table tr {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+table.wpda_query_builder_table th,
+table.wpda_query_builder_table td {
+    overflow-wrap: anywhere;
+    text-align: left;
+    padding: 4px;
+}
+table.wpda_query_builder_table th {
+    border-right: 1px solid #ccc;
+}
+table.wpda_query_builder_table th:last-child {
+    border-right: 0;
+}
+table.wpda_query_builder_table td {
+    border-left: 1px dotted #ccc;
+    border-right: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    border-left: 0;
+}
+table.wpda_query_builder_table tr:first-child td {
+    border-top: 0;
+}
+table.wpda_query_builder_table tr:last-child td {
+    border-bottom: 0;
+}
+table.wpda_query_builder_table td:last-child {
+    border-right:0;
+}
+table.wpda_query_builder_table tbody tr:hover {
+    background-color: yellow;
+}
+
+.wpda_query_builder_sql {
+    clear: both;
+}
+
+.wpda_query_builder_menubar {
+    margin: 10px 10px 0 10px;
+    text-align: right;
+}
+.wpda_query_builder_menubar label {
+    padding: 6px 8px 0 0;
+}
+
+.wpda_query_builder_result {
+    margin-top: 10px;
+}
+
+.wpda_query_builder_viewer {
+    background: white;
+    border: 1px solid #ccc;
+}
+.json-document {
+    font-size: 10px;
+}
+
+.wpda_spinner {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.wpda-query-help {
+    font-weight: bold;
+}
+
+.button-primary {
+    font-weight: bold;
+}

@@ -1,0 +1,660 @@
+# Translation of the WordPress Assistant in German
+# This file is distributed under the same license as the WordPress Assistant package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Assistant\n"
+"POT-Creation-Date: 2015-08-17 08:39+0200\n"
+"PO-Revision-Date: 2016-06-29 14:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.4\n"
+
+#: 1and1-wordpress-wizard.php:124
+msgid "The Assistant could not be activated. To activate the plugin, you need WordPress 3.5 or higher."
+msgstr "De assistent kon niet worden geactiveerd. Om de plug-in te installeren, heb je WordPress 3.5 of hoger nodig."
+
+#: inc/batch-installer.php:58
+msgctxt "area"
+msgid "Plugins"
+msgstr "Plug-ins"
+
+#: inc/batch-installer.php:65
+msgid "Installation completed."
+msgstr "Installatie voltooid."
+
+#: inc/batch-installer.php:66
+msgid "setup_assistant_installation_ready"
+msgstr "WordPress is klaar voor gebruik! Je wordt nu automatisch doorgestuurd naar <em>Design aanpassen</em>. Daar kun je het design en andere instellingen van je website eenvoudig wijzigen."
+
+#: inc/batch-installer.php:66
+msgid "Your WordPress is now ready to get going."
+msgstr "WordPress is klaar voor gebruik."
+
+#: inc/batch-installer.php:66
+msgid "setup_assistant_woocommcerce_installation_ready"
+msgstr "We raden je aan je webshop direct te bekijken en de basisinstellingen in WooCommerce hierboven aan te passen. Als je wilt, kun je ook eerst je website configureren."
+
+msgid "setup_assistant_customizer_link"
+msgstr "Design aanpassen"
+
+#: inc/batch-installer.php:69
+msgid "Customize the Theme"
+msgstr "Thema aanpassen"
+
+#: inc/batch-installer.php:73
+msgid "Write a post"
+msgstr "Artikel aanmaken"
+
+#: inc/batch-installer.php:116
+msgid "No theme has been selected. The current theme will be kept."
+msgstr "Je hebt geen nieuw thema gekozen. Het huidige thema blijft actief."
+
+#: inc/batch-installer.php:134
+msgid "Installing theme: %s"
+msgstr "Het thema %s wordt geïnstalleerd"
+
+#: inc/batch-installer.php:150
+msgid "Installing plugins (%s)"
+msgstr "De plug-ins (%s) worden geïnstalleerd"
+
+#: inc/batch-installer.php:159
+msgid "No Plugins have been selected."
+msgstr "Je hebt geen plug-ins gekozen."
+
+#: inc/batch-installer.php:173
+msgid "Installing plugin: %1$s (%2$s/%3$s)"
+msgstr "Plug-in wordt geïnstalleerd: %1$s (%2$s/%3$s)"
+
+#: inc/batch-installer.php:184
+msgid "Activating theme..."
+msgstr "Thema wordt geactiveerd..."
+
+#: inc/batch-installer.php:190
+msgid "Activating plugins..."
+msgstr "Plug-ins worden geactiveerd..."
+
+#: inc/plugin-categories-catalog.php:13
+msgid "Spam Protection"
+msgstr "Spambeveiliging"
+
+#: inc/plugin-categories-catalog.php:14
+msgid "Content Management"
+msgstr "Contentbeheer"
+
+#: inc/plugin-categories-catalog.php:15
+msgid "Comment Management"
+msgstr "Commentaren beheren"
+
+#: inc/plugin-categories-catalog.php:16
+msgid "Search Engine Optimization"
+msgstr "SEO (zoekmachineoptimalisatie)"
+
+#: inc/plugin-categories-catalog.php:17
+msgid "Forms"
+msgstr "Formulieren"
+
+#: inc/plugin-categories-catalog.php:18
+msgid "Caching"
+msgstr "Cache-instellingen"
+
+#: inc/plugin-installer-skin.php:30
+msgid "Successfully installed the plugin <strong>%1s$ %2s$</strong>."
+msgstr "Plug-in <strong>%1s$ %2s$</strong> is geïnstalleerd."
+
+#: inc/plugin-installer-skin.php:42
+msgid "The plugin has already been installed."
+msgstr "De plug-in is al geïnstalleerd."
+
+#: inc/setup-wizard-dispatcher.php:18
+msgid "Sorry, you do not have permission to access the Assistant."
+msgstr "Je hebt geen toegangsrechten voor de assistent. Neem contact op met de beheerder van je website."
+
+#: inc/theme-installer-skin.php:23
+msgid "The theme already exists."
+msgstr "Het thema bestaat al."
+
+#: inc/views/setup-wizard-header.php:18
+msgid "Website Type"
+msgstr "Websitetype"
+
+#: inc/views/setup-wizard-header.php:22
+msgid "Appearance"
+msgstr "Design"
+
+#: inc/views/setup-wizard-header.php:26
+msgid "Plugins"
+msgstr "Plug-ins"
+
+#: inc/views/setup-wizard-installation-step.php:17
+msgid "Processing setup:"
+msgstr "Samenvatting"
+
+#: inc/views/setup-wizard-installation-step.php:19
+msgid "Please wait until all theme/plugins have been downloaded and installed."
+msgstr "Wacht tot alle onderdelen zijn gedownload en geïnstalleerd."
+
+#: inc/views/setup-wizard-installation-step.php:34
+msgid "Getting installed"
+msgstr "Wordt geïnstalleerd"
+
+#: inc/views/setup-wizard-plugin-item-compatibility.php:20 inc/views/setup-wizard-theme-item.php:17
+msgid "More information"
+msgstr "Meer informatie"
+
+#: inc/views/setup-wizard-plugin-item-compatibility.php:28 inc/views/setup-wizard-plugin-item.php:38
+msgid "Install"
+msgstr "Installeren"
+
+#: inc/views/setup-wizard-plugins-select-step.php:56
+msgid "setup_assistant_plugins_title"
+msgstr "Plug-ins bevestigen"
+
+#: inc/views/setup-wizard-plugins-select-step.php:60
+msgid "Continue"
+msgstr "Doorgaan"
+
+#: inc/views/setup-wizard-plugins-select-step.php:63
+msgid "The plugins couldn't get retrieved. Please refresh the page."
+msgstr "De plug-ins konden niet worden geladen. Laad de pagina opnieuw."
+
+#: inc/views/setup-wizard-plugins-select-step.php:66
+msgid "You already installed all the plugins we recommend. Nice job!"
+msgstr "Je hebt alle aanbevolen plug-ins al geïnstalleerd. Goed gedaan!"
+
+#: inc/views/setup-wizard-plugins-select-step.php:69
+msgid "Install all selected theme/plugins"
+msgstr "Selectie installeren"
+
+#: inc/views/setup-wizard-plugins-select-step.php:70
+msgid "setup_assistant_plugins_description"
+msgstr "Met plug-ins kun je de functies van WordPress uitbreiden. We hebben de belangrijkste plug-ins voor jouw toepassing <strong>%s</strong> geselecteerd.<br>Net als designs kun je plug-ins op elk gewenst moment toevoegen of verwijderen."
+
+#: inc/views/setup-wizard-plugins-select-step.php:83
+msgid "Recommended plugins:"
+msgstr "Aanbevolen voor je website:"
+
+#: inc/views/setup-wizard-plugins-select-step.php:100
+msgid "These plugins are worth a try as well:"
+msgstr "Deze plug-ins vind je misschien ook handig:"
+
+#: inc/views/setup-wizard-plugins-select-step.php:121 inc/views/setup-wizard-theme-select-step.php:66
+msgid "Back to the beginning"
+msgstr "Terug naar het begin"
+
+#: inc/views/setup-wizard-site-select-step.php:23
+msgid "setup_assistant_type_title"
+msgstr "Kies het onderwerp van je website."
+
+#: inc/views/setup-wizard-site-select-step.php:25
+msgid "setup_assistant_type_description"
+msgstr "Passend bij je keuze:"
+    "<br>- Bieden we je een zorgvuldig samengestelde lijst van designs."
+    "<br>- Installeren we alle benodigde plug-ins zodat je meteen aan de slag kunt."
+
+#: inc/views/setup-wizard-site-select-step.php:47 inc/views/setup-wizard-theme-select-step.php:57
+msgid "Select"
+msgstr "Selecteren"
+
+#: inc/views/setup-wizard-site-select-step.php:56
+msgid "The website types couldn't get retrieved. Please refresh the page."
+msgstr "De websitetypes konden niet worden opgehaald. Laad de pagina opnieuw."
+
+#: inc/views/setup-wizard-theme-item.php:43
+msgid "By %s"
+msgstr "Van %s"
+
+#: inc/views/setup-wizard-theme-select-step.php:36
+msgid "setup_assistant_design_menu_open"
+msgstr "Menu"
+
+#: inc/views/setup-wizard-theme-select-step.php:36
+msgid "Close"
+msgstr "Sluiten"
+
+#: inc/views/setup-wizard-theme-select-step.php:36
+msgid "setup_assistant_design_title"
+msgstr "Kies een design dat je bevalt."
+
+#: inc/views/setup-wizard-theme-select-step.php:38
+msgid "setup_assistant_design_description"
+msgstr "Niet zeker? Geen probleem. Je hoeft hier geen definitieve keuze te maken.<br>Je kunt op elk gewenst moment naar een ander design overschakelen. Je hebt bij ons namelijk de keuze uit honderden designs!"
+
+#: inc/views/setup-wizard-theme-select-step.php:47
+msgid "Keep Current Theme"
+msgstr "Huidig thema behouden"
+
+msgid "setup_assistant_greeting_title_by"
+msgstr "Welkom in WordPress bij %s."
+
+msgid "setup_assistant_greeting_title"
+msgstr "Welkom in WordPress"
+
+msgid "Welcome to WordPress!"
+msgstr "Welkom in WordPress!"
+
+msgid "setup_assistant_greeting_description"
+msgstr "Bedankt dat je voor ons product hebt gekozen."
+       "<br>Met de volgende stappen kun je snel en eenvoudig alles instellen."
+
+msgid "setup_assistant_greeting_ok"
+msgstr "Aan de slag!"
+
+msgid "setup_assistant_greeting_cancel"
+msgstr "Nee, bedankt. Ik weet hoe het werkt!"
+
+msgid "setup_assistant_progress_title"
+msgstr "We leggen de laatste hand aan je WordPress."
+
+msgid "setup_assistant_progress_desc"
+msgstr "De installatie wordt afgerond. Sluit je browservenster niet. Dit duurt waarschijnlijk maximaal een minuut."
+
+#: inc/welcome-panel.php:21
+msgid "Create your own WordPress website in just a few steps."
+msgstr "Je website configureren en optimaliseren"
+
+#: inc/welcome-panel.php:22
+msgid "Get started and optimize your website with selected themes and plugins."
+msgstr "Bouw en optimaliseer je website met geselecteerde thema's en plug-ins."
+
+#: inc/welcome-panel.php:26
+msgid "dashboard_widget_start"
+msgstr "Website configureren"
+
+#: inc/welcome-panel.php:26
+msgid "dashboard_widget_shop_start"
+msgstr "Website met webshop configureren"
+
+#: inc/welcome-panel.php:29
+msgid "Dismiss"
+msgstr "Verwerpen"
+
+#. Plugin Name of the plugin
+msgid "Assistant"
+msgstr "Assistent"
+
+#. Description of the plugin/theme
+msgid "WordPress Setup Wizard"
+msgstr "WordPress installatieassistent"
+
+msgid "Activate"
+msgstr "Selecteren"
+
+msgid "<strong>Untested</strong> with your install "
+msgstr "<strong>Niet getest</strong> met je installatie."
+
+msgid "<strong>Incompatible</strong> with your install "
+msgstr "<strong>Niet compatibel</strong> met je installatie."
+
+msgid "<strong>Compatible</strong> with your install "
+msgstr "<strong>Compatibel</strong> met je installatie."
+
+msgid "%s download"
+msgid_plural "%s downloads"
+msgstr[0] "%s download"
+msgstr[1] "%s downloads"
+
+msgid "Activate all selected theme/plugins"
+msgstr "Selectie toepassen"
+
+msgid "Theme activated: <strong>%s</strong>"
+msgstr "Je thema: <strong>%s</strong>"
+
+msgid "There was no theme selected, so the current theme is still active."
+msgstr "Er is geen nieuw thema geselecteerd. Het oude thema blijft actief."
+
+msgid "Plugin deactivated: <strong>%s</strong>"
+msgstr "Plug-in uitgeschakeld: <strong>%s</strong>."
+
+msgid "Plugin activated: <strong>%s</strong>"
+msgstr "Plug-in actief: <strong>%s</strong>."
+
+msgid "setup_assistant_customizer_title"
+msgstr "Je WordPress is gereed!"
+
+msgid "setup_assistant_customizer_desc1"
+msgstr "Welkom bij <em>Customizer</em> van WordPress. Hier kun je je website direct bekijken, aanpassen en personaliseren."
+
+msgid "setup_assistant_customizer_desc2"
+msgstr "Veel plezier!"
+
+msgid "setup_assistant_customizer_close_button"
+msgstr "Starten"
+
+msgid "setup_assistant_completed"
+msgstr "De installatie is voltooid!"
+
+msgid "setup_assistant_woocommerce_configuration"
+msgstr "Webshop configureren"
+
+msgid "tools menu"
+msgstr "Tools"
+
+msgctxt "website-types"
+msgid "gallery_headline"
+msgstr "Foto's"
+
+msgctxt "website-types"
+msgid "blog_headline"
+msgstr "Blog"
+
+msgctxt "website-types"
+msgid "personal_headline"
+msgstr "Privé"
+
+msgctxt "website-types"
+msgid "business_headline"
+msgstr "Bedrijf"
+
+msgctxt "website-types"
+msgid "eshop_headline"
+msgstr "Webshop"
+
+msgctxt "website-types"
+msgid "club_headline"
+msgstr "Vereniging"
+
+msgctxt "website-types"
+msgid "podcast_headline"
+msgstr "Podcast"
+
+msgctxt "website-types"
+msgid "gallery_description"
+msgstr "Volledige creatieve vrijheid! Toon je foto's met geoptimaliseerde thema's en de beste gallery plug-ins."
+
+msgctxt "website-types"
+msgid "blog_description"
+msgstr ""
+"Maak je eigen blog en deel gemakkelijk inhoud op social media.\n"
+" \n"
+"Met deze elegante thema's en plug-ins staan je teksten in het middelpunt."
+
+msgctxt "website-types"
+msgid "personal_description"
+msgstr "Zo uniek als jijzelf. Maak nu je persoonlijke website."
+
+msgctxt "website-types"
+msgid "business_description"
+msgstr "Bouw een professionele website en bereik je klanten dankzij krachtige marketingtools."
+
+msgctxt "website-types"
+msgid "eshop_description"
+msgstr "Bouw een webshop met WordPress en WooCommerce, het krachtige platform voor e-commerce-websites."
+
+msgctxt "website-types"
+msgid "club_description"
+msgstr "Presenteer je club of vereniging met geoptimaliseerde thema's. De voorgeïnstalleerde plug-ins helpen je bij het organiseren van evenementen en het beheren van leden."
+
+msgctxt "website-types"
+msgid "podcast_description"
+msgstr "Presenteer je podcasts via de bijpassende thema's en de beste podcastplug-ins."
+
+msgid "Community News"
+msgstr "Nieuws en tips"
+
+msgid "No items"
+msgstr "Niets geselecteerd"
+
+msgid "Configure your WordPress in just a few steps."
+msgstr "Nu je website configureren en optimaliseren"
+
+msgid "Managed WordPress"
+msgstr "WordPress"
+
+msgid "Change your Domain"
+msgstr "Domein instellen"
+
+msgid "Website-Url-Description"
+msgstr "Je URL (domein) kun je in het <a href=\"%s\" target=\"_blank\">%s App Center</a> eenvoudig wijzigen en beheren."
+
+msgctxt "between two buttons"
+msgid "or"
+msgstr "of"
+
+msgid "We are sorry, but you cannot go further."
+msgstr "Helaas, de assistent is niet<br>beschikbaar voor PHP 8."
+
+msgid ""
+"It seems you are PHP 8. Unfortunately, the Assistant does not yet support PHP 8. "
+"To use it we recommend you to <a href=\"%s\">switch to a lower version</a> (PHP 7.4) an wait for the update that we will provide soon. "
+"Thank you for your understanding!"
+msgstr ""
+"Het lijkt erop dat deze site PHP 8 gebruikt; deze versie is op dit moment helaas niet compatibel met de Assistent. "
+"We raden aan om tijdelijk te <a href=\"%s\">downgraden</a> (naar bijvoorbeeld PHP 7.4) in afwachting van een update. "
+"Bedankt voor uw begrip!"
+
+msgid "Take me back"
+msgstr "Terug naar WordPress"
+
+msgid "Choose this theme"
+msgstr "Kies dit thema"
+
+msgid "From <a href=\"%s\" target=\"_blank\" rel=\"external nofollow\">WordPress.org</a>:"
+msgstr "Van <a href=\"%s\" target=\"_blank\" rel=\"external nofollow\">WordPress.org</a>:"
+
+# ----------------- panels ----------------------
+msgid "Customize and upgrade your website now."
+msgstr "Nu website aanpassen en uitbreiden"
+
+msgid "setup_assistant_header"
+msgstr "%s WordPress assistent"
+
+msgid "title_link_visual"
+msgstr "WordPress aanpassen"
+
+msgid "first_steps_community_link"
+msgstr "Eerste stappen"
+
+msgid "community_widget_link_label"
+msgstr "Meer weergeven"
+
+msgid "assistant_pluginpage_jump_to_top"
+msgstr "Naar boven"
+
+msgid "Next Steps"
+msgstr "Basis"
+
+msgid "Edit your front page"
+msgstr "Startpagina bewerken"
+
+msgid "Write your first blog post"
+msgstr "Nieuw artikel aanmaken"
+
+msgid "Add an About page"
+msgstr "Nieuwe pagina aanmaken"
+
+msgid "customize_theme_in_widget"
+msgstr "Design aanpassen"
+
+msgid "dashboard_widget_website-type"
+msgstr "Websitetype wijzigen"
+
+msgid "dashboard_widget_design"
+msgstr "Een ander design kiezen"
+
+msgid "dashboard_widget_plugins"
+msgstr "Plug-ins toevoegen en beheren"
+
+msgid "activate_sitetype_form_submitted_message"
+msgstr "Een moment geduld"
+
+msgid "activate_theme_form_submitted_message"
+msgstr "Een moment geduld"
+
+msgid "activate_plugins_form_submitted_message"
+msgstr "Een moment geduld"
+
+msgid "dashboard_change_domain"
+msgstr "Domein wijzigen"
+
+msgid "dashboard_activate_ssl"
+msgstr "SSL activeren"
+
+msgid "theme_install_other_button_install_other"
+msgstr "Nieuw thema toevoegen"
+
+msgid "theme_install_other_modal_title"
+msgstr "Nieuw thema toevoegen"
+
+msgid "theme_install_other_modal_title_desc"
+msgstr "Wil je de assistent afsluiten en naar het themaoverzicht gaan?"
+
+msgid "theme_install_other_modal_confirm"
+msgstr "Ja, naar thema's (assistent afsluiten)"
+
+msgid "theme_install_other_modal_cancel"
+msgstr "Terug naar de assistent"
+
+msgid "plugin_install_other_button_install_other"
+msgstr "Plug-ins toevoegen"
+
+msgid "plugin_install_other_modal_title"
+msgstr "Plug-ins toevoegen"
+
+msgid "plugin_install_other_modal_title_desc"
+msgstr "Wil je de wijzigingen annuleren en naar het plug-inoverzicht gaan? "
+
+msgid "plugin_install_other_modal_confirm"
+msgstr "Ja, naar plug-ins (assistent afsluiten)"
+
+msgid "plugin_install_other_modal_cancel"
+msgstr "Terug naar de assistent"
+
+msgid "Learn more about Gutenberg"
+msgstr "Lees meer over Gutenberg"
+
+msgctxt "dashboard-panel-first-run"
+msgid "Managed WordPress"
+msgstr "WordPress"
+
+msgctxt "dashboard-panel-first-run"
+msgid "Configure your WordPress in just a few steps."
+msgstr "Nu je website configureren en optimaliseren"
+
+msgctxt "dashboard-panel-first-run"
+msgid "Get started and optimize your website with selected themes and plugins."
+msgstr "Start en optimaliseer je website met geselecteerde thema's en plug-ins."
+
+msgctxt "dashboard-panel-second-run"
+msgid "Managed WordPress"
+msgstr "WordPress"
+
+msgctxt "dashboard-panel-second-run"
+msgid "Customize and upgrade your website now."
+msgstr "Nu je website aanpassen en uitbreiden"
+
+msgctxt "dashboard-panel-second-run"
+msgid "Bullet Point 1"
+msgstr "Elk websitetype biedt je een optimale selectie van plug-ins en thema's die perfect bij je site passen."
+
+msgctxt "dashboard-panel-second-run"
+msgid "Bullet Point 2"
+msgstr "Thema's bieden geweldige designs, moderne webtechnologie en maximale flexibiliteit. Je kunt je thema later eenvoudig en volledig naar wens aanpassen. Kies je eigen stijl!"
+
+msgctxt "dashboard-panel-second-run"
+msgid "Bullet Point 3"
+msgstr "Plug-ins maken je website nog beter. Breid nu je website uit met plug-ins voor extra features."
+
+msgctxt "plugins-panel-first-run"
+msgid "Managed WordPress"
+msgstr "WordPress"
+
+msgctxt "plugins-panel-first-run"
+msgid "Configure your WordPress in just a few steps."
+msgstr "Nu je website configureren en optimaliseren."
+
+msgctxt "plugins-panel-first-run"
+msgid "Get started and optimize your website with selected themes and plugins."
+msgstr "Start en optimaliseer je website met geselecteerde thema's, plug-ins en een krachtige webshop die perfect geïntegreerd is in WordPress."
+
+msgctxt "plugins-panel-second-run"
+msgid "Managed WordPress"
+msgstr "WordPress"
+
+msgctxt "plugins-panel-second-run"
+msgid "Configure your WordPress in just a few steps."
+msgstr "Plug-ins toevoegen en aanpassen"
+
+msgctxt "plugins-panel-second-run"
+msgid "Get started and optimize your website with selected themes and plugins."
+msgstr "Plug-ins maken je website nog beter. Breid nu je website uit met plug-ins voor extra features."
+
+msgctxt "update-core-info"
+msgid "Your WordPress installation ..."
+msgstr ""
+"Installeer de onderstaande updates. Updates van de WordPress-software installeren wij voor jou. Meer weten? Lees dan: <a href=\"%s\">Automatische updates met "
+"Managed WordPress van %s</a>."
+
+msgid "Legally compliant with your WooCommerce, in German and EU markets."
+msgstr "Juridisch zeker met WooCommerce, voor de EU en nederlandstalige markten."
+
+msgid "Setup German Market"
+msgstr "German Market configureren"
+
+msgid "Learn more"
+msgstr "Meer informatie"
+
+msgid "The new Editor is here!"
+msgstr "De nieuwe Editor is er!"
+
+msgid "WordPress 5.0 is here and so is Gutenberg."
+msgstr "WordPress 5.0 is hier en Gutenberg ook."
+
+msgid "Learn more about the Gutenberg editor"
+msgstr "Meer informatie over de Gutenberg editor"
+
+msgid "How do we deal with it?"
+msgstr "Hoe gaan we ermee om?"
+
+msgid "Switch back to the old Editor"
+msgstr "Terug naar de oude Editor"
+
+msgid "Welcome to %s"
+msgstr "Welkom bij %s"
+
+msgid "This is your homepage. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes)."
+msgstr "Dit is uw homepage. Het is anders dan een blog bericht omdat het op één plek blijft en tevoorschijn komt in je site navigatie (in de meeste thema's)."
+
+msgid "As a logged in WordPress user, you can edit this page by clicking the <strong>Edit Page</strong> button in the Toolbar. The page might introduce yourself, or your company, to potential site visitors and say something like this:"
+msgstr "Als ingelogde WordPress gebruiker kan je deze pagina bewerken door te klikken op de <strong>Pagina bewerken</strong> knop in de Toolbar. De pagina kan uzelf, of uw bedrijf, voorstellen aan potentiële bezoekers van de site en iets dergelijks zeggen:"
+
+msgid "Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like piña coladas. (And gettin' caught in the rain.)"
+msgstr "Hoi daar! Ik ben een fietskoerier in het dagelijks leven en een beginnende acteur in de avonduren. Ik leef in Los Angeles, heb een leuke hond genaamd Jack en ik hou van piña coladas. (En overvallen worden door de regen.)"
+
+msgid "...or something like this:"
+msgstr "...of zoiets als dit:"
+
+msgid "The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community."
+msgstr "De XYZ Doohickey Company is opgericht in 1971 en heeft sindsdien kwalitatieve   doohickeys aan het publiek geleverd. Gevestigd in Gotham City, XYZ heeft meer dan 2000 mensen in dienst en doen allemaal fantastische dingen voor de community in Gotham."
+
+msgid "If you prefer a list of your latest posts to be displayed on your homepage, you should go to your <a href='%s'>Settings</a> and choose “Your latest posts” as homepage option."
+msgstr "Als je liever een lijst van je laatste berichten op je homepage wilt zien, ga dan naar je <a href='%s'>Instellingen</a> en kies “Je laatste berichten” als homepage optie."
+
+msgid "Have fun!"
+msgstr "Veel plezier!"
+
+# --------------- Settings --------------- #
+#: inc/views/settings-page.php:2
+msgid "%s - Settings"
+msgstr "%s - Réglages"
+
+#: inc/views/settings-page.php:10
+msgid "Login design"
+msgstr "Login ontwerp"
+
+#: inc/views/settings-page.php:15
+msgid "When activated this setting will theme the login page at %s with %s design"
+msgstr "Wanneer deze instelling is geactiveerd, zal de inlogpagina op %s met %s-ontwerp worden gethematiseerd."
+
+#: inc/views/settings-page.php:14
+msgid "Use %s design for login"
+msgstr "Gebruik het %s-ontwerp voor het inloggen"
+
+# --------------- Assets --------------- #
+#: 1and1-wordpress-assistant/inc/auto-updater.php:36
+msgid "Permanently active"
+msgstr "Permanent actief"

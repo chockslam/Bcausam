@@ -1,0 +1,62 @@
+// LESS layout variables
+@headerHeight: 82px;
+@padding: 16px;
+@easing: cubic-bezier(.55, 0, .1, 1);
+
+// LESS color set
+@bodyColor: #666666;
+@titleColor: #333333;
+@errorColor: #f44336;
+@easing: cubic-bezier(.55, 0, .1, 1);
+
+// LESS Screen definitions
+@mobile: ~"all and (max-width: 419px)";
+@tablet: ~"all and (min-width: 420px) and (max-width: 959px)";
+@desktopSmallRes: ~"all and (min-width: 960px) and (max-width: 1511px)";
+@desktopHighRes: ~"all and (min-width: 1512px)";
+@desktop: @desktopSmallRes, @desktopHighRes;
+
+// LESS functions
+.vendor(@property, @value) {
+    -webkit-@{property}: @value;
+    -moz-@{property}: @value;
+    -ms-@{property}: @value;
+    -o-@{property}: @value;
+    @{property}: @value;
+}
+.flex() {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.horizontal-gradient (@startColor, @endColor) {
+    background-image: -webkit-gradient(linear, left top, right top, from(@startColor), to(@endColor));
+    background-image: -webkit-linear-gradient(left, @startColor, @endColor);
+    background-image: -moz-linear-gradient(left, @startColor, @endColor);
+    background-image: -ms-linear-gradient(left, @startColor, @endColor);
+    background-image: -o-linear-gradient(left, @startColor, @endColor);
+}
+.vertical-gradient (@startColor, @endColor) {
+    background-color: @startColor;
+    background: -webkit-gradient(linear, left top, left bottom, from(@startColor), to(@endColor));
+    background: -webkit-linear-gradient(top, @startColor, @endColor);
+    background: -moz-linear-gradient(top, @startColor, @endColor);
+    background: -ms-linear-gradient(top, @startColor, @endColor);
+    background: -o-linear-gradient(top, @startColor, @endColor);
+}
+.absolute-full() {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.absolute-fixed() {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}

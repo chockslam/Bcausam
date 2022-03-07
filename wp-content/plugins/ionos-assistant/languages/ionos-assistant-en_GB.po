@@ -1,0 +1,676 @@
+# This file is distributed under the same license as the WordPress Assistant package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Assistant\n"
+"POT-Creation-Date: 2015-08-17 08:39+0200\n"
+"PO-Revision-Date: 2016-07-04 10:49+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: 1and1-wordpress-wizard.php:124
+msgid "The Assistant could not be activated. To activate the plugin, you need WordPress 3.5 or higher."
+msgstr "The Assistant could not be activated. To activate the plugin, you need WordPress 3.5 or higher."
+
+#: inc/batch-installer.php:58
+msgctxt "area"
+msgid "Plugins"
+msgstr "Plugins"
+
+#: inc/batch-installer.php:65
+msgid "Installation completed."
+msgstr "Installation completed"
+
+#: inc/batch-installer.php:66
+msgid "setup_assistant_installation_ready"
+msgstr "Your WordPress is now ready for you to get going. We'll now take you to the <em>Customiser</em>, a user interface within WordPress from which you can completely edit your website."
+
+#: inc/batch-installer.php:66
+msgid "Your WordPress is now ready to get going."
+msgstr "Your WordPress is now ready to get going."
+
+#: inc/batch-installer.php:66
+msgid "setup_assistant_woocommcerce_installation_ready"
+msgstr "We recommend you to view your online shop and Adjust the Basic Settings. If you want, you can start by configuring your website."
+
+msgid "setup_assistant_customizer_link"
+msgstr "Open the Customiser"
+
+#: inc/batch-installer.php:69
+msgid "Customize the Theme"
+msgstr "Customise theme"
+
+#: inc/batch-installer.php:73
+msgid "Write a post"
+msgstr "Create post"
+
+#: inc/batch-installer.php:89
+msgid "Community logo"
+msgstr "Community logo"
+
+#: inc/batch-installer.php:100
+msgid "Go to our community site"
+msgstr "Go to Community page"
+
+#: inc/batch-installer.php:116
+msgid "No theme has been selected. The current theme will be kept."
+msgstr "You have not selected a new theme. The current theme will be kept."
+
+#: inc/batch-installer.php:134
+msgid "Installing theme: %s"
+msgstr "Installing theme %s"
+
+#: inc/batch-installer.php:150
+msgid "Installing plugins (%s)"
+msgstr "Installing plugins (%s)"
+
+#: inc/batch-installer.php:159
+msgid "No Plugins have been selected."
+msgstr "You have not selected any plugins."
+
+#: inc/batch-installer.php:173
+msgid "Installing plugin: %1$s (%2$s/%3$s)"
+msgstr "Installing plugin: %1$s (%2$s/%3$s)"
+
+#: inc/batch-installer.php:184
+msgid "Activating theme..."
+msgstr "Activating theme..."
+
+#: inc/batch-installer.php:190
+msgid "Activating plugins..."
+msgstr "Activating plugins..."
+
+#: inc/plugin-categories-catalog.php:13
+msgid "Spam Protection"
+msgstr "Spam Protection"
+
+#: inc/plugin-categories-catalog.php:14
+msgid "Content Management"
+msgstr "Content management"
+
+#: inc/plugin-categories-catalog.php:15
+msgid "Comment Management"
+msgstr "Comment administration"
+
+#: inc/plugin-categories-catalog.php:16
+msgid "Search Engine Optimization"
+msgstr "Search engine optimisation"
+
+#: inc/plugin-categories-catalog.php:17
+msgid "Forms"
+msgstr "Forms"
+
+#: inc/plugin-categories-catalog.php:18
+msgid "Caching"
+msgstr "Caching"
+
+#: inc/plugin-installer-skin.php:30
+msgid "Successfully installed the plugin <strong>%1s$ %2s$</strong>."
+msgstr "The <strong>%1s$ %2s$</strong> plugin has been installed."
+
+#: inc/plugin-installer-skin.php:42
+msgid "The plugin has already been installed."
+msgstr "The plugin has already been installed."
+
+#: inc/setup-wizard-dispatcher.php:18
+msgid "Sorry, you do not have permission to access the Assistant."
+msgstr "Unfortunately, you do not have permission to access the Assistant. Please contact your website’s administrator."
+
+#: inc/theme-installer-skin.php:23
+msgid "The theme already exists."
+msgstr "The theme already exists."
+
+#: inc/views/setup-wizard-header.php:18
+msgid "Website Type"
+msgstr "Website type"
+
+#: inc/views/setup-wizard-header.php:22
+msgid "Appearance"
+msgstr "Design"
+
+#: inc/views/setup-wizard-header.php:26
+msgid "Plugins"
+msgstr "Plugins"
+
+#: inc/views/setup-wizard-installation-step.php:17
+msgid "Processing setup:"
+msgstr "Summary"
+
+#: inc/views/setup-wizard-installation-step.php:19
+msgid "Please wait until all theme/plugins have been downloaded and installed."
+msgstr "Please wait until all components have been downloaded and installed."
+
+#: inc/views/setup-wizard-installation-step.php:34
+msgid "Getting installed"
+msgstr "Installing..."
+
+#: inc/views/setup-wizard-plugin-item-compatibility.php:20
+#: inc/views/setup-wizard-theme-item.php:17
+msgid "More information"
+msgstr "Learn more"
+
+#: inc/views/setup-wizard-plugin-item-compatibility.php:28
+#: inc/views/setup-wizard-plugin-item.php:38
+msgid "Install"
+msgstr "Install"
+
+#: inc/views/setup-wizard-plugins-select-step.php:56
+msgid "setup_assistant_plugins_title"
+msgstr "Confirm Plugins."
+
+#: inc/views/setup-wizard-plugins-select-step.php:60
+msgid "Continue"
+msgstr "Next"
+
+#: inc/views/setup-wizard-plugins-select-step.php:63
+msgid "The plugins couldn't get retrieved. Please refresh the page."
+msgstr "Plugins could not be retrieved. Please reload the page."
+
+#: inc/views/setup-wizard-plugins-select-step.php:66
+msgid "You already installed all the plugins we recommend. Nice job!"
+msgstr "You have already installed all the recommended plugins. Good work!"
+
+#: inc/views/setup-wizard-plugins-select-step.php:69
+msgid "Install all selected theme/plugins"
+msgstr "Install selection"
+
+#: inc/views/setup-wizard-plugins-select-step.php:70
+msgid "setup_assistant_plugins_description"
+msgstr "Plugins help you to extend WordPress functionality. We have chosen the most important ones according to your use case <strong>%s</strong>."
+       "<br>As with designs, you will be able to add and remove Plugins at any point in time."
+
+#: inc/views/setup-wizard-plugins-select-step.php:83
+msgid "Recommended plugins:"
+msgstr "Recommended for your website"
+
+#: inc/views/setup-wizard-plugins-select-step.php:100
+msgid "These plugins are worth a try as well:"
+msgstr "Other plugins you might like"
+
+#: inc/views/setup-wizard-plugins-select-step.php:121
+#: inc/views/setup-wizard-theme-select-step.php:66
+msgid "Back to the beginning"
+msgstr "Back to the beginning"
+
+#: inc/views/setup-wizard-site-select-step.php:23
+msgid "setup_assistant_type_title"
+msgstr "Please choose your primary use case."
+
+#: inc/views/setup-wizard-site-select-step.php:25
+msgid "setup_assistant_type_description"
+msgstr "Depending on your selection, we will"
+       "<br>- provide you with a carefully selected list of matching designs"
+       "<br>- pre-install all plugins necessary for you to be able to start right away."
+
+#: inc/views/setup-wizard-site-select-step.php:47
+#: inc/views/setup-wizard-theme-select-step.php:57
+msgid "Select"
+msgstr "Select"
+
+#: inc/views/setup-wizard-site-select-step.php:56
+msgid "The website types couldn't get retrieved. Please refresh the page."
+msgstr "Website types could not be retrieved. Please reload the page."
+
+#: inc/views/setup-wizard-theme-item.php:43
+msgid "By %s"
+msgstr "From %s"
+
+#: inc/views/setup-wizard-theme-select-step.php:36
+msgid "setup_assistant_design_menu_open"
+msgstr "Menu"
+
+#: inc/views/setup-wizard-theme-select-step.php:36
+msgid "Close"
+msgstr "Close"
+
+#: inc/views/setup-wizard-theme-select-step.php:36
+msgid "setup_assistant_design_title"
+msgstr "Pick a design you like."
+
+#: inc/views/setup-wizard-theme-select-step.php:38
+msgid "setup_assistant_design_description"
+msgstr "Unsure? No worries. This is not a final decision.<br>You will always be able to switch to another design, whenever you feel like it. And there are hundreds of them. How cool is that?"
+
+#: inc/views/setup-wizard-theme-select-step.php:47
+msgid "Keep Current Theme"
+msgstr "Keep current theme"
+
+msgid "setup_assistant_greeting_title_by"
+msgstr "Welcome to WordPress by %s"
+
+msgid "setup_assistant_greeting_title"
+msgstr "Welcome to WordPress"
+
+msgid "Welcome to WordPress!"
+msgstr "Welcome to WordPress!"
+
+msgid "setup_assistant_greeting_description"
+msgstr "Thanks for trusting our product.<br>"
+        "The following steps will help you get everything set up, quickly and easily."
+
+msgid "setup_assistant_greeting_ok"
+msgstr "Let's go!"
+
+msgid "setup_assistant_greeting_cancel"
+msgstr "No thanks, I'm an expert"
+
+msgid "setup_assistant_progress_title"
+msgstr "Adding finishing touches to your WordPress"
+
+msgid "setup_assistant_progress_desc"
+msgstr "Please keep your browser window open while we finalise your installation.<br>This should take less than a minute. Thanks!"
+
+#: inc/welcome-panel.php:21
+msgid "Create your own WordPress website in just a few steps."
+msgstr "Configure and optimise website"
+
+#: inc/welcome-panel.php:22
+msgid "Get started and optimize your website with selected themes and plugins."
+msgstr "Get started and optimise your website with selected themes and plugins."
+
+#: inc/welcome-panel.php:26
+msgid "dashboard_widget_start"
+msgstr "Configure website"
+
+#: inc/welcome-panel.php:26
+msgid "dashboard_widget_shop_start"
+msgstr "Configure website with online shop"
+
+#: inc/welcome-panel.php:29
+msgid "Dismiss"
+msgstr "Discard"
+
+#. Plugin Name of the plugin
+msgid "Assistant"
+msgstr "Assistant"
+
+#. Description of the plugin/theme
+msgid "WordPress Setup Wizard"
+msgstr "WordPress Setup Assistant"
+
+msgid "Activate"
+msgstr "Select"
+
+msgid "<strong>Untested</strong> with your install "
+msgstr "<strong>Not tested</strong> with your installation"
+
+msgid "<strong>Incompatible</strong> with your install "
+msgstr "<strong>Not compatible</strong> with your installation"
+
+msgid "<strong>Compatible</strong> with your install "
+msgstr "<strong>Compatible</strong> with your installation"
+
+msgid "%s download"
+msgid_plural "%s downloads"
+msgstr[0] "%s download"
+msgstr[1] "%s downloads"
+
+msgid "Activate all selected theme/plugins"
+msgstr "Apply selection"
+
+msgid "Theme activated: <strong>%s</strong>"
+msgstr "Your theme: <strong>%s</strong>"
+
+msgid "There was no theme selected, so the current theme is still active."
+msgstr "You have not selected a new theme and are still using the old theme."
+
+msgid "Plugin deactivated: <strong>%s</strong>"
+msgstr "Plugin deactivated: <strong>%s</strong>"
+
+msgid "Plugin activated: <strong>%s</strong>"
+msgstr "Plugin activated: <strong>%s</strong>"
+
+msgid "setup_assistant_customizer_title"
+msgstr "Your WordPress is ready to go!"
+
+msgid "setup_assistant_customizer_desc1"
+msgstr "Welcome to the <em>Customizer</em>, a WordPress tool where you can view and personalise your website."
+
+msgid "setup_assistant_customizer_desc2"
+msgstr "Happy editing!"
+
+msgid "setup_assistant_customizer_close_button"
+msgstr "Let's start"
+
+msgid "setup_assistant_completed"
+msgstr "Setup completed!"
+
+msgid "setup_assistant_woocommerce_configuration"
+msgstr "Set up online shop"
+
+msgid "tools menu"
+msgstr "Tools section"
+
+msgctxt "website-types"
+msgid "gallery_headline"
+msgstr "Photographs"
+
+msgctxt "website-types"
+msgid "blog_headline"
+msgstr "For a blog"
+
+msgctxt "website-types"
+msgid "personal_headline"
+msgstr "Personal"
+
+msgctxt "website-types"
+msgid "business_headline"
+msgstr "Company"
+
+msgctxt "website-types"
+msgid "eshop_headline"
+msgstr "Online Shop"
+
+msgctxt "website-types"
+msgid "club_headline"
+msgstr "Club"
+
+msgctxt "website-types"
+msgid "podcast_headline"
+msgstr "Podcast"
+
+msgctxt "website-types"
+msgid "gallery_description"
+msgstr "Full of creative control! Show off your photos with optimised themes and the best gallery plugins."
+
+msgctxt "website-types"
+msgid "blog_description"
+msgstr ""
+"Create your blog and share the contents easily on social networks.\n"
+" \n"
+"These elegant themes and plugins show your text in the best light."
+
+msgctxt "website-types"
+msgid "personal_description"
+msgstr "As unique as your history. Create your private website now. "
+
+msgctxt "website-types"
+msgid "business_description"
+msgstr "Create a professional website and reach out to your customers online using powerful marketing tools."
+
+msgctxt "website-types"
+msgid "eshop_description"
+msgstr "Create an online shop with WordPress and WooCommerce, the powerful platform for eCommerce websites."
+
+msgctxt "website-types"
+msgid "club_description"
+msgstr "Present your club or association using optimised themes. The pre-installed plugins help you to organise events and members."
+
+msgctxt "website-types"
+msgid "podcast_description"
+msgstr "Present your podcasts with selected themes and the best podcast plugins."
+
+msgid "Community News"
+msgstr "News and tips"
+
+msgid "No items"
+msgstr "Nothing selected"
+
+msgid "Configure your WordPress in just a few steps."
+msgstr "Configure and optimise your website now"
+
+msgid "Managed WordPress"
+msgstr "WordPress"
+
+msgid "Change your Domain"
+msgstr "Change domain"
+
+msgid "Website-Url-Description"
+msgstr "You can customise and manage your URL (domain) easily at <a href=\"%s\" target=\"_blank\">%s App Center</a>."
+
+msgid "or"
+msgstr "or"
+
+msgid "We are sorry, but you cannot go further."
+msgstr "We are sorry, but you cannot go further."
+
+msgid ""
+"It seems you are PHP 8. Unfortunately, the Assistant does not yet support PHP 8. "
+"To use it we recommend you to <a href=\"%s\">switch to a lower version</a> (PHP 7.4) an wait for the update that we will provide soon. "
+"Thank you for your understanding!"
+msgstr ""
+"It seems you are PHP 8. Unfortunately, the Assistant does not yet support PHP 8. "
+"To use it we recommend you to <a href=\"%s\">switch to a lower version</a> (PHP 7.4) an wait for the update that we will provide soon. "
+"Thank you for your understanding!"
+
+msgid "Take me back"
+msgstr "Take me back"
+
+msgid "Choose this theme"
+msgstr "Choose this theme"
+
+msgid "From <a href=\"%s\" target=\"_blank\" rel=\"external nofollow\">WordPress.org</a>:"
+msgstr "From <a href=\"%s\" target=\"_blank\" rel=\"external nofollow\">WordPress.org</a>:"
+
+# ----------------- panels----------------------
+msgctxt "dashboard-panel-first-run"
+msgid "Customize and upgrade your website now."
+msgstr "Optimise and enhance your website now"
+
+msgid "setup_assistant_header"
+msgstr "%s WordPress Assistant"
+
+msgid "title_link_visual"
+msgstr "Adjust WordPress"
+
+msgid "first_steps_community_link"
+msgstr "Getting started"
+
+msgid "community_widget_link_label"
+msgstr "More news, tutorials and tips for WordPress..."
+
+msgid "assistant_pluginpage_jump_to_top"
+msgstr "To top"
+
+msgid "Next Steps"
+msgstr "Basics"
+
+msgid "Edit your front page"
+msgstr "XEdit your homepage"
+
+msgid "Write your first blog post"
+msgstr "Create new post"
+
+msgid "Add an About page"
+msgstr "Create new page"
+
+msgid "customize_theme_in_widget"
+msgstr "Customising the design"
+
+msgid "dashboard_widget_website-type"
+msgstr "Cange  your website type"
+
+msgid "dashboard_widget_design"
+msgstr "Select a different design"
+
+msgid "dashboard_widget_plugins"
+msgstr "Manage and add plugins"
+
+msgid "activate_sitetype_form_submitted_message"
+msgstr "Please wait..."
+
+msgid "activate_theme_form_submitted_message"
+msgstr "Please wait..."
+
+msgid "activate_plugins_form_submitted_message"
+msgstr "Please wait..."
+
+msgid "prelive_staging_textpart_online"
+msgstr "This website is using a temporary domain."
+
+msgid "prelive_staging_textpart_common"
+msgstr "Your website is still using this temporary domain:"
+
+msgid "prelive_staging_textpart_adminarea"
+msgstr "With a real domain, your website will get found better in search engines. <a href=\\\"https://admin.1and1.co.uk/AllMyApplications\\\" target=\\\"_blank\\\">Set up domain</a>"
+
+msgid "dashboard_change_domain"
+msgstr "Change domain"
+
+msgid "dashboard_activate_ssl"
+msgstr "Activate SSL"
+
+msgid "theme_install_other_button_install_other"
+msgstr "Add new theme"
+
+msgid "theme_install_other_modal_title"
+msgstr "Add new theme"
+
+msgid "theme_install_other_modal_title_desc"
+msgstr "Do you want to close the wizard and go to the themes section?"
+
+msgid "theme_install_other_modal_confirm"
+msgstr "Add theme (close wizard)"
+
+msgid "theme_install_other_modal_cancel"
+msgstr "Back to the wizard"
+
+msgid "plugin_install_other_button_install_other"
+msgstr "Add plugins"
+
+msgid "plugin_install_other_modal_title"
+msgstr "Add plugins"
+
+msgid "plugin_install_other_modal_title_desc"
+msgstr "Do you want to discard your changes and go back to the plugins section?"
+
+msgid "plugin_install_other_modal_confirm"
+msgstr "Add plugins (close wizard)"
+
+msgid "plugin_install_other_modal_cancel"
+msgstr "Back to the wizard"
+
+msgid "Learn more about Gutenberg"
+msgstr "Learn more about Gutenberg Editor"
+
+msgctxt "dashboard-panel-first-run"
+msgid "Managed WordPress"
+msgstr "WordPress"
+
+msgctxt "dashboard-panel-first-run"
+msgid "Configure your WordPress in just a few steps."
+msgstr "Configure and optimise your website now"
+
+msgctxt "dashboard-panel-first-run"
+msgid "Get started and optimize your website with selected themes and plugins."
+msgstr "Get started and optimise your website with selected themes and plugins."
+
+msgctxt "dashboard-panel-second-run"
+msgid "Managed WordPress"
+msgstr "WordPress"
+
+msgctxt "dashboard-panel-second-run"
+msgid "Customize and upgrade your website now."
+msgstr "Optimise and enhance your website now"
+
+msgid "Bullet Point 1"
+msgstr "Each website type offers an optimised selection of plugins and themes that are perfect for your website."
+
+msgid "Bullet Point 2"
+msgstr "Themes offer great designs, modern web technologies and maximum flexibility. You can simply adjust and personalise your theme later. Choose your style!"
+
+msgid "Bullet Point 3"
+msgstr "Plugins make your website even better. Enhance your website with plugins and additional features now."
+
+msgctxt "plugins-panel-first-run"
+msgid "Managed WordPress"
+msgstr "WordPress"
+
+msgctxt "plugins-panel-first-run"
+msgid "Configure your WordPress in just a few steps."
+msgstr "Configure and optimise your website now"
+
+msgctxt "plugins-panel-first-run"
+msgid "Get started and optimize your website with selected themes and plugins."
+msgstr "Get started and optimise your website with selected themes, plugins and an efficient online shop perfectly integrated into WordPress."
+
+msgctxt "plugins-panel-second-run"
+msgid "Managed WordPress"
+msgstr "WordPress"
+
+msgctxt "plugins-panel-second-run"
+msgid "Configure your WordPress in just a few steps."
+msgstr "Add and manage plugins"
+
+msgctxt "plugins-panel-second-run"
+msgid "Get started and optimize your website with selected themes and plugins."
+msgstr "Plugins make your website even better. Enhance your website with plugins and additional features now. "
+
+msgctxt "update-core-info"
+msgid "Your WordPress installation ..."
+msgstr "Please install the updates specified below. We will handle updates to your WordPress software for you. Find out more at <a href=\"%s\">Automatic updates with Managed WordPress from %s</a>."
+
+msgid "Legally compliant with your WooCommerce, in German and EU markets."
+msgstr "Legally compliant with your WooCommerce, in German and EU markets."
+
+msgid "Setup German Market"
+msgstr "Setup German Market"
+
+msgid "Learn more"
+msgstr "Learn more"
+
+msgid "The new Editor is here!"
+msgstr "The new Editor is here!"
+
+msgid "WordPress 5.0 is here and so is Gutenberg."
+msgstr "WordPress 5.0 is here and so is Gutenberg."
+
+msgid "Learn more about the Gutenberg editor"
+msgstr "Learn more about the Gutenberg editor"
+
+msgid "How do we deal with it?"
+msgstr "How do we deal with it?"
+
+msgid "Switch back to the old Editor"
+msgstr "Switch back to the old Editor"
+
+msgid "Welcome to %s"
+msgstr "Welcome to %s"
+
+msgid "This is your homepage. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes)."
+msgstr "This is your homepage. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes)."
+
+msgid "As a logged in WordPress user, you can edit this page by clicking the <strong>Edit Page</strong> button in the Toolbar. The page might introduce yourself, or your company, to potential site visitors and say something like this:"
+msgstr "As a logged in WordPress user, you can edit this page by clicking the <strong>Edit Page</strong> button in the Toolbar. The page might introduce yourself, or your company, to potential site visitors and say something like this:"
+
+msgid "Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like piña coladas. (And gettin' caught in the rain.)"
+msgstr "Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like piña coladas. (And gettin' caught in the rain.)"
+
+msgid "...or something like this:"
+msgstr "...or something like this:"
+
+msgid "The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community."
+msgstr "The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community."
+
+msgid "If you prefer a list of your latest posts to be displayed on your homepage, you should go to your <a href='%s'>Settings</a> and choose “Your latest posts” as homepage option."
+msgstr "If you prefer a list of your latest posts to be displayed on your homepage, you should go to your <a href='%s'>Settings</a> and choose “Your latest posts” as homepage option."
+
+msgid "Have fun!"
+msgstr "Have fun!"
+
+# --------------- Settings --------------- #
+#: inc/views/settings-page.php:2
+msgid "%s - Settings"
+msgstr "%s - Settings"
+
+#: inc/views/settings-page.php:10
+msgid "Login design"
+msgstr "Login design"
+
+#: inc/views/settings-page.php:15
+msgid "When activated this setting will theme the login page at %s with %s design"
+msgstr "When activated this setting will theme the login page at %s with %s design"
+
+#: inc/views/settings-page.php:14
+msgid "Use %s design for login"
+msgstr "Use %s design for login"
+
+# --------------- Assets --------------- #
+#: 1and1-wordpress-assistant/inc/auto-updater.php:36
+msgid "Permanently active"
+msgstr "Permanently active"

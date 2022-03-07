@@ -1,0 +1,254 @@
+
+#toplevel_page_video-user-manuals-plugin .wp-menu-image { background: url(images/vum_flat_grey.png) no-repeat 10px !important;}
+
+#toplevel_page_video-user-manuals-plugin:hover .wp-menu-image { background: url(images/vum_flat_blue.png) no-repeat 10px !important;}
+
+#toplevel_page_video-user-manuals-plugin .wp-menu-open .wp-menu-image { background: url(images/vum_flat_white.png) no-repeat 10px !important;}
+.wpm_text label {display:block; min-width:220px; float:left; height:40px; font-weight: bold; color: #222; }
+.wpm_form_item {margin-bottom:20px}
+.wpm_form_item textarea {height:100px;width:350px; }
+.wpm_input{clear:both; min-height: 40px}
+.wpm_form_item small { font-style: italic; color: #222; font-size: 11px;margin-top: 5px; display: block; }
+.wpm_input input[type=text]{width:350px;}
+.wpm_form_textarea_container { float: left; }
+.wpm_form_radio_container label { min-width: 0; padding-right: 10px; height: auto; }
+#wpm-waiting { vertical-align: middle; display:none;}
+.wpm-hidden{display:none}
+
+#tabs-1 label, #tabs-3 label { min-width: 300px; }
+#tabs-1 .manual, #tabs-3 .manual {margin-left:45px}
+#tabs-1 .manual label, #tabs-3 .manual label { min-width: 255px; }
+#tabs-1 .wpm_form_radio_container label , #tabs-1 .manual .wpm_form_radio_container label,
+#tabs-3 .wpm_form_radio_container label , #tabs-3 .manual .wpm_form_radio_container label  { min-width: 0; }
+#tabs-1 label img, #tabs-3 label img { vertical-align: middle;  margin-right: 10px }
+#tabs-1 .icon-container, #tabs-3 .icon-container  { display: inline; position: relative; margin-right: 20px; }
+#tabs-1 .horizontal-icon, #tabs-3 .horizontal-icon { position:absolute; top: 2px; left: 0; }
+#tabs-1 .vertical-icon, #tabs-3 .vertical-icon { position: absolute; top: 2px; left: 0; }
+
+.ui-tabs { position: relative; zoom: 1; padding:0 }
+.ui-tabs .ui-tabs-nav { font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif}
+.ui-tabs .ui-tabs-nav li { list-style: none; display: inline-block; position: relative; margin: 0 6px -1px 0; padding: 0; white-space: nowrap;  padding: 4px 10px 6px; border-style: solid; border-color: #DFDFDF #DFDFDF white; border-width: 1px 1px 0; line-height: 24px; text-shadow: white 0 1px 0; background: #E4E4E4}
+.ui-tabs .ui-tabs-nav li a {  text-decoration: none; font-size: 20px; font-weight: normal; color: #222;}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { border-color: #CCC #CCC white; border-width: 1px; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; color: black;}
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel { display: block; border-width: 0; padding: 1em; background: none; }
+.ui-tabs .ui-tabs-hide { display: none !important; }
+.ui-widget-header {
+	border-bottom: 1px solid #e0e0e0;
+}
+.wpm_section{ position: relative}
+.vum_embed_shortcode{
+	padding: 25px;background-color: #FFF; border: 1 solid #DDDDDD;
+ -moz-box-shadow:    inset 0 0 10px #CCCCCC;
+ -webkit-box-shadow: inset 0 0 10px #CCCCCC;
+ box-shadow:         inset 0 0 10px #CCCCCC;
+}
+.vum_embed_shortcode{
+	width: 200px;
+	text-align: center;
+}
+.vum_embed_shortcode_wrapper .vum_embed_shortcode{
+	width: 290px;
+	text-align: left;
+}
+.vum_embed_shortcode_wrapper{
+	position: fixed;
+	right: 50px;
+	width: 357px
+}
+#contextual-help-link-wrap {
+	display: block!important;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	margin-bottom: -1px;
+	background: #F1F1F1;
+}
+.vum-video-container {margin-right: 20px;float: left;text-align: center;margin-bottom: 10px;}
+.vum-video-container a {color: #21759B;text-decoration: none;font-size: 12px;}
+.vum-video-container img {margin-bottom: 6px;}
+.vum-video-container input[type="image"]{ border: 0!important;} 
+.vum-video-container input[type="image"] { padding: 0; margin: 0; border: 0!important; }
+.vum-highlight{border: #FFFFBF solid 10px; background:#FFFFBF; font-weight: bold;border-top:0;border-bottom: 0; -webkit-border-bottom-right-radius: 4px;-webkit-border-bottom-left-radius: 4px;-moz-border-radius-bottomright: 4px;-moz-border-radius-bottomleft: 4px;border-bottom-right-radius: 4px;border-bottom-left-radius: 4px;}
+.contextual-help-tabs-wrap{ position: relative; }
+
+.video-container {margin-right: 20px;float: left;text-align: center;margin-bottom: 20px;}
+.video-container a {color: #21759B;text-decoration: underline;font-size: 12px;}
+.video-container img {margin-bottom: 6px;}
+.vum-highlight{border: #FFFFBF solid 10px; background:#FFFFBF; font-weight: bold;border-top:0;border-bottom: 0; -webkit-border-bottom-right-radius: 4px;-webkit-border-bottom-left-radius: 4px;-moz-border-radius-bottomright: 4px;-moz-border-radius-bottomleft: 4px;border-bottom-right-radius: 4px;border-bottom-left-radius: 4px;}
+#tab-panel-vum-videos{ margin: 0!important;}
+#screen-meta .contextual-help-tabs-wrap{
+    padding-right: 0!important;
+}
+#vum-modal{ 
+    width: 100%;
+    height: 100%;
+    background: rgba(50, 55, 60, 0.47);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display:none;
+}
+#vum-player-wrapper{
+	width: 100%; margin: 0 auto;
+	vertical-align: middle;
+    height: 97%;
+    padding-top: 10px;
+}
+#vum-modal .dashicons-no{ 
+    right: 20px;
+    position: absolute;
+    top: 0;
+    font-size: 40px;
+    color: #FFF;
+}
+#vum-modal .dashicons-no:hover{
+	color: #0073aa;
+	cursor: pointer;
+}
+.scroll-wrapper {
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: relative;
+}
+
+.scroll-wrapper > .scroll-content {
+    border: none !important;
+    box-sizing: content-box !important;
+    height: auto;
+    left: 0;
+    margin: 0;
+    max-height: none;
+    max-width: none !important;
+    overflow: scroll !important;
+    padding: 0;
+    position: relative !important;
+    top: 0;
+    width: auto !important;
+}
+
+.scroll-wrapper > .scroll-content::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+.scroll-element {
+    display: none;
+}
+.scroll-element, .scroll-element div {
+    box-sizing: content-box;
+}
+
+.scroll-element.scroll-x.scroll-scrollx_visible,
+.scroll-element.scroll-y.scroll-scrolly_visible {
+    display: block;
+}
+
+.scroll-element .scroll-bar,
+.scroll-element .scroll-arrow {
+    cursor: default;
+}
+
+.scroll-textarea {
+    border: 1px solid #cccccc;
+    border-top-color: #999999;
+}
+.scroll-textarea > .scroll-content {
+    overflow: hidden !important;
+}
+.scroll-textarea > .scroll-content > textarea {
+    border: none !important;
+    box-sizing: border-box;
+    height: 100% !important;
+    margin: 0;
+    max-height: none !important;
+    max-width: none !important;
+    overflow: scroll !important;
+    outline: none;
+    padding: 2px;
+    position: relative !important;
+    top: 0;
+    width: 100% !important;
+}
+.scroll-textarea > .scroll-content > textarea::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+
+/*************** SCROLLBAR MAC OS X ***************/
+.vum-onpage-wrapper {
+    height: 600px!important
+}
+.vum-onpage-wrapper > .scroll-element,
+.vum-onpage-wrapper > .scroll-element div
+{
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+.vum-onpage-wrapper > .scroll-element div {
+    display: block;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.vum-onpage-wrapper > .scroll-element .scroll-element_track { display: none; }
+.vum-onpage-wrapper > .scroll-element .scroll-bar {
+    background-color: #6C6E71;
+    display: block;
+
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    -ms-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+}
+.vum-onpage-wrapper:hover > .scroll-element .scroll-bar,
+.vum-onpage-wrapper > .scroll-element.scroll-draggable .scroll-bar {
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+
+.vum-onpage-wrapper > .scroll-element.scroll-x {
+    bottom: 0px;
+    height: 0px;
+    left: 0;
+    min-width: 100%;
+    overflow: visible;
+    width: 100%;
+}
+
+.vum-onpage-wrapper > .scroll-element.scroll-y {
+    height: 100%;
+    min-height: 100%;
+    right: 0px;
+    top: 0;
+    width: 0px;
+}
+/* scrollbar height/width & offset from container borders */
+.vum-onpage-wrapper > .scroll-element.scroll-x .scroll-bar { height: 7px; min-width: 10px; top: -9px; }
+.vum-onpage-wrapper > .scroll-element.scroll-y .scroll-bar { left: -9px; min-height: 10px; width: 7px; }
+
+.vum-onpage-wrapper > .scroll-element.scroll-x .scroll-element_outer { left: 2px; }
+.vum-onpage-wrapper > .scroll-element.scroll-x .scroll-element_size { left: -4px; }
+
+.vum-onpage-wrapper > .scroll-element.scroll-y .scroll-element_outer { top: 2px; }
+.vum-onpage-wrapper > .scroll-element.scroll-y .scroll-element_size { top: -4px; }
+
+/* update scrollbar offset if both scrolls are visible */
+.vum-onpage-wrapper > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size { left: -11px; }
+.vum-onpage-wrapper > .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size { top: -11px; }

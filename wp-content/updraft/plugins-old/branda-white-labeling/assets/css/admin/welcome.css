@@ -1,0 +1,63 @@
+/* debug */
+/* $gray_3: yellow; */
+/* $gray_6: green; */
+/* $gray_8: blue; */
+/* $gray_d: lime; */
+/* $gray_e6: red; */
+/* $gray_fa: blue; */
+body.branda-admin-page .sui-wrap.sui-wrap-branda .sui-modal.branda-welcome-step1 .sui-modal-content .sui-box-header {
+  padding-top: 60px;
+  padding-bottom: 5px;
+}
+body.branda-admin-page .sui-wrap.sui-wrap-branda .sui-modal .sui-box .sui-box-footer.branda-welcome-footer-close {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+body.branda-admin-page .sui-wrap.sui-wrap-branda .sui-modal .sui-box .sui-box-footer.branda-welcome-footer-close .sui-form-field {
+  line-height: 13px;
+}
+body.branda-admin-page .sui-wrap.sui-wrap-branda .sui-modal .sui-box .sui-box-footer.branda-welcome-footer-close .sui-form-field a {
+  color: #888;
+  font-size: 13px;
+  font-weight: normal;
+}
+body.branda-admin-page .sui-wrap.sui-wrap-branda.no-branda .branda-welcome-step1 #branda-welcome .sui-box {
+  background-image: none;
+  padding-bottom: 0;
+}
+body.branda-admin-page .sui-wrap.sui-wrap-branda.no-branda .branda-welcome-step2 #branda-welcome .sui-box .sui-box-header {
+  background-image: none;
+  padding-top: 60px;
+}
+body .branda-welcome-step1 #branda-welcome .sui-box {
+  padding-bottom: 160px;
+  background-image: url(../images/branda/happy@2x.png);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: 127px 163px;
+}
+body .branda-welcome-step1 #branda-welcome .sui-box .sui-box-footer {
+  padding-bottom: 20px;
+}
+body .branda-welcome-step1 #branda-welcome .sui-box .sui-box-footer .sui-modal-close {
+  text-transform: none;
+  border: 0;
+}
+body .branda-welcome-step1 #branda-welcome .branda-welcome-footer-step2 {
+  display: none;
+}
+body .branda-welcome-step2 #branda-welcome .sui-box .sui-box-header {
+  background-image: url(../../assets/images/branda/circle-thumb@2x.png);
+}
+body .branda-welcome-step2 #branda-welcome .sui-box-footer .sui-actions {
+  margin-left: auto;
+  margin-right: auto;
+}
+body .branda-welcome-step2 #branda-welcome .sui-box-body .sui-row {
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  padding: 30px;
+}
+body .branda-welcome-step2 #branda-welcome .branda-welcome-footer-step1 {
+  display: none;
+}

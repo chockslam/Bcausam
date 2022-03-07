@@ -1,0 +1,235 @@
+ping url http://bcausam.co.uk/wp-admin/admin-ajax.php?action=defender_process_scan
+Prepare facts for a scan
+Current task gather_fact
+processing gather_fact
+process done, queue for next
+Scan not done, pinging
+ping url http://bcausam.co.uk/wp-admin/admin-ajax.php?action=defender_process_scan
+Current task gather_fact
+processing gather_fact
+task gather_fact processed
+queue core_integrity_check for next
+process done, queue for next
+Scan not done, pinging
+ping url http://bcausam.co.uk/wp-admin/admin-ajax.php?action=defender_process_scan
+Current task core_integrity_check
+processing core_integrity_check
+Fetch checksums, should only once
+current pos 0
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-admin/css/colors/blue/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-admin/css/colors/coffee/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-admin/css/colors/ectoplasm/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-admin/css/colors/light/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-admin/css/colors/midnight/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-admin/css/colors/modern/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-admin/css/colors/ocean/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-admin/css/colors/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-admin/css/colors/sunrise/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-admin/css/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-admin/images/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-admin/includes/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-admin/js/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-admin/js/widgets/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-admin/maint/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-admin/network/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-admin/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-admin/user/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/ID3/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/IXR/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/PHPMailer/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/Requests/Auth/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/Requests/Cookie/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/Requests/Exception/HTTP/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/Requests/Exception/Transport/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/Requests/Exception/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/Requests/Proxy/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/Requests/Response/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/Requests/Transport/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/Requests/Utility/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/Requests/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/SimplePie/Cache/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/SimplePie/Content/Type/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/SimplePie/Content/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/SimplePie/Decode/HTML/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/SimplePie/Decode/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/SimplePie/HTTP/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/SimplePie/Net/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/SimplePie/Parse/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/SimplePie/XML/Declaration/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/SimplePie/XML/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/SimplePie/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/Text/Diff/Engine/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/Text/Diff/Renderer/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/Text/Diff/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/Text/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/assets/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/block-patterns/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/block-supports/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/archives/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/audio/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/block/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/button/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/buttons/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/calendar/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/categories/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/code/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/column/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/columns/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/embed/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/file/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/freeform/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/gallery/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/group/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/heading/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/html/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/image/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/latest-comments/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/latest-posts/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/list/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/media-text/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/missing/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/more/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/nextpage/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/paragraph/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/preformatted/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/pullquote/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/quote/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/rss/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/search/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/separator/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/shortcode/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/social-link/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/social-links/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/spacer/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/subhead/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/table/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/tag-cloud/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/text-columns/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/verse/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/blocks/video/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/certificates/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/css/dist/block-directory/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/css/dist/block-editor/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/css/dist/block-library/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/css/dist/components/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/css/dist/edit-post/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/css/dist/editor/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/css/dist/format-library/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/css/dist/list-reusable-blocks/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/css/dist/nux/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/css/dist/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/css/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/customize/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/fonts/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/images/crystal/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/images/media/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/images/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/images/smilies/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/images/wlw/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/codemirror/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/crop/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/dist/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/dist/vendor/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/imgareaselect/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/jcrop/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/jquery/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/jquery/ui/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/mediaelement/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/mediaelement/renderers/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/plupload/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/swfupload/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/thickbox/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/langs/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/charmap/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/colorpicker/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/compat3x/css/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/compat3x/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/directionality/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/fullscreen/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/hr/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/image/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/link/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/lists/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/media/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/paste/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/tabfocus/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/textcolor/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/wordpress/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/wpautoresize/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/wpdialogs/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/wpeditimage/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/wpemoji/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/wpgallery/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/wplink/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/wptextpattern/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/plugins/wpview/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/skins/lightgray/fonts/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/skins/lightgray/img/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/skins/lightgray/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/skins/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/skins/wordpress/images/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/skins/wordpress/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/themes/inlite/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/themes/modern/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/themes/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/js/tinymce/utils/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/pomo/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/random_compat/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/rest-api/endpoints/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/rest-api/fields/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/rest-api/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/rest-api/search/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sitemaps/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sitemaps/providers/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/lib/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/namespaced/Core/ChaCha20/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/namespaced/Core/Curve25519/Ge/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/namespaced/Core/Curve25519/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/namespaced/Core/Poly1305/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/namespaced/Core/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/namespaced/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/src/Core/Base64/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/src/Core/ChaCha20/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/src/Core/Curve25519/Ge/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/src/Core/Curve25519/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/src/Core/Poly1305/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/src/Core/SecretStream/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/src/Core/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/src/Core32/ChaCha20/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/src/Core32/Curve25519/Ge/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/src/Core32/Curve25519/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/src/Core32/Poly1305/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/src/Core32/SecretStream/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/src/Core32/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/src/PHP52/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/sodium_compat/src/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/theme-compat/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-includes/widgets/php.ini because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/.htaccess because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/.htaccess.bv.9286 because of file is whitelisted
+skip /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/php.ini because of file is whitelisted
+task core_integrity_check processed
+queue plugin_integrity_check for next
+process done, queue for next
+Scan not done, pinging
+ping url http://bcausam.co.uk/wp-admin/admin-ajax.php?action=defender_process_scan
+Current task plugin_integrity_check
+processing plugin_integrity_check
+task plugin_integrity_check processed
+queue theme_integrity_check for next
+process done, queue for next
+Scan not done, pinging
+ping url http://bcausam.co.uk/wp-admin/admin-ajax.php?action=defender_process_scan
+Current task theme_integrity_check
+processing theme_integrity_check
+modified /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-content/themes/twentynineteen/readme.txt
+modified /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-content/themes/twentytwenty/readme.txt
+task theme_integrity_check processed
+All done!
+process done, queue for next

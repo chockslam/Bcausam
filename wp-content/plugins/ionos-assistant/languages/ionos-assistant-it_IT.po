@@ -1,0 +1,676 @@
+# This file is distributed under the same license as the WordPress Assistant package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Assistant\n"
+"POT-Creation-Date: 2015-08-17 08:39+0200\n"
+"PO-Revision-Date: 2016-06-29 14:11+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.4\n"
+
+#: 1and1-wordpress-wizard.php:124
+msgid "The Assistant could not be activated. To activate the plugin, you need WordPress 3.5 or higher."
+msgstr "Non è possibile attivare l'assistente. Per attivare il plugin è necessario avere WordPress 3.5 o superiore."
+
+#: inc/batch-installer.php:58
+msgctxt "area"
+msgid "Plugins"
+msgstr "Plugin"
+
+#: inc/batch-installer.php:65
+msgid "Installation completed."
+msgstr "Installazione completata"
+
+#: inc/batch-installer.php:66
+msgid "setup_assistant_installation_ready"
+msgstr "Il tuo WordPress è pronto per continuare. Ora ti illustreremo la funzione <em>Customizer</em>, un'interfaccia utente di WordPress dalla quale è possibile modificare completamente il tuo sito web."
+
+#: inc/batch-installer.php:66
+msgid "Your WordPress is now ready to get going."
+msgstr "Il tuo WordPress è pronto per continuare."
+
+#: inc/batch-installer.php:66
+msgid "setup_assistant_woocommcerce_installation_ready"
+msgstr "Dai subito un'occhiata al tuo negozio online e aggiorna le impostazioni di base. Se preferisci puoi naturalmente per prima cosa aggiornare le impostazioni di base del tuo sito web. "
+
+msgid "setup_assistant_customizer_link"
+msgstr "Apri il Customizer"
+
+#: inc/batch-installer.php:69
+msgid "Customize the Theme"
+msgstr "Adatta il tema"
+
+#: inc/batch-installer.php:73
+msgid "Write a post"
+msgstr "Crea un post"
+
+#: inc/batch-installer.php:89
+msgid "Community logo"
+msgstr "Logo della community"
+
+#: inc/batch-installer.php:100
+msgid "Go to our community site"
+msgstr "Vai alla pagina della Community"
+
+#: inc/batch-installer.php:116
+msgid "No theme has been selected. The current theme will be kept."
+msgstr "Non hai selezionato un nuovo tema. Viene mantenuto il tema attuale."
+
+#: inc/batch-installer.php:134
+msgid "Installing theme: %s"
+msgstr "Il tema %s è in fase di installazione"
+
+#: inc/batch-installer.php:150
+msgid "Installing plugins (%s)"
+msgstr "I plugin (%s) sono in fase di installazione"
+
+#: inc/batch-installer.php:159
+msgid "No Plugins have been selected."
+msgstr "Non hai selezionato alcun plugin."
+
+#: inc/batch-installer.php:173
+msgid "Installing plugin: %1$s (%2$s/%3$s)"
+msgstr "Plugin in fase di installazione: %1$s (%2$s/%3$s)"
+
+#: inc/batch-installer.php:184
+msgid "Activating theme..."
+msgstr "Attivazione del tema in corso..."
+
+#: inc/batch-installer.php:190
+msgid "Activating plugins..."
+msgstr "Attivazione dei plugin in corso..."
+
+#: inc/plugin-categories-catalog.php:13
+msgid "Spam Protection"
+msgstr "Protezione antispam"
+
+#: inc/plugin-categories-catalog.php:14
+msgid "Content Management"
+msgstr "Gestione contenuto"
+
+#: inc/plugin-categories-catalog.php:15
+msgid "Comment Management"
+msgstr "Gestisci commenti"
+
+#: inc/plugin-categories-catalog.php:16
+msgid "Search Engine Optimization"
+msgstr "Ottimizzazione per i motori di ricerca"
+
+#: inc/plugin-categories-catalog.php:17
+msgid "Forms"
+msgstr "Moduli"
+
+#: inc/plugin-categories-catalog.php:18
+msgid "Caching"
+msgstr "Caching"
+
+#: inc/plugin-installer-skin.php:30
+msgid "Successfully installed the plugin <strong>%1s$ %2s$</strong>."
+msgstr "Il plugin <strong>%1s$ %2s$</strong> è stato installato."
+
+#: inc/plugin-installer-skin.php:42
+msgid "The plugin has already been installed."
+msgstr "Il plugin è già installato."
+
+#: inc/setup-wizard-dispatcher.php:18
+msgid "Sorry, you do not have permission to access the Assistant."
+msgstr "Purtroppo non possiedi le autorizzazioni necessarie per l'accesso a l'assistente. Contatta l'amministratore del tuo sito Web."
+
+#: inc/theme-installer-skin.php:23
+msgid "The theme already exists."
+msgstr "Il tema esiste già."
+
+#: inc/views/setup-wizard-header.php:18
+msgid "Website Type"
+msgstr "Tipo di sito Web"
+
+#: inc/views/setup-wizard-header.php:22
+msgid "Appearance"
+msgstr "Layout"
+
+#: inc/views/setup-wizard-header.php:26
+msgid "Plugins"
+msgstr "Plugin"
+
+#: inc/views/setup-wizard-installation-step.php:17
+msgid "Processing setup:"
+msgstr "Riepilogo"
+
+#: inc/views/setup-wizard-installation-step.php:19
+msgid "Please wait until all theme/plugins have been downloaded and installed."
+msgstr "Aspetta fino a quando non vengono scaricati e installati tutti i componenti."
+
+#: inc/views/setup-wizard-installation-step.php:34
+msgid "Getting installed"
+msgstr "In fase di installazione..."
+
+#: inc/views/setup-wizard-plugin-item-compatibility.php:20
+#: inc/views/setup-wizard-theme-item.php:17
+msgid "More information"
+msgstr "Per saperne di più"
+
+#: inc/views/setup-wizard-plugin-item-compatibility.php:28
+#: inc/views/setup-wizard-plugin-item.php:38
+msgid "Install"
+msgstr "Installa"
+
+#: inc/views/setup-wizard-plugins-select-step.php:56
+msgid "setup_assistant_plugins_title"
+msgstr "Conferma i plugin."
+
+#: inc/views/setup-wizard-plugins-select-step.php:60
+msgid "Continue"
+msgstr "Avanti"
+
+#: inc/views/setup-wizard-plugins-select-step.php:63
+msgid "The plugins couldn't get retrieved. Please refresh the page."
+msgstr "Non è stato possibile recuperare il plugin. Ricarica la pagina."
+
+#: inc/views/setup-wizard-plugins-select-step.php:66
+msgid "You already installed all the plugins we recommend. Nice job!"
+msgstr "Hai già installato tutti i plugin consigliati. Ben fatto!"
+
+#: inc/views/setup-wizard-plugins-select-step.php:69
+msgid "Install all selected theme/plugins"
+msgstr "Installa selezione"
+
+#: inc/views/setup-wizard-plugins-select-step.php:70
+msgid "setup_assistant_plugins_description"
+msgstr "I plugin ti consentono di ampliare le funzionalità di WordPress. Abbiamo selezionato quelli più importanti secondo il tuo caso d'uso <strong>%s</strong>."
+       "<br>Così come per i temi, potrai aggiungere e rimuovere i plugin in qualsiasi momento."
+
+#: inc/views/setup-wizard-plugins-select-step.php:83
+msgid "Recommended plugins:"
+msgstr "Raccomandato per il tuo sito Web"
+
+#: inc/views/setup-wizard-plugins-select-step.php:100
+msgid "These plugins are worth a try as well:"
+msgstr "Potrebbero interessarti anche questi plugin"
+
+#: inc/views/setup-wizard-plugins-select-step.php:121
+#: inc/views/setup-wizard-theme-select-step.php:66
+msgid "Back to the beginning"
+msgstr "Torna all'inizio"
+
+#: inc/views/setup-wizard-site-select-step.php:23
+msgid "setup_assistant_type_title"
+msgstr "Seleziona il tuo caso d'uso principale."
+
+#: inc/views/setup-wizard-site-select-step.php:25
+msgid "setup_assistant_type_description"
+msgstr "A seconda della tua selezione,"
+       "<br>- ti forniremo un elenco selezionato di design adatti"
+       "<br>- eseguiremo la pre-installazione di tutti i plugin necessari per consentirti di iniziare fin da subito."
+
+#: inc/views/setup-wizard-site-select-step.php:47
+#: inc/views/setup-wizard-theme-select-step.php:57
+msgid "Select"
+msgstr "Seleziona"
+
+#: inc/views/setup-wizard-site-select-step.php:56
+msgid "The website types couldn't get retrieved. Please refresh the page."
+msgstr "Non è stato possibile recuperare i tipi di siti Web. Ricarica la pagina."
+
+#: inc/views/setup-wizard-theme-item.php:43
+msgid "By %s"
+msgstr "Di %s"
+
+#: inc/views/setup-wizard-theme-select-step.php:36
+msgid "setup_assistant_design_menu_open"
+msgstr "Menu"
+
+#: inc/views/setup-wizard-theme-select-step.php:36
+msgid "Close"
+msgstr "Chiudi"
+
+#: inc/views/setup-wizard-theme-select-step.php:36
+msgid "setup_assistant_design_title"
+msgstr "Seleziona il tema che preferisci."
+
+#: inc/views/setup-wizard-theme-select-step.php:38
+msgid "setup_assistant_design_description"
+msgstr "Non sai quale scegliere? Nessun problema. Non è una selezione definitiva.<br>Potrai sempre cambiare tema, in qualsiasi momento desideri. E puoi scegliere tra centinaia di alternative. Niente male, no?"
+
+#: inc/views/setup-wizard-theme-select-step.php:47
+msgid "Keep Current Theme"
+msgstr "Mantieni il tema in uso"
+
+msgid "setup_assistant_greeting_title_by"
+msgstr "Benvenuti su WordPress da %s"
+
+msgid "setup_assistant_greeting_title"
+msgstr "Benvenuti su WordPress"
+
+msgid "Welcome to WordPress!"
+msgstr "Benvenuti su WordPress!"
+
+msgid "setup_assistant_greeting_description"
+msgstr "Grazie per la fiducia che dimostri verso il nostro prodotto."
+       "<br>I passi successivi di aiuteranno a mettere a punto tutte le impostazioni in maniera rapida e semplice."
+
+msgid "setup_assistant_greeting_ok"
+msgstr "Iniziamo!"
+
+msgid "setup_assistant_greeting_cancel"
+msgstr "No grazie, sono esperto"
+
+msgid "setup_assistant_progress_title"
+msgstr "Stiamo aggiungendo un tocco finale al tuo WordPress! "
+
+msgid "setup_assistant_progress_desc"
+msgstr "Non chiudere la pagina durante la configurazione delle tue installazioni. Il processo non dovrebbe durare più di un minuto. Grazie!"
+
+#: inc/welcome-panel.php:21
+msgid "Create your own WordPress website in just a few steps."
+msgstr "Configura e ottimizza il sito Web"
+
+#: inc/welcome-panel.php:22
+msgid "Get started and optimize your website with selected themes and plugins."
+msgstr "Inizia a ottimizzare il tuo sito Web con i temi e i plugin scelti."
+
+#: inc/welcome-panel.php:26
+msgid "dashboard_widget_start"
+msgstr "Configura sito web"
+
+#: inc/welcome-panel.php:26
+msgid "dashboard_widget_shop_start"
+msgstr "Configura sito web con negozio online "
+
+#: inc/welcome-panel.php:29
+msgid "Dismiss"
+msgstr "Elimina"
+
+#. Plugin Name of the plugin
+msgid "Assistant"
+msgstr "Assistente"
+
+#. Description of the plugin/theme
+msgid "WordPress Setup Wizard"
+msgstr "Assistente per la configurazione di WordPress"
+
+msgid "Activate"
+msgstr "Seleziona"
+
+msgid "<strong>Untested</strong> with your install "
+msgstr "<strong>Non testato</strong> con la tua installazione"
+
+msgid "<strong>Incompatible</strong> with your install "
+msgstr "<strong>Non compatibile</strong> con la tua installazione"
+
+msgid "<strong>Compatible</strong> with your install "
+msgstr "<strong>Compatibile</strong> con la tua installazione"
+
+msgid "%s download"
+msgid_plural "%s downloads"
+msgstr[0] "%s Download"
+msgstr[1] "%s Download"
+
+msgid "Activate all selected theme/plugins"
+msgstr "Accetta scelta"
+
+msgid "Theme activated: <strong>%s</strong>"
+msgstr "I tuoi temi: <strong>%s</strong>"
+
+msgid "There was no theme selected, so the current theme is still active."
+msgstr "Non hai selezionato un nuovo tema e continui a utilizzare il tema precedente."
+
+msgid "Plugin deactivated: <strong>%s</strong>"
+msgstr "Plugin disattivato: <strong>%s</strong>"
+
+msgid "Plugin activated: <strong>%s</strong>"
+msgstr "Plugin attivato: <strong>%s</strong>"
+
+msgid "setup_assistant_customizer_title"
+msgstr "Il tuo WordPress è pronto!"
+
+msgid "setup_assistant_customizer_desc1"
+msgstr "Benvenuto sul <em>Costumizer</em> di WordPress. Qui puoi modificare e personalizzare il design, il titolo e i menù del tuo sito web."
+
+msgid "setup_assistant_customizer_desc2"
+msgstr "Buon divertimento con il tuo sito web!"
+
+msgid "setup_assistant_customizer_close_button"
+msgstr "Inizia"
+
+msgid "setup_assistant_completed"
+msgstr "Configurazione completata!"
+
+msgid "setup_assistant_woocommerce_configuration"
+msgstr "Configurazione del Online Shop"
+
+msgid "tools menu"
+msgstr "Area strumenti"
+
+msgctxt "website-types"
+msgid "gallery_headline"
+msgstr "Foto"
+
+msgctxt "website-types"
+msgid "blog_headline"
+msgstr "Blog"
+
+msgctxt "website-types"
+msgid "personal_headline"
+msgstr "Privato"
+
+msgctxt "website-types"
+msgid "business_headline"
+msgstr "Azienda"
+
+msgctxt "website-types"
+msgid "eshop_headline"
+msgstr "Negozio online"
+
+msgctxt "website-types"
+msgid "club_headline"
+msgstr "Club"
+
+msgctxt "website-types"
+msgid "podcast_headline"
+msgstr "Podcast"
+
+msgctxt "website-types"
+msgid "gallery_description"
+msgstr "Massima creatività! Pubblica le tue foto utilizzando i nostri temi ottimizzati e i migliori plugin per la galleria."
+
+msgctxt "website-types"
+msgid "blog_description"
+msgstr ""
+"Crea un blog tutto tuo e condividi i contenuti sui social network in tutta semplicità.\n"
+" \n"
+"Questi temi eleganti e i plugin che ti forniamo contribuiranno a mettere in risalto i tuoi testi."
+
+msgctxt "website-types"
+msgid "personal_description"
+msgstr "Unico proprio come la tua storia. Realizza subito il tuo sito Web privato. "
+
+msgctxt "website-types"
+msgid "business_description"
+msgstr "Crea un sito Web professionale e raggiungi i tuoi clienti online sfruttando gli efficienti tool di marketing."
+
+msgctxt "website-types"
+msgid "eshop_description"
+msgstr "Crea un Online Shop con WordPress e WooCommerce, le potenti piattaforme per i siti web di eCommerce."
+
+msgctxt "website-types"
+msgid "club_description"
+msgstr "Presenta il tuo club o la tua società con temi ottimizzati. I plugin preinstallati ti aiuteranno a gestire gli eventi e i membri."
+
+msgctxt "website-types"
+msgid "podcast_description"
+msgstr "Presenta i tuoi podcast con temi selezionati e con i migliori plugin per podcast."
+
+msgid "Community News"
+msgstr "Novità e suggerimenti"
+
+msgid "No items"
+msgstr "Nessuna selezione"
+
+msgid "Configure your WordPress in just a few steps."
+msgstr "Configura e ottimizza subito il sito Web"
+
+msgid "Managed WordPress"
+msgstr "WordPress"
+
+msgid "Change your Domain"
+msgstr "Modifica dominio"
+
+msgid "Website-Url-Description"
+msgstr "Puoi modificare e gestire il tuo URL (dominio) in tutta semplicità in <a href=\"%s\" target=\"_blank\">%s Centro App</a>."
+
+msgid "or"
+msgstr "o"
+
+msgid "We are sorry, but you cannot go further."
+msgstr "Sfortunatamente, l'Assistente<br>non è disponibile con PHP 8."
+
+msgid ""
+"It seems you are PHP 8. Unfortunately, the Assistant does not yet support PHP 8. "
+"To use it we recommend you to <a href=\"%s\">switch to a lower version</a> (PHP 7.4) an wait for the update that we will provide soon. "
+"Thank you for your understanding!"
+msgstr ""
+"Sembra che stia usando PHP 8. Purtroppo l’asistente non sopporta ancora PHP 8. "
+"Consigliamo quindi di eseguire l'aggiornamento a <a href=\"%s\">una versione inferiore</a> (PHP 7.4) e di attendere l'aggiornamento, che gli metteremo a disposizione a breve. "
+"Ringraziamo per la sua comprensione!"
+
+msgid "Take me back"
+msgstr "Torna a WordPress"
+
+msgid "Choose this theme"
+msgstr "Scegli questo tema"
+
+msgid "From <a href=\"%s\" target=\"_blank\" rel=\"external nofollow\">WordPress.org</a>:"
+msgstr "Da <a href=\"%s\" target=\"_blank\" rel=\"external nofollow\">WordPress.org</a>:"
+
+# ----------------- panels ----------------------
+msgctxt "dashboard-panel-first-run"
+msgid "Customize and upgrade your website now."
+msgstr "Modifica e amplia subito il sito Web"
+
+msgid "setup_assistant_header"
+msgstr "%s WordPress Assistente"
+
+msgid "title_link_visual"
+msgstr "Modifica WordPress"
+
+msgid "community_widget_link_label"
+msgstr "Mostra di più"
+
+msgid "assistant_pluginpage_jump_to_top"
+msgstr "Verso l'alto"
+
+msgid "Next Steps"
+msgstr "Funzioni base"
+
+msgid "Edit your front page"
+msgstr "Modifica la tua homepage"
+
+msgid "Write your first blog post"
+msgstr "Crea nuovo post"
+
+msgid "Add an About page"
+msgstr "Crea nuova pagina"
+
+msgid "customize_theme_in_widget"
+msgstr "Adatta layout"
+
+msgid "dashboard_widget_website-type"
+msgstr "Modifica il tuo tipo di sito Web"
+
+msgid "dashboard_widget_design"
+msgstr "Seleziona un altro layout"
+
+msgid "dashboard_widget_plugins"
+msgstr "Modifica i tuoi plugin"
+
+msgid "activate_sitetype_form_submitted_message"
+msgstr "Attendi..."
+
+msgid "activate_theme_form_submitted_message"
+msgstr "Attendi..."
+
+msgid "activate_plugins_form_submitted_message"
+msgstr "Attendi..."
+
+msgid "prelive_staging_textpart_online"
+msgstr "Questo sito Web utilizza un dominio temporaneo."
+
+msgid "prelive_staging_textpart_common"
+msgstr "Il tuo sito Web utilizza ancora questo dominio temporaneo:"
+
+msgid "prelive_staging_textpart_adminarea"
+msgstr "Con un dominio corretto, è più facile trovare il tuo sito Web nei motori di ricerca. <a href=\\\"https://admin.1and1.it/AllMyApplications\\\" target=\\\"_blank\\\">Configura dominio</a>"
+
+msgid "dashboard_change_domain"
+msgstr "Modifica dominio"
+
+msgid "dashboard_activate_ssl"
+msgstr "Attiva SSL"
+
+msgid "theme_install_other_button_install_other"
+msgstr "Aggiungi tema nuovo"
+
+msgid "theme_install_other_modal_title"
+msgstr "Aggiungi tema nuovo"
+
+msgid "theme_install_other_modal_title_desc"
+msgstr "Vuoi chiudere l'assistente e tornare nell'area Temi?"
+
+msgid "theme_install_other_modal_confirm"
+msgstr "Aggiungi temi (chiudi assistente)"
+
+msgid "theme_install_other_modal_cancel"
+msgstr "Torna all'assistente"
+
+msgid "plugin_install_other_button_install_other"
+msgstr "Aggiungi altri plugin"
+
+msgid "plugin_install_other_modal_title"
+msgstr "Aggiungi altri plugin"
+
+msgid "plugin_install_other_modal_title_desc"
+msgstr "Vuoi annullare le tue modifiche e tornare nell'area plugin?"
+
+msgid "plugin_install_other_modal_confirm"
+msgstr "Aggiungi plugin (chiudi assistente)"
+
+msgid "plugin_install_other_modal_cancel"
+msgstr "Torna all'assistente"
+
+msgid "Learn more about Gutenberg"
+msgstr "Scopri di più sul nuovo editor Gutenberg"
+
+msgctxt "dashboard-panel-first-run"
+msgid "Managed WordPress"
+msgstr "WordPress"
+
+msgctxt "dashboard-panel-first-run"
+msgid "Configure your WordPress in just a few steps."
+msgstr "Configura e ottimizza subito il sito Web"
+
+msgctxt "dashboard-panel-first-run"
+msgid "Get started and optimize your website with selected themes and plugins."
+msgstr "Inizia a ottimizzare il tuo sito Web con i temi e i plugin scelti."
+
+msgctxt "dashboard-panel-second-run"
+msgid "Managed WordPress"
+msgstr "WordPress"
+
+msgctxt "dashboard-panel-second-run"
+msgid "Customize and upgrade your website now."
+msgstr "Modifica e amplia subito il sito Web"
+
+msgid "Bullet Point 1"
+msgstr "Ogni tipo di sito Web ti offre una selezione ottimale di plugin e temi che si adattano perfettamente al tuo sito."
+
+msgid "Bullet Point 2"
+msgstr "I temi offrono fantastici layout, moderne tecnologie Web e massima flessibilità. Puoi adattare il tema e personalizzarlo in seguito. Scegli il tuo stile!"
+
+msgid "Bullet Point 3"
+msgstr "I plugin migliorano il tuo sito Web. Aggiungi funzionalità aggiuntive al tuo sito Web con i plugin."
+
+msgctxt "plugins-panel-first-run"
+msgid "Managed WordPress"
+msgstr "WordPress"
+
+msgctxt "plugins-panel-first-run"
+msgid "Configure your WordPress in just a few steps."
+msgstr "Configura e ottimizza subito il sito Web"
+
+msgctxt "plugins-panel-first-run"
+msgid "Get started and optimize your website with selected themes and plugins."
+msgstr "Avvia e ottimizza il tuo sito web con i temi e i plugin scelti e con un negozio online competitivo integrato perfettamente con WordPress. "
+
+msgctxt "plugins-panel-second-run"
+msgid "Managed WordPress"
+msgstr "WordPress"
+
+msgctxt "plugins-panel-second-run"
+msgid "Configure your WordPress in just a few steps."
+msgstr "Aggiungi e modifica plugin"
+
+msgctxt "plugins-panel-second-run"
+msgid "Get started and optimize your website with selected themes and plugins."
+msgstr "I plugin migliorano il tuo sito Web. Aggiungi altre funzionalità al tuo sito Web con i plugin. "
+
+msgctxt "update-core-info"
+msgid "Your WordPress installation ..."
+msgstr "Installa gli aggiornamenti indicati in basso. Agli aggiornamenti del software WordPress ci pensiamo noi. Per saperne di più: <a href=\"%s\">Aggiornamenti automatici con WordPress di %s</a>."
+
+msgid "first_steps_community_link"
+msgstr "Guida introduttiva"
+
+msgid "Legally compliant with your WooCommerce, in German and EU markets."
+msgstr "Rendi il suo WooCommerce conforme per il mercato tedesco e quello europeo."
+
+msgid "Setup German Market"
+msgstr "Configura German Market"
+
+msgid "Learn more"
+msgstr "Scopri di più"
+
+msgid "The new Editor is here!"
+msgstr "Il nuovo editor è qui!"
+
+msgid "WordPress 5.0 is here and so is Gutenberg."
+msgstr "WordPress 5.0 e l'editor Gutemberg sono disponibili."
+
+msgid "Learn more about the Gutenberg editor"
+msgstr "Scopri di più sul nuovo editor Gutenberg"
+
+msgid "How do we deal with it?"
+msgstr "Come gestiamo il nuovo editor?"
+
+msgid "Switch back to the old Editor"
+msgstr "Continua ad utilizzare il vecchio editor"
+
+msgid "Welcome to %s"
+msgstr "Benvenuti a %s"
+
+msgid "This is your homepage. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes)."
+msgstr "Questa è la tua homepage. E 'diverso da un post di un blog perché rimarrà in un unico posto e apparirà nella navigazione del tuo sito (nella maggior parte dei temi)."
+
+msgid "As a logged in WordPress user, you can edit this page by clicking the <strong>Edit Page</strong> button in the Toolbar. The page might introduce yourself, or your company, to potential site visitors and say something like this:"
+msgstr "Una volta eseguito l'accesso a WordPress, puoi modificare questa pagina cliccando sul pulsante <strong>Modifica pagina</strong> nella barra degli strumenti. Questa pagina può servire a presentare te stesso oppure la tua azienda ai potenziali visitatori del sito e potrebbe dire qualcosa del genere:"
+
+msgid "Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like piña coladas. (And gettin' caught in the rain.)"
+msgstr "Ciao! Sono un fattorino ciclista di giorno, aspirante attore di notte e questo è il mio sito web. Vivo a Los Angeles, ho un grande cane di nome Jack e mi piace la piña colada. (E prendere la pioggia)"
+
+msgid "...or something like this:"
+msgstr "….o qualcosa del genere:"
+
+msgid "The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community."
+msgstr "La Società XYZ Aggeggi è stata fondata nel 1971 e da allora fornisce al pubblico aggeggi di ottima qualità. Situata a Fantasilandia, XYZ impiega oltre 2.000 persone e realizza ogni sorta di aggeggio fantastico per la comunità di Fantasilandia."
+
+msgid "If you prefer a list of your latest posts to be displayed on your homepage, you should go to your <a href='%s'>Settings</a> and choose “Your latest posts” as homepage option."
+msgstr "Se invece preferisci che sulla tua homepage venga mostrato un elenco degli articoli più recenti, apri le <a href='%s'>Impostazioni</a> e seleziona l'opzione “Gli ultimi articoli”."
+
+msgid "Have fun!"
+msgstr "Divertiti!"
+
+# --------------- Settings --------------- #
+#: inc/views/settings-page.php:2
+msgid "%s - Settings"
+msgstr "%s - Impostazioni"
+
+#: inc/views/settings-page.php:10
+msgid "Login design"
+msgstr "Design del login"
+
+#: inc/views/settings-page.php:15
+msgid "When activated this setting will theme the login page at %s with %s design"
+msgstr "Una volta attivata questa impostazione, la pagina di login sarà tema della pagina di login a %s con il designo %s"
+
+#: inc/views/settings-page.php:14
+msgid "Use %s design for login"
+msgstr "Usa %s design per il login"
+
+# --------------- Assets --------------- #
+#: 1and1-wordpress-assistant/inc/auto-updater.php:36
+msgid "Permanently active"
+msgstr "Sempre attivi"

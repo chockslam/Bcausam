@@ -1,0 +1,4405 @@
+{
+    "manifest_version": "1.0.16",
+    "title": "Preemptive - Business and Finance Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home 2",
+            "screenshot": "screenshots\/home-2.jpg",
+            "source": "templates\/home-2.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/home-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services 2",
+            "screenshot": "screenshots\/services-2.jpg",
+            "source": "templates\/services-2.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/services-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Service Details 1",
+            "screenshot": "screenshots\/service-details-1.jpg",
+            "source": "templates\/service-details-1.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/service-details-1\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Service Details 2",
+            "screenshot": "screenshots\/service-details-2.jpg",
+            "source": "templates\/service-details-2.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/service-details-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Case Studies",
+            "screenshot": "screenshots\/case-studies.jpg",
+            "source": "templates\/case-studies.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/case-studies\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Case Study Details",
+            "screenshot": "screenshots\/case-study-details.jpg",
+            "source": "templates\/case-study-details.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/case-study-details\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Portfolio",
+            "screenshot": "screenshots\/portfolio.jpg",
+            "source": "templates\/portfolio.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/portfolio\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Portfolio 2",
+            "screenshot": "screenshots\/portfolio-2.jpg",
+            "source": "templates\/portfolio-2.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/portfolio-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Portfolio 3",
+            "screenshot": "screenshots\/portfolio-3.jpg",
+            "source": "templates\/portfolio-3.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/portfolio-3\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Portfolio Details 1",
+            "screenshot": "screenshots\/portfolio-details-1.jpg",
+            "source": "templates\/portfolio-details-1.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/portfolio-details-1\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Portfolio Details 2",
+            "screenshot": "screenshots\/portfolio-details-2.jpg",
+            "source": "templates\/portfolio-details-2.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/portfolio-details-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team Members",
+            "screenshot": "screenshots\/team-members.jpg",
+            "source": "templates\/team-members.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/team-members\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Clients",
+            "screenshot": "screenshots\/our-clients.jpg",
+            "source": "templates\/our-clients.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/our-clients\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Testimonials",
+            "screenshot": "screenshots\/testimonials.jpg",
+            "source": "templates\/testimonials.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/testimonials\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Testimonials 2",
+            "screenshot": "screenshots\/testimonials-2.jpg",
+            "source": "templates\/testimonials-2.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/testimonials-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.jpg",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing 2",
+            "screenshot": "screenshots\/pricing-2.jpg",
+            "source": "templates\/pricing-2.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/pricing-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQs",
+            "screenshot": "screenshots\/faqs.jpg",
+            "source": "templates\/faqs.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/faqs\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Post Archive",
+            "screenshot": "screenshots\/post-archive.jpg",
+            "source": "templates\/post-archive.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/?elementor_library=post-archive",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/?elementor_library=single-post",
+            "type": "single",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/?elementor_library=header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/?elementor_library=footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "404 Error",
+            "screenshot": "screenshots\/404-error.jpg",
+            "source": "templates\/404-error.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/404-error\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Coming Soon",
+            "screenshot": "screenshots\/coming-soon.jpg",
+            "source": "templates\/coming-soon.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/coming-soon\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Simple Page Title Block",
+            "screenshot": "screenshots\/simple-page-title-block.jpg",
+            "source": "templates\/simple-page-title-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/simple-page-title-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Features with Video Block 2",
+            "screenshot": "screenshots\/features-with-video-block-2.jpg",
+            "source": "templates\/features-with-video-block-2.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/features-with-video-block-2\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-features",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team Member Block",
+            "screenshot": "screenshots\/team-member-block.jpg",
+            "source": "templates\/team-member-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/team-member-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-team",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Small Form Block",
+            "screenshot": "screenshots\/small-form-block.jpg",
+            "source": "templates\/small-form-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/small-form-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Service Block",
+            "screenshot": "screenshots\/service-block.jpg",
+            "source": "templates\/service-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/service-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-services",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Testimonials Carousel Block 2",
+            "screenshot": "screenshots\/testimonials-carousel-block-2.jpg",
+            "source": "templates\/testimonials-carousel-block-2.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/testimonials-carousel-block-2\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-testimonial",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Testimonials Carousel Block",
+            "screenshot": "screenshots\/testimonials-carousel-block.jpg",
+            "source": "templates\/testimonials-carousel-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/testimonials-carousel-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-testimonial",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Testimonials Block 2",
+            "screenshot": "screenshots\/testimonials-block-2.jpg",
+            "source": "templates\/testimonials-block-2.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/testimonials-block-2\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-testimonial",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Portfolio with Top Image Block",
+            "screenshot": "screenshots\/portfolio-with-top-image-block.jpg",
+            "source": "templates\/portfolio-with-top-image-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/portfolio-with-top-image-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-portfolio",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing Block",
+            "screenshot": "screenshots\/pricing-block.jpg",
+            "source": "templates\/pricing-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/pricing-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-pricing",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing Block 2",
+            "screenshot": "screenshots\/pricing-block-2.jpg",
+            "source": "templates\/pricing-block-2.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/pricing-block-2\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-pricing",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Recent Case Studies Block",
+            "screenshot": "screenshots\/recent-case-studies-block.jpg",
+            "source": "templates\/recent-case-studies-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/recent-case-studies-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-portfolio",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Service (Curved) Block",
+            "screenshot": "screenshots\/service-curved-block.jpg",
+            "source": "templates\/service-curved-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/service-curved-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-services",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Portfolio with Left Image Block",
+            "screenshot": "screenshots\/portfolio-with-left-image-block.jpg",
+            "source": "templates\/portfolio-with-left-image-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/portfolio-with-left-image-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-portfolio",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Page Title with Image Block",
+            "screenshot": "screenshots\/page-title-with-image-block.jpg",
+            "source": "templates\/page-title-with-image-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/page-title-with-image-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-hero",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Page Title with Sub Heading and Image Block",
+            "screenshot": "screenshots\/page-title-with-sub-heading-and-image-block.jpg",
+            "source": "templates\/page-title-with-sub-heading-and-image-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/page-title-with-sub-heading-and-image-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-hero",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Portfolio with Right Image Block",
+            "screenshot": "screenshots\/portfolio-with-right-image-block.jpg",
+            "source": "templates\/portfolio-with-right-image-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/portfolio-with-right-image-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-portfolio",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Information List Block",
+            "screenshot": "screenshots\/information-list-block.jpg",
+            "source": "templates\/information-list-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/information-list-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Latest Blog Posts Block",
+            "screenshot": "screenshots\/latest-blog-posts-block.jpg",
+            "source": "templates\/latest-blog-posts-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/latest-blog-posts-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Latest Blog Posts Block 2",
+            "screenshot": "screenshots\/latest-blog-posts-block-2.jpg",
+            "source": "templates\/latest-blog-posts-block-2.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/latest-blog-posts-block-2\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Logos Block",
+            "screenshot": "screenshots\/logos-block.jpg",
+            "source": "templates\/logos-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/logos-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-logo-grid",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Hero Banner with Graph Block",
+            "screenshot": "screenshots\/hero-banner-with-graph-block.jpg",
+            "source": "templates\/hero-banner-with-graph-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/hero-banner-with-graph-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-hero",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Hero Page Banner Block",
+            "screenshot": "screenshots\/hero-page-banner-block.jpg",
+            "source": "templates\/hero-page-banner-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/hero-page-banner-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-hero",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Icon List Block",
+            "screenshot": "screenshots\/icon-list-block.jpg",
+            "source": "templates\/icon-list-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/icon-list-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-features",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Image Carousel Block",
+            "screenshot": "screenshots\/image-carousel-block.jpg",
+            "source": "templates\/image-carousel-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/image-carousel-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-gallery",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Features with Content Block",
+            "screenshot": "screenshots\/features-with-content-block.jpg",
+            "source": "templates\/features-with-content-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/features-with-content-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-features",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Features Dark Background Block",
+            "screenshot": "screenshots\/features-dark-background-block.jpg",
+            "source": "templates\/features-dark-background-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/features-dark-background-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-features",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQs Block",
+            "screenshot": "screenshots\/faqs-block.jpg",
+            "source": "templates\/faqs-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/faqs-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-faq",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Testimonials Block",
+            "screenshot": "screenshots\/testimonials-block.jpg",
+            "source": "templates\/testimonials-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/testimonials-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-testimonial",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Content with Left Image Block",
+            "screenshot": "screenshots\/content-with-left-image-block.jpg",
+            "source": "templates\/content-with-left-image-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/content-with-left-image-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-about",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Content with Graph Block",
+            "screenshot": "screenshots\/content-with-graph-block.jpg",
+            "source": "templates\/content-with-graph-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/content-with-graph-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-about",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Call to Action Block",
+            "screenshot": "screenshots\/call-to-action-block.jpg",
+            "source": "templates\/call-to-action-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/call-to-action-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Case Studies Block",
+            "screenshot": "screenshots\/case-studies-block.jpg",
+            "source": "templates\/case-studies-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/case-studies-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-portfolio",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Content with FAQs Block",
+            "screenshot": "screenshots\/content-with-faqs-block.jpg",
+            "source": "templates\/content-with-faqs-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/content-with-faqs-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-about",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Features with Video Block",
+            "screenshot": "screenshots\/features-with-video-block.jpg",
+            "source": "templates\/features-with-video-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/features-with-video-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-features",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Content with Icon List Block",
+            "screenshot": "screenshots\/content-with-icon-list-block.jpg",
+            "source": "templates\/content-with-icon-list-block.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/content-with-icon-list-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Style Guide",
+            "screenshot": "screenshots\/style-guide.jpg",
+            "source": "templates\/style-guide.json",
+            "preview_url": "https:\/\/www.preemptive.hocud.com\/template-kit\/style-guide\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor Pro",
+            "version": "3.0.5",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.0.12",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.0.9.1",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Happy Elementor Addons",
+            "version": "2.14.3",
+            "file": "happy-elementor-addons\/plugin.php",
+            "author": "weDevs"
+        }
+    ],
+    "images": [
+        {
+            "filename": "shot-of-thinking-financial-advisor-businessman-working-in-office.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/shot-of-thinking-financial-advisor-businessman-working-in-office.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/404-error.json",
+                    "name": "404 Error"
+                },
+                {
+                    "source": "templates\/coming-soon.json",
+                    "name": "Coming Soon"
+                },
+                {
+                    "source": "templates\/hero-banner-with-graph-block.json",
+                    "name": "Hero Banner with Graph Block"
+                },
+                {
+                    "source": "templates\/hero-page-banner-block.json",
+                    "name": "Hero Page Banner Block"
+                }
+            ],
+            "filesize": 74178,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/shot-of-thinking-financial-advisor-businessman-wor-WBVSK8G"
+        },
+        {
+            "filename": "business-team-with-scheme-on-flipboard-at-office.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/business-team-with-scheme-on-flipboard-at-office.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/content-with-left-image-block.json",
+                    "name": "Content with Left Image Block"
+                }
+            ],
+            "filesize": 89357,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/business-team-with-scheme-on-flipboard-at-office-PC3Q54J"
+        },
+        {
+            "filename": "FABRIC.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/FABRIC.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/service-details-1.json",
+                    "name": "Service Details 1"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                },
+                {
+                    "source": "templates\/portfolio-details-1.json",
+                    "name": "Portfolio Details 1"
+                },
+                {
+                    "source": "templates\/portfolio-details-2.json",
+                    "name": "Portfolio Details 2"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                },
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/pricing-2.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/post-archive.json",
+                    "name": "Post Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/call-to-action-block.json",
+                    "name": "Call to Action Block"
+                }
+            ],
+            "filesize": 939,
+            "dimensions": [
+                151,
+                66
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "quartzo.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/quartzo.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/service-details-1.json",
+                    "name": "Service Details 1"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                },
+                {
+                    "source": "templates\/portfolio-details-1.json",
+                    "name": "Portfolio Details 1"
+                },
+                {
+                    "source": "templates\/portfolio-details-2.json",
+                    "name": "Portfolio Details 2"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                },
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/pricing-2.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/post-archive.json",
+                    "name": "Post Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/call-to-action-block.json",
+                    "name": "Call to Action Block"
+                }
+            ],
+            "filesize": 938,
+            "dimensions": [
+                174,
+                45
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "MONEX.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/MONEX.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/service-details-1.json",
+                    "name": "Service Details 1"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                },
+                {
+                    "source": "templates\/portfolio-details-1.json",
+                    "name": "Portfolio Details 1"
+                },
+                {
+                    "source": "templates\/portfolio-details-2.json",
+                    "name": "Portfolio Details 2"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                },
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/pricing-2.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/post-archive.json",
+                    "name": "Post Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/call-to-action-block.json",
+                    "name": "Call to Action Block"
+                }
+            ],
+            "filesize": 945,
+            "dimensions": [
+                129,
+                52
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "76-OSCAR.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/76-OSCAR.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/service-details-1.json",
+                    "name": "Service Details 1"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                },
+                {
+                    "source": "templates\/portfolio-details-1.json",
+                    "name": "Portfolio Details 1"
+                },
+                {
+                    "source": "templates\/portfolio-details-2.json",
+                    "name": "Portfolio Details 2"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                },
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/pricing-2.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/post-archive.json",
+                    "name": "Post Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/call-to-action-block.json",
+                    "name": "Call to Action Block"
+                }
+            ],
+            "filesize": 1706,
+            "dimensions": [
+                171,
+                67
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "Hitachi.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Hitachi.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/service-details-1.json",
+                    "name": "Service Details 1"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                },
+                {
+                    "source": "templates\/portfolio-details-1.json",
+                    "name": "Portfolio Details 1"
+                },
+                {
+                    "source": "templates\/portfolio-details-2.json",
+                    "name": "Portfolio Details 2"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                },
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/pricing-2.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/post-archive.json",
+                    "name": "Post Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/call-to-action-block.json",
+                    "name": "Call to Action Block"
+                }
+            ],
+            "filesize": 1254,
+            "dimensions": [
+                150,
+                77
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "Elegra.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Elegra.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/service-details-1.json",
+                    "name": "Service Details 1"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                },
+                {
+                    "source": "templates\/portfolio-details-1.json",
+                    "name": "Portfolio Details 1"
+                },
+                {
+                    "source": "templates\/portfolio-details-2.json",
+                    "name": "Portfolio Details 2"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                },
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/pricing-2.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/post-archive.json",
+                    "name": "Post Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/call-to-action-block.json",
+                    "name": "Call to Action Block"
+                }
+            ],
+            "filesize": 1191,
+            "dimensions": [
+                118,
+                60
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "Andreas.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Andreas.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/service-details-1.json",
+                    "name": "Service Details 1"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                },
+                {
+                    "source": "templates\/portfolio-details-1.json",
+                    "name": "Portfolio Details 1"
+                },
+                {
+                    "source": "templates\/portfolio-details-2.json",
+                    "name": "Portfolio Details 2"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                },
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/pricing-2.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/post-archive.json",
+                    "name": "Post Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/call-to-action-block.json",
+                    "name": "Call to Action Block"
+                }
+            ],
+            "filesize": 1559,
+            "dimensions": [
+                207,
+                77
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "Centaur.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Centaur.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/service-details-1.json",
+                    "name": "Service Details 1"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                },
+                {
+                    "source": "templates\/portfolio-details-1.json",
+                    "name": "Portfolio Details 1"
+                },
+                {
+                    "source": "templates\/portfolio-details-2.json",
+                    "name": "Portfolio Details 2"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                },
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/pricing-2.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/post-archive.json",
+                    "name": "Post Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/call-to-action-block.json",
+                    "name": "Call to Action Block"
+                }
+            ],
+            "filesize": 910,
+            "dimensions": [
+                164,
+                53
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "Randy.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Randy.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/service-details-1.json",
+                    "name": "Service Details 1"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                },
+                {
+                    "source": "templates\/portfolio-details-1.json",
+                    "name": "Portfolio Details 1"
+                },
+                {
+                    "source": "templates\/portfolio-details-2.json",
+                    "name": "Portfolio Details 2"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                },
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/pricing-2.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/post-archive.json",
+                    "name": "Post Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/call-to-action-block.json",
+                    "name": "Call to Action Block"
+                }
+            ],
+            "filesize": 1126,
+            "dimensions": [
+                125,
+                58
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "57-DEVENDER.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/57-DEVENDER.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/service-details-1.json",
+                    "name": "Service Details 1"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                },
+                {
+                    "source": "templates\/portfolio-details-1.json",
+                    "name": "Portfolio Details 1"
+                },
+                {
+                    "source": "templates\/portfolio-details-2.json",
+                    "name": "Portfolio Details 2"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                },
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/pricing-2.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/post-archive.json",
+                    "name": "Post Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/call-to-action-block.json",
+                    "name": "Call to Action Block"
+                },
+                {
+                    "source": "templates\/case-studies-block.json",
+                    "name": "Case Studies Block"
+                }
+            ],
+            "filesize": 1617,
+            "dimensions": [
+                209,
+                62
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "HUNT-COM.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/HUNT-COM.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/service-details-1.json",
+                    "name": "Service Details 1"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                },
+                {
+                    "source": "templates\/portfolio-details-1.json",
+                    "name": "Portfolio Details 1"
+                },
+                {
+                    "source": "templates\/portfolio-details-2.json",
+                    "name": "Portfolio Details 2"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                },
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/pricing-2.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/post-archive.json",
+                    "name": "Post Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/call-to-action-block.json",
+                    "name": "Call to Action Block"
+                }
+            ],
+            "filesize": 1359,
+            "dimensions": [
+                250,
+                65
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "v03-cube-02-scaled-e1590080708174.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/v03-cube-02-scaled-e1590080708174.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/post-archive.json",
+                    "name": "Post Archive"
+                },
+                {
+                    "source": "templates\/simple-page-title-block.json",
+                    "name": "Simple Page Title Block"
+                },
+                {
+                    "source": "templates\/testimonials-carousel-block-2.json",
+                    "name": "Testimonials Carousel Block 2"
+                },
+                {
+                    "source": "templates\/testimonials-carousel-block.json",
+                    "name": "Testimonials Carousel Block"
+                },
+                {
+                    "source": "templates\/recent-case-studies-block.json",
+                    "name": "Recent Case Studies Block"
+                },
+                {
+                    "source": "templates\/style-guide.json",
+                    "name": "Style Guide"
+                }
+            ],
+            "filesize": 111673,
+            "dimensions": [
+                2000,
+                1467
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cube-seamless-geometric-backgrounds-vol-03-UXR2Q76"
+        },
+        {
+            "filename": "Sunday-Plasma-1.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Sunday-Plasma-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/service-details-1.json",
+                    "name": "Service Details 1"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                },
+                {
+                    "source": "templates\/recent-case-studies-block.json",
+                    "name": "Recent Case Studies Block"
+                },
+                {
+                    "source": "templates\/case-studies-block.json",
+                    "name": "Case Studies Block"
+                }
+            ],
+            "filesize": 1746,
+            "dimensions": [
+                223,
+                62
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "Kenzo.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Kenzo.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/service-details-1.json",
+                    "name": "Service Details 1"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                },
+                {
+                    "source": "templates\/recent-case-studies-block.json",
+                    "name": "Recent Case Studies Block"
+                }
+            ],
+            "filesize": 1001,
+            "dimensions": [
+                132,
+                67
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "VOLCANO.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/VOLCANO.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                },
+                {
+                    "source": "templates\/recent-case-studies-block.json",
+                    "name": "Recent Case Studies Block"
+                }
+            ],
+            "filesize": 1618,
+            "dimensions": [
+                178,
+                65
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "financial-expert.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/financial-expert.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/features-with-video-block-2.json",
+                    "name": "Features with Video Block 2"
+                },
+                {
+                    "source": "templates\/service-curved-block.json",
+                    "name": "Service (Curved) Block"
+                },
+                {
+                    "source": "templates\/features-with-video-block.json",
+                    "name": "Features with Video Block"
+                }
+            ],
+            "filesize": 83553,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/financial-expert-P5ZF82G"
+        },
+        {
+            "filename": "financial-audit-team-is-checking-the-numerical-graph-to-present-.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/financial-audit-team-is-checking-the-numerical-graph-to-present-.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/features-dark-background-block.json",
+                    "name": "Features Dark Background Block"
+                }
+            ],
+            "filesize": 76411,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/financial-audit-team-is-checking-the-numerical-gra-JFZ24M8"
+        },
+        {
+            "filename": "MONEX-1.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/MONEX-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/service-details-1.json",
+                    "name": "Service Details 1"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials-carousel-block.json",
+                    "name": "Testimonials Carousel Block"
+                },
+                {
+                    "source": "templates\/logos-block.json",
+                    "name": "Logos Block"
+                }
+            ],
+            "filesize": 1029,
+            "dimensions": [
+                129,
+                52
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "SUPER-GUTS.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/SUPER-GUTS.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/service-details-1.json",
+                    "name": "Service Details 1"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                },
+                {
+                    "source": "templates\/testimonials-carousel-block.json",
+                    "name": "Testimonials Carousel Block"
+                },
+                {
+                    "source": "templates\/testimonials-block-2.json",
+                    "name": "Testimonials Block 2"
+                }
+            ],
+            "filesize": 1430,
+            "dimensions": [
+                186,
+                53
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "Centaur-1.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Centaur-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/service-details-1.json",
+                    "name": "Service Details 1"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/testimonials-carousel-block.json",
+                    "name": "Testimonials Carousel Block"
+                },
+                {
+                    "source": "templates\/testimonials-block.json",
+                    "name": "Testimonials Block"
+                }
+            ],
+            "filesize": 1037,
+            "dimensions": [
+                164,
+                53
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "Limousines.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Limousines.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials-carousel-block.json",
+                    "name": "Testimonials Carousel Block"
+                },
+                {
+                    "source": "templates\/logos-block.json",
+                    "name": "Logos Block"
+                }
+            ],
+            "filesize": 1161,
+            "dimensions": [
+                186,
+                52
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "ORIENTAL.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/ORIENTAL.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                },
+                {
+                    "source": "templates\/testimonials-carousel-block-2.json",
+                    "name": "Testimonials Carousel Block 2"
+                },
+                {
+                    "source": "templates\/testimonials-carousel-block.json",
+                    "name": "Testimonials Carousel Block"
+                }
+            ],
+            "filesize": 950,
+            "dimensions": [
+                163,
+                47
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "attractive-business-woman.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/attractive-business-woman.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                },
+                {
+                    "source": "templates\/testimonials-carousel-block-2.json",
+                    "name": "Testimonials Carousel Block 2"
+                }
+            ],
+            "filesize": 415148,
+            "dimensions": [
+                2000,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/attractive-business-woman-24AG6Y4"
+        },
+        {
+            "filename": "LURCO-1.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/LURCO-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                },
+                {
+                    "source": "templates\/testimonials-carousel-block-2.json",
+                    "name": "Testimonials Carousel Block 2"
+                },
+                {
+                    "source": "templates\/logos-block.json",
+                    "name": "Logos Block"
+                }
+            ],
+            "filesize": 910,
+            "dimensions": [
+                160,
+                49
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "young-beautiful-woman-talking-on-mobile-phone-.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/young-beautiful-woman-talking-on-mobile-phone-.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                },
+                {
+                    "source": "templates\/testimonials-carousel-block-2.json",
+                    "name": "Testimonials Carousel Block 2"
+                }
+            ],
+            "filesize": 346357,
+            "dimensions": [
+                2000,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-beautiful-woman-talking-on-mobile-phone-PELDPBR"
+        },
+        {
+            "filename": "FABRIC-1.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/FABRIC-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                },
+                {
+                    "source": "templates\/testimonials-carousel-block-2.json",
+                    "name": "Testimonials Carousel Block 2"
+                }
+            ],
+            "filesize": 1043,
+            "dimensions": [
+                151,
+                66
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "business-man-on-phone-concept.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/business-man-on-phone-concept.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                },
+                {
+                    "source": "templates\/testimonials-carousel-block-2.json",
+                    "name": "Testimonials Carousel Block 2"
+                }
+            ],
+            "filesize": 388113,
+            "dimensions": [
+                2000,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/business-man-on-phone-concept-P232EP8"
+        },
+        {
+            "filename": "managers-discussing-business-activity.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/managers-discussing-business-activity.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                },
+                {
+                    "source": "templates\/portfolio-details-1.json",
+                    "name": "Portfolio Details 1"
+                },
+                {
+                    "source": "templates\/portfolio-details-2.json",
+                    "name": "Portfolio Details 2"
+                },
+                {
+                    "source": "templates\/image-carousel-block.json",
+                    "name": "Image Carousel Block"
+                }
+            ],
+            "filesize": 75502,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/managers-discussing-business-activity-LCEGNR2"
+        },
+        {
+            "filename": "financial-performance.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/financial-performance.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                },
+                {
+                    "source": "templates\/portfolio-details-1.json",
+                    "name": "Portfolio Details 1"
+                },
+                {
+                    "source": "templates\/portfolio-details-2.json",
+                    "name": "Portfolio Details 2"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/image-carousel-block.json",
+                    "name": "Image Carousel Block"
+                }
+            ],
+            "filesize": 105741,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/financial-performance-EH34XJW"
+        },
+        {
+            "filename": "mature-couple-managing-home-finance.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/mature-couple-managing-home-finance.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                },
+                {
+                    "source": "templates\/portfolio-details-1.json",
+                    "name": "Portfolio Details 1"
+                },
+                {
+                    "source": "templates\/portfolio-details-2.json",
+                    "name": "Portfolio Details 2"
+                },
+                {
+                    "source": "templates\/image-carousel-block.json",
+                    "name": "Image Carousel Block"
+                }
+            ],
+            "filesize": 87341,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/mature-couple-managing-home-finance-FURPNK7"
+        },
+        {
+            "filename": "smiling-businessman-calculating-finances-closeup.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/smiling-businessman-calculating-finances-closeup.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                },
+                {
+                    "source": "templates\/portfolio-details-1.json",
+                    "name": "Portfolio Details 1"
+                },
+                {
+                    "source": "templates\/portfolio-details-2.json",
+                    "name": "Portfolio Details 2"
+                },
+                {
+                    "source": "templates\/image-carousel-block.json",
+                    "name": "Image Carousel Block"
+                }
+            ],
+            "filesize": 72439,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-businessman-calculating-finances-closeup-6AHU3EZ"
+        },
+        {
+            "filename": "business-people-planning-strategy-in-meeting.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/business-people-planning-strategy-in-meeting.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                },
+                {
+                    "source": "templates\/page-title-with-image-block.json",
+                    "name": "Page Title with Image Block"
+                }
+            ],
+            "filesize": 93785,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/business-people-planning-strategy-in-meeting-3XKBCPH"
+        },
+        {
+            "filename": "drawing-conclusions.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/drawing-conclusions.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/pricing-2.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/service-block.json",
+                    "name": "Service Block"
+                },
+                {
+                    "source": "templates\/pricing-block.json",
+                    "name": "Pricing Block"
+                },
+                {
+                    "source": "templates\/pricing-block-2.json",
+                    "name": "Pricing Block 2"
+                }
+            ],
+            "filesize": 76821,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/drawing-conclusions-TZMCQC3"
+        },
+        {
+            "filename": "businessman-with-report.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/businessman-with-report.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/pricing-2.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/service-block.json",
+                    "name": "Service Block"
+                },
+                {
+                    "source": "templates\/pricing-block.json",
+                    "name": "Pricing Block"
+                },
+                {
+                    "source": "templates\/pricing-block-2.json",
+                    "name": "Pricing Block 2"
+                }
+            ],
+            "filesize": 85546,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/businessman-with-report-ZDX4N46"
+        },
+        {
+            "filename": "analyzing-enterprice-activity.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/analyzing-enterprice-activity.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                }
+            ],
+            "filesize": 90480,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/analyzing-enterprice-activity-V86UZKX"
+        },
+        {
+            "filename": "businesswomen-analyzing-financial-charts.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/businesswomen-analyzing-financial-charts.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                }
+            ],
+            "filesize": 71272,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/businesswomen-analyzing-financial-charts-MF86279"
+        },
+        {
+            "filename": "report-at-seminar.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/report-at-seminar.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/service-details-1.json",
+                    "name": "Service Details 1"
+                },
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                },
+                {
+                    "source": "templates\/page-title-with-sub-heading-and-image-block.json",
+                    "name": "Page Title with Sub Heading and Image Block"
+                }
+            ],
+            "filesize": 63546,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/report-at-seminar-4QHZUJ6"
+        },
+        {
+            "filename": "financial-audit-team-is-checking-the-numerical-graph-to-present-1-1.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/financial-audit-team-is-checking-the-numerical-graph-to-present-1-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                }
+            ],
+            "filesize": 76411,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/financial-audit-team-is-checking-the-numerical-gra-JFZ24M8"
+        },
+        {
+            "filename": "stock-market-trading.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/stock-market-trading.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/service-curved-block.json",
+                    "name": "Service (Curved) Block"
+                }
+            ],
+            "filesize": 99507,
+            "dimensions": [
+                2000,
+                1328
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/stock-market-trading-PRKKJK2"
+        },
+        {
+            "filename": "businessmen-working-with-finance-data-on-tablet.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/businessmen-working-with-finance-data-on-tablet.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/features-with-content-block.json",
+                    "name": "Features with Content Block"
+                }
+            ],
+            "filesize": 103613,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/businessmen-working-with-finance-data-on-tablet-RFBYPE5"
+        },
+        {
+            "filename": "analyzing-data.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/analyzing-data.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                }
+            ],
+            "filesize": 66829,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/analyzing-data-PKPDG6Z"
+        },
+        {
+            "filename": "office-workplace-table-with-reports.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/office-workplace-table-with-reports.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-details-2.json",
+                    "name": "Service Details 2"
+                },
+                {
+                    "source": "templates\/content-with-faqs-block.json",
+                    "name": "Content with FAQs Block"
+                }
+            ],
+            "filesize": 162234,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/office-workplace-table-with-charts-4RP3FCV"
+        },
+        {
+            "filename": "MAXIMUM-.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/MAXIMUM-.png",
+            "templates": [
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                }
+            ],
+            "filesize": 1272,
+            "dimensions": [
+                188,
+                69
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "june-.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/june-.png",
+            "templates": [
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                }
+            ],
+            "filesize": 844,
+            "dimensions": [
+                139,
+                69
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "coworker-working-with-flipchart.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/coworker-working-with-flipchart.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-study-details.json",
+                    "name": "Case Study Details"
+                }
+            ],
+            "filesize": 77082,
+            "dimensions": [
+                1333,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/coworker-working-with-flipchart-KLMHTXY"
+        },
+        {
+            "filename": "discussing-points-of-report.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/discussing-points-of-report.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                },
+                {
+                    "source": "templates\/portfolio-details-1.json",
+                    "name": "Portfolio Details 1"
+                },
+                {
+                    "source": "templates\/portfolio-details-2.json",
+                    "name": "Portfolio Details 2"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/portfolio-with-top-image-block.json",
+                    "name": "Portfolio with Top Image Block"
+                },
+                {
+                    "source": "templates\/portfolio-with-left-image-block.json",
+                    "name": "Portfolio with Left Image Block"
+                },
+                {
+                    "source": "templates\/portfolio-with-right-image-block.json",
+                    "name": "Portfolio with Right Image Block"
+                }
+            ],
+            "filesize": 69316,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/discussing-points-of-report-KB9X8MH"
+        },
+        {
+            "filename": "business-finance-concept-business-people-are-analyzing-the-work-and-taking-notes-.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/business-finance-concept-business-people-are-analyzing-the-work-and-taking-notes-.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                },
+                {
+                    "source": "templates\/portfolio-details-1.json",
+                    "name": "Portfolio Details 1"
+                },
+                {
+                    "source": "templates\/portfolio-details-2.json",
+                    "name": "Portfolio Details 2"
+                },
+                {
+                    "source": "templates\/portfolio-with-top-image-block.json",
+                    "name": "Portfolio with Top Image Block"
+                },
+                {
+                    "source": "templates\/portfolio-with-left-image-block.json",
+                    "name": "Portfolio with Left Image Block"
+                },
+                {
+                    "source": "templates\/portfolio-with-right-image-block.json",
+                    "name": "Portfolio with Right Image Block"
+                }
+            ],
+            "filesize": 87245,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/business-finance-concept-business-people-are-analy-PKVSGT2"
+        },
+        {
+            "filename": "analyzing-graphs-on-devices.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/analyzing-graphs-on-devices.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                },
+                {
+                    "source": "templates\/portfolio-details-1.json",
+                    "name": "Portfolio Details 1"
+                },
+                {
+                    "source": "templates\/portfolio-details-2.json",
+                    "name": "Portfolio Details 2"
+                },
+                {
+                    "source": "templates\/pricing-2.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/portfolio-with-top-image-block.json",
+                    "name": "Portfolio with Top Image Block"
+                }
+            ],
+            "filesize": 83599,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/analyzing-graphs-on-devices-978EXUX"
+        },
+        {
+            "filename": "businesswoman-showing-document-to-colleague.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/businesswoman-showing-document-to-colleague.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                }
+            ],
+            "filesize": 109188,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/businesswoman-showing-document-to-colleague-6HUE7TY"
+        },
+        {
+            "filename": "business-people-analyzing-marketing-and-finance-report.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/business-people-analyzing-marketing-and-finance-report.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio-3.json",
+                    "name": "Portfolio 3"
+                }
+            ],
+            "filesize": 83054,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/business-people-analyzing-marketing-and-finance-re-KXHUZRL"
+        },
+        {
+            "filename": "analyzing-chart.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/analyzing-chart.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio-details-2.json",
+                    "name": "Portfolio Details 2"
+                }
+            ],
+            "filesize": 96356,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/analyzing-chart-G8TQFBZ"
+        },
+        {
+            "filename": "business-colleagues-stacking-hands.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/business-colleagues-stacking-hands.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 254855,
+            "dimensions": [
+                1543,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/business-colleagues-stacking-hands-GH5KNVN"
+        },
+        {
+            "filename": "accounting.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/accounting.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 60245,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/accounting-PUDDQ6E"
+        },
+        {
+            "filename": "global-business-network.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/global-business-network.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                }
+            ],
+            "filesize": 320247,
+            "dimensions": [
+                1675,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/global-business-network-P2X8H3K"
+        },
+        {
+            "filename": "portrait-of-handsome-man-with-beard.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/portrait-of-handsome-man-with-beard.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                },
+                {
+                    "source": "templates\/team-member-block.json",
+                    "name": "Team Member Block"
+                }
+            ],
+            "filesize": 450392,
+            "dimensions": [
+                2000,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-handsome-man-with-beard-PTZ4Z3E"
+        },
+        {
+            "filename": "young-african-businessman-in-the-city-outdoors.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/young-african-businessman-in-the-city-outdoors.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                },
+                {
+                    "source": "templates\/team-member-block.json",
+                    "name": "Team Member Block"
+                }
+            ],
+            "filesize": 404969,
+            "dimensions": [
+                2000,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-african-businessman-in-the-city-outdoors-MGFRB9T"
+        },
+        {
+            "filename": "face-of-stressed-african-businessman-looking-sad-and-depressed-in-black-and-white.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/face-of-stressed-african-businessman-looking-sad-and-depressed-in-black-and-white.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                },
+                {
+                    "source": "templates\/team-member-block.json",
+                    "name": "Team Member Block"
+                }
+            ],
+            "filesize": 465836,
+            "dimensions": [
+                2000,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/face-of-stressed-african-businessman-looking-sad-a-G5B4YH7"
+        },
+        {
+            "filename": "african-american-businesswoman-laughing-sitting-against-window-in-office-e1591124299747.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/african-american-businesswoman-laughing-sitting-against-window-in-office-e1591124299747.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                }
+            ],
+            "filesize": 2434,
+            "dimensions": [
+                80,
+                80
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/african-american-businesswoman-laughing-sitting-ag-ZTYAKFN"
+        },
+        {
+            "filename": "young-girl-holding-tablet-and-using-laptop-at-office.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/young-girl-holding-tablet-and-using-laptop-at-office.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 363708,
+            "dimensions": [
+                2000,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-girl-holding-tablet-and-using-laptop-at-offi-UF2UDK6"
+        },
+        {
+            "filename": "side-view-young-handsome-caucasian-businessman-in-front-of-modern-building-at-bangkok-city.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/side-view-young-handsome-caucasian-businessman-in-front-of-modern-building-at-bangkok-city.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team-members.json",
+                    "name": "Team Members"
+                }
+            ],
+            "filesize": 317755,
+            "dimensions": [
+                2000,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/side-view-young-handsome-caucasian-businessman-in--XBNF5PD"
+        },
+        {
+            "filename": "happy-guy-trying-on-pair-of-eyeglasses-on-background-of-consultant-and-client.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/happy-guy-trying-on-pair-of-eyeglasses-on-background-of-consultant-and-client.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                }
+            ],
+            "filesize": 300778,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/happy-guy-trying-on-pair-of-eyeglasses-on-backgrou-D56FQQ2"
+        },
+        {
+            "filename": "TRAX.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/TRAX.png",
+            "templates": [
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                },
+                {
+                    "source": "templates\/testimonials-block-2.json",
+                    "name": "Testimonials Block 2"
+                },
+                {
+                    "source": "templates\/logos-block.json",
+                    "name": "Logos Block"
+                }
+            ],
+            "filesize": 697,
+            "dimensions": [
+                81,
+                69
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "Sunday-Plasma.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Sunday-Plasma.png",
+            "templates": [
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/logos-block.json",
+                    "name": "Logos Block"
+                }
+            ],
+            "filesize": 1796,
+            "dimensions": [
+                223,
+                62
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "ROSTER.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/ROSTER.png",
+            "templates": [
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/logos-block.json",
+                    "name": "Logos Block"
+                }
+            ],
+            "filesize": 1213,
+            "dimensions": [
+                148,
+                62
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "Mark-Sons.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Mark-Sons.png",
+            "templates": [
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/logos-block.json",
+                    "name": "Logos Block"
+                }
+            ],
+            "filesize": 903,
+            "dimensions": [
+                151,
+                48
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "Hurley.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Hurley.png",
+            "templates": [
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/logos-block.json",
+                    "name": "Logos Block"
+                }
+            ],
+            "filesize": 962,
+            "dimensions": [
+                139,
+                49
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "HURLEX.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/HURLEX.png",
+            "templates": [
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/logos-block.json",
+                    "name": "Logos Block"
+                }
+            ],
+            "filesize": 730,
+            "dimensions": [
+                158,
+                51
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "HUNT-COM-1.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/HUNT-COM-1.png",
+            "templates": [
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/logos-block.json",
+                    "name": "Logos Block"
+                }
+            ],
+            "filesize": 1487,
+            "dimensions": [
+                250,
+                65
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "Hulk-1.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Hulk-1.png",
+            "templates": [
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/logos-block.json",
+                    "name": "Logos Block"
+                }
+            ],
+            "filesize": 965,
+            "dimensions": [
+                131,
+                69
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "hiva-1.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/hiva-1.png",
+            "templates": [
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                },
+                {
+                    "source": "templates\/logos-block.json",
+                    "name": "Logos Block"
+                }
+            ],
+            "filesize": 538,
+            "dimensions": [
+                77,
+                55
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "CULT.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/CULT.png",
+            "templates": [
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                }
+            ],
+            "filesize": 534,
+            "dimensions": [
+                98,
+                53
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "code-red.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/code-red.png",
+            "templates": [
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                }
+            ],
+            "filesize": 1644,
+            "dimensions": [
+                176,
+                60
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "BORCOP.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/BORCOP.png",
+            "templates": [
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                }
+            ],
+            "filesize": 1354,
+            "dimensions": [
+                171,
+                61
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "76-OSCAR-1.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/76-OSCAR-1.png",
+            "templates": [
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                }
+            ],
+            "filesize": 1831,
+            "dimensions": [
+                171,
+                67
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "57-DEVENDER-1.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/57-DEVENDER-1.png",
+            "templates": [
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                },
+                {
+                    "source": "templates\/testimonials-block.json",
+                    "name": "Testimonials Block"
+                }
+            ],
+            "filesize": 1711,
+            "dimensions": [
+                209,
+                62
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "25.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/25.png",
+            "templates": [
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                }
+            ],
+            "filesize": 1198,
+            "dimensions": [
+                91,
+                102
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "AUTO.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/AUTO.png",
+            "templates": [
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 1247,
+            "dimensions": [
+                127,
+                59
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "CAPTAIN.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/CAPTAIN.png",
+            "templates": [
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                }
+            ],
+            "filesize": 1006,
+            "dimensions": [
+                143,
+                58
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "Charmed.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Charmed.png",
+            "templates": [
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                },
+                {
+                    "source": "templates\/testimonials-block-2.json",
+                    "name": "Testimonials Block 2"
+                }
+            ],
+            "filesize": 1359,
+            "dimensions": [
+                201,
+                55
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "Elegra-1.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Elegra-1.png",
+            "templates": [
+                {
+                    "source": "templates\/our-clients.json",
+                    "name": "Our Clients"
+                },
+                {
+                    "source": "templates\/testimonials-2.json",
+                    "name": "Testimonials 2"
+                }
+            ],
+            "filesize": 1191,
+            "dimensions": [
+                118,
+                60
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "Rohan-Sable.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Rohan-Sable.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 2412,
+            "dimensions": [
+                264,
+                76
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/minimal-logo-7SN4KP"
+        },
+        {
+            "filename": "managers-working-with-financial-chart.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/managers-working-with-financial-chart.jpg",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/pricing-2.json",
+                    "name": "Pricing 2"
+                },
+                {
+                    "source": "templates\/pricing-block.json",
+                    "name": "Pricing Block"
+                },
+                {
+                    "source": "templates\/pricing-block-2.json",
+                    "name": "Pricing Block 2"
+                }
+            ],
+            "filesize": 123757,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/managers-working-with-financial-chart-VC9SL4L"
+        },
+        {
+            "filename": "Preemptive-Logo-white.png",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Preemptive-Logo-white-600x67.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 2385,
+            "dimensions": [
+                676,
+                75
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/market-chat-logo-template-ZGYYJX"
+        },
+        {
+            "filename": "making-report.jpg",
+            "thumbnail_url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/making-report.jpg",
+            "templates": [
+                {
+                    "source": "templates\/coming-soon.json",
+                    "name": "Coming Soon"
+                }
+            ],
+            "filesize": 71087,
+            "dimensions": [
+                2000,
+                1288
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/making-report-PX84FTF"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+0000.008 () Opened log file at time: Sun, 17 Oct 2021 15:50:25 +0000 on http://bcausam.co.uk
+0000.009 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.62 WP: 5.8.1 PHP: 7.4.24 (cgi-fcgi, Linux info 3.0 #1337 SMP Tue Jan 01 00:00:00 CEST 2000 all GNU/Linux) MySQL: 5.7.33-log (max packet size=67108864) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 78.6M | 82M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.009 () Free space on disk containing Updraft's temporary directory: 559957.3 MB
+0000.034 () Restore setup, now closing connection and starting restore over AJAX.
+0000.004 () Opened log file at time: Sun, 17 Oct 2021 15:50:26 +0000 on http://bcausam.co.uk
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.62 WP: 5.8.1 PHP: 7.4.24 (cgi-fcgi, Linux info 3.0 #1337 SMP Tue Jan 01 00:00:00 CEST 2000 all GNU/Linux) MySQL: 5.7.33-log (max packet size=67108864) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 77.8M | 82M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 () Free space on disk containing Updraft's temporary directory: 559956.7 MB
+0000.006 () Ensuring WP_Filesystem is setup for a restore
+0000.006 () WP_Filesystem is setup and ready for a restore
+0000.013 () Restore job started. Entities to restore: plugins, themes, uploads, others. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.018 () Entity: plugins
+0000.018 () restore_backup(backup_file=backup_2021-10-17-1459_bcausam_32a628c2ce73-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:72:"/homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0000.018 () Unpacking backup... (backup_2021-10-17-1459_bcausam_32a628c2ce73-plugins.zip, 57.3 MB)
+0000.019 () Unzipping backup_2021-10-17-1459_bcausam_32a628c2ce73-plugins.zip to /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-content/upgrade/224247fe/ using UpdraftPlus_ZipArchive, starting index 0
+0000.233 () Unzip progress: 2094 out of 10422 files (14.8 KB, plugins/astra-addon/classes/modules/target-rule/select2.css)
+0000.385 () Unzip progress: 3095 out of 10422 files (14.4 MB, plugins/branda-white-labeling/inc/modules/admin/custom-admin-menu/branda-admin-menu-builder.php)
+0000.754 () Unzip progress: 4096 out of 10422 files (31.7 MB, plugins/updraftplus/vendor/components/jquery/component.json)
+0000.949 () Unzip progress: 5097 out of 10422 files (55 MB, plugins/defender-security/assets/img/tab-tutorial2@1x.png)
+0001.139 () Unzip progress: 6098 out of 10422 files (74.7 MB, plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff)
+0001.373 () Unzip progress: 7099 out of 10422 files (100.8 MB, plugins/elementor-pro/modules/dynamic-tags/tags/site-title.php)
+0001.554 () Unzip progress: 8100 out of 10422 files (121.6 MB, plugins/happy-elementor-addons/assets/admin/css/dashboard.css)
+0001.704 () Unzip progress: 9101 out of 10422 files (136.5 MB, plugins/hummingbird-performance/vendor/predis/predis/src/Command/TransactionExec.php)
+0001.875 () Unzip progress: 10102 out of 10422 files (155.4 MB, plugins/astra-sites/inc/assets/images/elementor.jpg)
+0001.950 () Unzip progress: 10422 out of 10422 files (164.7 MB, plugins/wp-smushit/_src/js/modules/bulk-restore.js)
+0001.958 () Moving old data: filesystem method / updraft_dir is potentially possible
+0001.959 () Moving old data: can potentially use wp_filesystem method / -old
+0001.959 () Moving old data out of the way...
+0009.367 () Top-level entities being moved: index.php, php.ini, ionos-assistant, hello.php, astra-addon, ultimate-elementor, akismet, branda-white-labeling, updraftplus, coming-soon, defender-security, elementor, elementor-pro, elementskit-lite, envato-elements, happy-elementor-addons, hummingbird-performance, migrate-guru, wp-smushit, astra-sites, video-user-manuals, wpforms-lite
+0009.370 () Moving unpacked backup into place...
+0016.105 () Top-level entities being moved: akismet, astra-addon, astra-sites, branda-white-labeling, coming-soon, defender-security, elementor, elementor-pro, elementskit-lite, envato-elements, happy-elementor-addons, hummingbird-performance, ionos-assistant, migrate-guru, ultimate-elementor, updraftplus, video-user-manuals, wp-smushit, hello.php, php.ini, index.php
+0016.109 () Cleaning up rubbish...
+0016.116 () Entity: themes
+0016.116 () restore_backup(backup_file=backup_2021-10-17-1459_bcausam_32a628c2ce73-themes.zip, type=themes, info=a:2:{s:4:"path";s:71:"/homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0016.116 () Unpacking backup... (backup_2021-10-17-1459_bcausam_32a628c2ce73-themes.zip, 9.4 MB)
+0016.116 () Unzipping backup_2021-10-17-1459_bcausam_32a628c2ce73-themes.zip to /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-content/upgrade/144a4f72/ using UpdraftPlus_ZipArchive, starting index 0
+0016.308 () Unzip progress: 1002 out of 1399 files (20 MB, themes/twentytwentyone/assets/sass/07-utilities/print.scss)
+0016.388 () Unzip progress: 1399 out of 1399 files (26.2 MB, themes/astra/assets/css/unminified/compatibility/woocommerce/woocommerce-layout-grid-rtl.css)
+0016.392 () Moving old data: filesystem method / updraft_dir is potentially possible
+0016.392 () Moving old data: can potentially use wp_filesystem method / -old
+0016.392 () Moving old data out of the way...
+0017.296 () Top-level entities being moved: index.php, twentynineteen, twentytwenty, twentytwentyone, php.ini, astra
+0017.297 () Moving unpacked backup into place...
+0018.218 () Top-level entities being moved: astra, twentynineteen, twentytwenty, twentytwentyone, php.ini, index.php
+0018.226 () Cleaning up rubbish...
+0018.237 () Entity: uploads
+0018.237 () restore_backup(backup_file=backup_2021-10-17-1459_bcausam_32a628c2ce73-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:72:"/homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0018.237 () Unpacking backup... (backup_2021-10-17-1459_bcausam_32a628c2ce73-uploads.zip, 28.4 MB)
+0018.237 () Unzipping backup_2021-10-17-1459_bcausam_32a628c2ce73-uploads.zip to /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-content/upgrade/e4a19f25/ using UpdraftPlus_ZipArchive, starting index 0
+0018.366 () Unzip progress: 278 out of 278 files (39.8 MB, uploads/2021/04/keith-1.gif)
+0018.376 () Moving old data: filesystem method / updraft_dir is potentially possible
+0018.376 () Moving old data: can potentially use wp_filesystem method / -old
+0018.376 () Moving old data out of the way...
+0018.661 () Moving unpacked backup into place...
+0018.857 () Cleaning up rubbish...
+0018.869 () Entity: others
+0018.869 () restore_backup(backup_file=backup_2021-10-17-1459_bcausam_32a628c2ce73-others.zip, type=others, info=a:2:{s:4:"path";s:64:"/homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0018.869 () Unpacking backup... (backup_2021-10-17-1459_bcausam_32a628c2ce73-others.zip, 0 MB)
+0018.869 () Unzipping backup_2021-10-17-1459_bcausam_32a628c2ce73-others.zip to /homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-content/upgrade/ab39fdd6/ using UpdraftPlus_ZipArchive, starting index 0
+0018.874 () Unzip progress: 8 out of 8 files (2.4 KB, index.php)
+0018.917 () Cleaning up rubbish...
+0018.984 () Elementor's clear cache method exists and will be executed
+0019.029 () Restore successful!
+0019.029 () Restore successful

@@ -1,0 +1,1905 @@
+{
+    "version": "0.4",
+    "title": "Team Members",
+    "type": "page",
+    "metadata": {
+        "template_type": "single-page",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "344bae55",
+            "settings": {
+                "layout": "full_width",
+                "structure": "20",
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": 0,
+                    "bottom": "0",
+                    "left": 0,
+                    "isLinked": false
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "e58091a",
+                    "settings": {
+                        "_column_size": 50,
+                        "_inline_size": 40,
+                        "background_background": "classic",
+                        "background_color": "#022E7E",
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "100",
+                            "right": "80",
+                            "bottom": "100",
+                            "left": "80",
+                            "isLinked": false
+                        },
+                        "_inline_size_tablet": 50,
+                        "padding_tablet": {
+                            "unit": "px",
+                            "top": "100",
+                            "right": "40",
+                            "bottom": "146",
+                            "left": "40",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "80",
+                            "right": "30",
+                            "bottom": "80",
+                            "left": "30",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "33d74162",
+                            "settings": {
+                                "ekit_heading_title": "Team Member",
+                                "ekit_heading_title_tag": "h1",
+                                "ekit_heading_sub_title": "Time has changed",
+                                "ekit_heading_section_extra_title_show": "yes",
+                                "ekit_heading_extra_title": "<p>Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis euismod semper.<\/p>",
+                                "ekit_heading_title_color": "#FFFFFF",
+                                "ekit_heading_title_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_heading_title_typography_typography": "custom",
+                                "ekit_heading_title_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 52,
+                                    "sizes": []
+                                },
+                                "ekit_heading_title_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "ekit_heading_extra_title_color": "rgba(255, 255, 255, 0.82)",
+                                "ekit_heading_extra_title_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "ekit_heading_extra_title_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.9,
+                                    "sizes": []
+                                },
+                                "ekit_heading_seperator_margin": {
+                                    "unit": "px",
+                                    "top": "30",
+                                    "right": "0",
+                                    "bottom": "35",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_heading_seperator_color": "#FDE427",
+                                "ekit_heading_title_typography_font_weight": "600",
+                                "__globals__": {
+                                    "ekit_heading_extra_title_color": ""
+                                },
+                                "ekit_heading_title_align_mobile": "text_left",
+                                "ekit_heading_title_typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 40,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "elementskit-heading",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "1c9b307d",
+                    "settings": {
+                        "_column_size": 50,
+                        "_inline_size": 60,
+                        "background_background": "classic",
+                        "background_image": {
+                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/global-business-network.jpg",
+                            "id": 848
+                        },
+                        "background_position": "center center",
+                        "background_repeat": "no-repeat",
+                        "background_size": "cover",
+                        "content_position": "center",
+                        "_inline_size_tablet": 50
+                    },
+                    "elements": [
+                        {
+                            "id": "2adefd0c",
+                            "settings": {
+                                "space": {
+                                    "unit": "px",
+                                    "size": 150,
+                                    "sizes": []
+                                },
+                                "space_mobile": {
+                                    "unit": "px",
+                                    "size": 230,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "spacer",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "3d8c67df",
+            "settings": {
+                "structure": "30",
+                "margin": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": 0,
+                    "bottom": "0",
+                    "left": 0,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "20",
+                    "right": "20",
+                    "bottom": "20",
+                    "left": "20",
+                    "isLinked": true
+                }
+            },
+            "elements": [
+                {
+                    "id": "7e3ffcbc",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "191615b2",
+                            "settings": {
+                                "ekit_team_image": {
+                                    "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/portrait-of-handsome-man-with-beard.jpg",
+                                    "id": 869
+                                },
+                                "ekit_team_name": "Kay Howarth",
+                                "ekit_team_position": "Chairman",
+                                "ekit_team_toggle_icon": "",
+                                "ekit_team_show_short_description": "",
+                                "ekit_team_short_description": "",
+                                "ekit_team_social_icons": [
+                                    {
+                                        "icon": "icon icon-facebook",
+                                        "label": "Facebook",
+                                        "_id": "c393fd2",
+                                        "ekit_team_label": "Facebook",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "5f7a29b",
+                                        "ekit_team_icons": {
+                                            "value": "icon icon-twitter",
+                                            "library": "ekiticons"
+                                        },
+                                        "ekit_team_label": "Twitter",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "174720d",
+                                        "ekit_team_icons": {
+                                            "value": "fab fa-linkedin-in",
+                                            "library": "fa-brands"
+                                        },
+                                        "ekit_team_label": "LinkedIn",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    }
+                                ],
+                                "ekit_team_description": "Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum.",
+                                "ekit_team_phone": "+11112233344",
+                                "ekit_team_email": "info@example.com",
+                                "ekit_team_content_border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_team_name_color": "#020C1E",
+                                "ekit_team_name_hover_color": "#033EA5",
+                                "ekit_team_position_typography_typography": "custom",
+                                "ekit_team_position_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "ekit_team_position_typography_font_weight": "400",
+                                "ekit_team_position_color": "#939EAB",
+                                "ekit_team_modal_name_color": "#020C1E",
+                                "ekit_team_modal_name_typography_typography": "custom",
+                                "ekit_team_modal_name_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 32,
+                                    "sizes": []
+                                },
+                                "ekit_team_modal_name_typography_font_weight": "600",
+                                "ekit_team_modal_name_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "ekit_team_modal_position_color": "#939EAB",
+                                "ekit_team_modal_position_typography_typography": "custom",
+                                "ekit_team_modal_position_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "ekit_team_info_color": "#44484D",
+                                "ekit_team_info_hover_color": "#033EA5",
+                                "ekit_team_icon_primary_color": "#939EAB",
+                                "ekit_team_hover_primary_color": "#033EA5",
+                                "__globals__": {
+                                    "ekit_team_name_hover_color": "",
+                                    "ekit_team_name_color": "",
+                                    "ekit_team_position_color": "",
+                                    "ekit_team_icon_primary_color": "",
+                                    "ekit_team_hover_primary_color": "",
+                                    "ekit_team_modal_name_color": "",
+                                    "ekit_team_modal_position_color": "",
+                                    "ekit_team_info_hover_color": "",
+                                    "ekit_team_info_color": ""
+                                },
+                                "ekit_team_thumbnail_size": "medium"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "elementskit-team",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "1499640f",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "33b97272",
+                            "settings": {
+                                "ekit_team_image": {
+                                    "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/young-african-businessman-in-the-city-outdoors.jpg",
+                                    "id": 870
+                                },
+                                "ekit_team_name": "Dawood Dixon",
+                                "ekit_team_position": "Managing Director",
+                                "ekit_team_toggle_icon": "",
+                                "ekit_team_show_short_description": "",
+                                "ekit_team_short_description": "",
+                                "ekit_team_social_icons": [
+                                    {
+                                        "icon": "icon icon-facebook",
+                                        "label": "Facebook",
+                                        "_id": "c393fd2",
+                                        "ekit_team_label": "Facebook",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "5f7a29b",
+                                        "ekit_team_icons": {
+                                            "value": "icon icon-twitter",
+                                            "library": "ekiticons"
+                                        },
+                                        "ekit_team_label": "Twitter",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "174720d",
+                                        "ekit_team_icons": {
+                                            "value": "fab fa-linkedin-in",
+                                            "library": "fa-brands"
+                                        },
+                                        "ekit_team_label": "LinkedIn",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    }
+                                ],
+                                "ekit_team_description": "Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum.",
+                                "ekit_team_phone": "+11112233344",
+                                "ekit_team_email": "info@example.com",
+                                "ekit_team_content_border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_team_name_color": "#020C1E",
+                                "ekit_team_name_hover_color": "#033EA5",
+                                "ekit_team_position_typography_typography": "custom",
+                                "ekit_team_position_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "ekit_team_position_typography_font_weight": "400",
+                                "ekit_team_position_color": "#939EAB",
+                                "ekit_team_modal_name_color": "#020C1E",
+                                "ekit_team_modal_name_typography_typography": "custom",
+                                "ekit_team_modal_name_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 32,
+                                    "sizes": []
+                                },
+                                "ekit_team_modal_name_typography_font_weight": "600",
+                                "ekit_team_modal_name_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "ekit_team_modal_position_color": "#939EAB",
+                                "ekit_team_modal_position_typography_typography": "custom",
+                                "ekit_team_modal_position_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "ekit_team_info_color": "#44484D",
+                                "ekit_team_info_hover_color": "#033EA5",
+                                "ekit_team_icon_primary_color": "#939EAB",
+                                "ekit_team_hover_primary_color": "#033EA5",
+                                "__globals__": {
+                                    "ekit_team_name_hover_color": "",
+                                    "ekit_team_name_color": "",
+                                    "ekit_team_position_color": "",
+                                    "ekit_team_icon_primary_color": "",
+                                    "ekit_team_hover_primary_color": "",
+                                    "ekit_team_modal_name_color": "",
+                                    "ekit_team_modal_position_color": "",
+                                    "ekit_team_info_hover_color": "",
+                                    "ekit_team_info_color": ""
+                                },
+                                "ekit_team_thumbnail_size": "medium"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "elementskit-team",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "1511ed22",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "70d30e4b",
+                            "settings": {
+                                "ekit_team_image": {
+                                    "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/face-of-stressed-african-businessman-looking-sad-and-depressed-in-black-and-white.jpg",
+                                    "id": 871
+                                },
+                                "ekit_team_name": "Stanley Fox",
+                                "ekit_team_position": "Chief Executive",
+                                "ekit_team_toggle_icon": "",
+                                "ekit_team_show_short_description": "",
+                                "ekit_team_short_description": "",
+                                "ekit_team_social_icons": [
+                                    {
+                                        "icon": "icon icon-facebook",
+                                        "label": "Facebook",
+                                        "_id": "c393fd2",
+                                        "ekit_team_label": "Facebook",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "5f7a29b",
+                                        "ekit_team_icons": {
+                                            "value": "icon icon-twitter",
+                                            "library": "ekiticons"
+                                        },
+                                        "ekit_team_label": "Twitter",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "174720d",
+                                        "ekit_team_icons": {
+                                            "value": "fab fa-linkedin-in",
+                                            "library": "fa-brands"
+                                        },
+                                        "ekit_team_label": "LinkedIn",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    }
+                                ],
+                                "ekit_team_description": "Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum.",
+                                "ekit_team_phone": "+11112233344",
+                                "ekit_team_email": "info@example.com",
+                                "ekit_team_content_border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_team_name_color": "#020C1E",
+                                "ekit_team_name_hover_color": "#033EA5",
+                                "ekit_team_position_typography_typography": "custom",
+                                "ekit_team_position_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "ekit_team_position_typography_font_weight": "400",
+                                "ekit_team_position_color": "#939EAB",
+                                "ekit_team_modal_name_color": "#020C1E",
+                                "ekit_team_modal_name_typography_typography": "custom",
+                                "ekit_team_modal_name_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 32,
+                                    "sizes": []
+                                },
+                                "ekit_team_modal_name_typography_font_weight": "600",
+                                "ekit_team_modal_name_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "ekit_team_modal_position_color": "#939EAB",
+                                "ekit_team_modal_position_typography_typography": "custom",
+                                "ekit_team_modal_position_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "ekit_team_info_color": "#44484D",
+                                "ekit_team_info_hover_color": "#033EA5",
+                                "ekit_team_icon_primary_color": "#939EAB",
+                                "ekit_team_hover_primary_color": "#033EA5",
+                                "__globals__": {
+                                    "ekit_team_name_hover_color": "",
+                                    "ekit_team_name_color": "",
+                                    "ekit_team_position_color": "",
+                                    "ekit_team_icon_primary_color": "",
+                                    "ekit_team_hover_primary_color": "",
+                                    "ekit_team_modal_name_color": "",
+                                    "ekit_team_modal_position_color": "",
+                                    "ekit_team_info_hover_color": "",
+                                    "ekit_team_info_color": ""
+                                },
+                                "ekit_team_thumbnail_size": "medium"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "elementskit-team",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "1229dea8",
+            "settings": {
+                "structure": "30",
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": 0,
+                    "bottom": "0",
+                    "left": 0,
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "bcc9b3f",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "29a82f11",
+                            "settings": {
+                                "ekit_team_image": {
+                                    "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/african-american-businesswoman-laughing-sitting-against-window-in-office-e1591124299747.jpg",
+                                    "id": 533
+                                },
+                                "ekit_team_name": "Nimrah Ochoa",
+                                "ekit_team_position": "Vice President",
+                                "ekit_team_toggle_icon": "",
+                                "ekit_team_show_short_description": "",
+                                "ekit_team_short_description": "",
+                                "ekit_team_social_icons": [
+                                    {
+                                        "icon": "icon icon-facebook",
+                                        "label": "Facebook",
+                                        "_id": "c393fd2",
+                                        "ekit_team_label": "Facebook",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "5f7a29b",
+                                        "ekit_team_icons": {
+                                            "value": "icon icon-twitter",
+                                            "library": "ekiticons"
+                                        },
+                                        "ekit_team_label": "Twitter",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "174720d",
+                                        "ekit_team_icons": {
+                                            "value": "fab fa-linkedin-in",
+                                            "library": "fa-brands"
+                                        },
+                                        "ekit_team_label": "LinkedIn",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    }
+                                ],
+                                "ekit_team_description": "Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum.",
+                                "ekit_team_phone": "+11112233344",
+                                "ekit_team_email": "info@example.com",
+                                "ekit_team_content_border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_team_name_color": "#020C1E",
+                                "ekit_team_name_hover_color": "#033EA5",
+                                "ekit_team_position_typography_typography": "custom",
+                                "ekit_team_position_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "ekit_team_position_typography_font_weight": "400",
+                                "ekit_team_position_color": "#939EAB",
+                                "ekit_team_modal_name_color": "#020C1E",
+                                "ekit_team_modal_name_typography_typography": "custom",
+                                "ekit_team_modal_name_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 32,
+                                    "sizes": []
+                                },
+                                "ekit_team_modal_name_typography_font_weight": "600",
+                                "ekit_team_modal_name_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "ekit_team_modal_position_color": "#939EAB",
+                                "ekit_team_modal_position_typography_typography": "custom",
+                                "ekit_team_modal_position_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "ekit_team_info_color": "#44484D",
+                                "ekit_team_info_hover_color": "#033EA5",
+                                "ekit_team_icon_primary_color": "#939EAB",
+                                "ekit_team_hover_primary_color": "#033EA5",
+                                "__globals__": {
+                                    "ekit_team_name_hover_color": "",
+                                    "ekit_team_name_color": "",
+                                    "ekit_team_position_color": "",
+                                    "ekit_team_icon_primary_color": "",
+                                    "ekit_team_hover_primary_color": "",
+                                    "ekit_team_modal_name_color": "",
+                                    "ekit_team_modal_position_color": "",
+                                    "ekit_team_info_hover_color": "",
+                                    "ekit_team_info_color": ""
+                                },
+                                "ekit_team_thumbnail_size": "medium"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "elementskit-team",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "447f2146",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "746710b5",
+                            "settings": {
+                                "ekit_team_image": {
+                                    "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/business-man-on-phone-concept.jpg",
+                                    "id": 872
+                                },
+                                "ekit_team_name": "Hamaad Brewer",
+                                "ekit_team_position": "Chief Advisor",
+                                "ekit_team_toggle_icon": "",
+                                "ekit_team_show_short_description": "",
+                                "ekit_team_short_description": "",
+                                "ekit_team_social_icons": [
+                                    {
+                                        "icon": "icon icon-facebook",
+                                        "label": "Facebook",
+                                        "_id": "c393fd2",
+                                        "ekit_team_label": "Facebook",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "5f7a29b",
+                                        "ekit_team_icons": {
+                                            "value": "icon icon-twitter",
+                                            "library": "ekiticons"
+                                        },
+                                        "ekit_team_label": "Twitter",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "174720d",
+                                        "ekit_team_icons": {
+                                            "value": "fab fa-linkedin-in",
+                                            "library": "fa-brands"
+                                        },
+                                        "ekit_team_label": "LinkedIn",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    }
+                                ],
+                                "ekit_team_description": "Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum.",
+                                "ekit_team_phone": "+11112233344",
+                                "ekit_team_email": "info@example.com",
+                                "ekit_team_content_border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_team_name_color": "#020C1E",
+                                "ekit_team_name_hover_color": "#033EA5",
+                                "ekit_team_position_typography_typography": "custom",
+                                "ekit_team_position_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "ekit_team_position_typography_font_weight": "400",
+                                "ekit_team_position_color": "#939EAB",
+                                "ekit_team_modal_name_color": "#020C1E",
+                                "ekit_team_modal_name_typography_typography": "custom",
+                                "ekit_team_modal_name_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 32,
+                                    "sizes": []
+                                },
+                                "ekit_team_modal_name_typography_font_weight": "600",
+                                "ekit_team_modal_name_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "ekit_team_modal_position_color": "#939EAB",
+                                "ekit_team_modal_position_typography_typography": "custom",
+                                "ekit_team_modal_position_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "ekit_team_info_color": "#44484D",
+                                "ekit_team_info_hover_color": "#033EA5",
+                                "ekit_team_icon_primary_color": "#939EAB",
+                                "ekit_team_hover_primary_color": "#033EA5",
+                                "__globals__": {
+                                    "ekit_team_name_hover_color": "",
+                                    "ekit_team_name_color": "",
+                                    "ekit_team_position_color": "",
+                                    "ekit_team_icon_primary_color": "",
+                                    "ekit_team_hover_primary_color": "",
+                                    "ekit_team_modal_name_color": "",
+                                    "ekit_team_modal_position_color": "",
+                                    "ekit_team_info_hover_color": "",
+                                    "ekit_team_info_color": ""
+                                },
+                                "ekit_team_thumbnail_size": "medium"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "elementskit-team",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "30227e97",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "465cf14",
+                            "settings": {
+                                "ekit_team_image": {
+                                    "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/young-beautiful-woman-talking-on-mobile-phone-.jpg",
+                                    "id": 873
+                                },
+                                "ekit_team_name": "Amanah Bonner",
+                                "ekit_team_position": "Chief of Accountant",
+                                "ekit_team_toggle_icon": "",
+                                "ekit_team_show_short_description": "",
+                                "ekit_team_short_description": "",
+                                "ekit_team_social_icons": [
+                                    {
+                                        "icon": "icon icon-facebook",
+                                        "label": "Facebook",
+                                        "_id": "c393fd2",
+                                        "ekit_team_label": "Facebook",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "5f7a29b",
+                                        "ekit_team_icons": {
+                                            "value": "icon icon-twitter",
+                                            "library": "ekiticons"
+                                        },
+                                        "ekit_team_label": "Twitter",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "174720d",
+                                        "ekit_team_icons": {
+                                            "value": "fab fa-linkedin-in",
+                                            "library": "fa-brands"
+                                        },
+                                        "ekit_team_label": "LinkedIn",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    }
+                                ],
+                                "ekit_team_description": "Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum.",
+                                "ekit_team_phone": "+11112233344",
+                                "ekit_team_email": "info@example.com",
+                                "ekit_team_content_border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_team_name_color": "#020C1E",
+                                "ekit_team_name_hover_color": "#033EA5",
+                                "ekit_team_position_typography_typography": "custom",
+                                "ekit_team_position_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "ekit_team_position_typography_font_weight": "400",
+                                "ekit_team_position_color": "#939EAB",
+                                "ekit_team_modal_name_color": "#020C1E",
+                                "ekit_team_modal_name_typography_typography": "custom",
+                                "ekit_team_modal_name_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 32,
+                                    "sizes": []
+                                },
+                                "ekit_team_modal_name_typography_font_weight": "600",
+                                "ekit_team_modal_name_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "ekit_team_modal_position_color": "#939EAB",
+                                "ekit_team_modal_position_typography_typography": "custom",
+                                "ekit_team_modal_position_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "ekit_team_info_color": "#44484D",
+                                "ekit_team_info_hover_color": "#033EA5",
+                                "ekit_team_icon_primary_color": "#939EAB",
+                                "ekit_team_hover_primary_color": "#033EA5",
+                                "__globals__": {
+                                    "ekit_team_name_hover_color": "",
+                                    "ekit_team_name_color": "",
+                                    "ekit_team_position_color": "",
+                                    "ekit_team_icon_primary_color": "",
+                                    "ekit_team_hover_primary_color": "",
+                                    "ekit_team_modal_name_color": "",
+                                    "ekit_team_modal_position_color": "",
+                                    "ekit_team_info_hover_color": "",
+                                    "ekit_team_info_color": ""
+                                },
+                                "ekit_team_thumbnail_size": "medium"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "elementskit-team",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "669bb9ed",
+            "settings": {
+                "structure": "30",
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": 0,
+                    "bottom": "80",
+                    "left": 0,
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "1eb1b8cc",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "5671c387",
+                            "settings": {
+                                "ekit_team_image": {
+                                    "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/attractive-business-woman.jpg",
+                                    "id": 874
+                                },
+                                "ekit_team_name": "Whitney Herbert",
+                                "ekit_team_position": "Chief of Marketing ",
+                                "ekit_team_toggle_icon": "",
+                                "ekit_team_show_short_description": "",
+                                "ekit_team_short_description": "",
+                                "ekit_team_social_icons": [
+                                    {
+                                        "icon": "icon icon-facebook",
+                                        "label": "Facebook",
+                                        "_id": "c393fd2",
+                                        "ekit_team_label": "Facebook",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "5f7a29b",
+                                        "ekit_team_icons": {
+                                            "value": "icon icon-twitter",
+                                            "library": "ekiticons"
+                                        },
+                                        "ekit_team_label": "Twitter",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "174720d",
+                                        "ekit_team_icons": {
+                                            "value": "fab fa-linkedin-in",
+                                            "library": "fa-brands"
+                                        },
+                                        "ekit_team_label": "LinkedIn",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    }
+                                ],
+                                "ekit_team_description": "Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum.",
+                                "ekit_team_phone": "+11112233344",
+                                "ekit_team_email": "info@example.com",
+                                "ekit_team_content_border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_team_name_color": "#020C1E",
+                                "ekit_team_name_hover_color": "#033EA5",
+                                "ekit_team_position_typography_typography": "custom",
+                                "ekit_team_position_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "ekit_team_position_typography_font_weight": "400",
+                                "ekit_team_position_color": "#939EAB",
+                                "ekit_team_modal_name_color": "#020C1E",
+                                "ekit_team_modal_name_typography_typography": "custom",
+                                "ekit_team_modal_name_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 32,
+                                    "sizes": []
+                                },
+                                "ekit_team_modal_name_typography_font_weight": "600",
+                                "ekit_team_modal_name_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "ekit_team_modal_position_color": "#939EAB",
+                                "ekit_team_modal_position_typography_typography": "custom",
+                                "ekit_team_modal_position_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "ekit_team_info_color": "#44484D",
+                                "ekit_team_info_hover_color": "#033EA5",
+                                "ekit_team_icon_primary_color": "#939EAB",
+                                "ekit_team_hover_primary_color": "#033EA5",
+                                "__globals__": {
+                                    "ekit_team_name_hover_color": "",
+                                    "ekit_team_name_color": "",
+                                    "ekit_team_position_color": "",
+                                    "ekit_team_icon_primary_color": "",
+                                    "ekit_team_hover_primary_color": "",
+                                    "ekit_team_modal_name_color": "",
+                                    "ekit_team_modal_position_color": "",
+                                    "ekit_team_info_hover_color": "",
+                                    "ekit_team_info_color": ""
+                                },
+                                "ekit_team_thumbnail_size": "medium"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "elementskit-team",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "76c6564a",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "3a89849e",
+                            "settings": {
+                                "ekit_team_image": {
+                                    "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/young-girl-holding-tablet-and-using-laptop-at-office.jpg",
+                                    "id": 875
+                                },
+                                "ekit_team_name": "Esmay Brady",
+                                "ekit_team_position": "Chief of Operations",
+                                "ekit_team_toggle_icon": "",
+                                "ekit_team_show_short_description": "",
+                                "ekit_team_short_description": "",
+                                "ekit_team_social_icons": [
+                                    {
+                                        "icon": "icon icon-facebook",
+                                        "label": "Facebook",
+                                        "_id": "c393fd2",
+                                        "ekit_team_label": "Facebook",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "5f7a29b",
+                                        "ekit_team_icons": {
+                                            "value": "icon icon-twitter",
+                                            "library": "ekiticons"
+                                        },
+                                        "ekit_team_label": "Twitter",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "174720d",
+                                        "ekit_team_icons": {
+                                            "value": "fab fa-linkedin-in",
+                                            "library": "fa-brands"
+                                        },
+                                        "ekit_team_label": "LinkedIn",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    }
+                                ],
+                                "ekit_team_description": "Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum.",
+                                "ekit_team_phone": "+11112233344",
+                                "ekit_team_email": "info@example.com",
+                                "ekit_team_content_border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_team_name_color": "#020C1E",
+                                "ekit_team_name_hover_color": "#033EA5",
+                                "ekit_team_position_typography_typography": "custom",
+                                "ekit_team_position_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "ekit_team_position_typography_font_weight": "400",
+                                "ekit_team_position_color": "#939EAB",
+                                "ekit_team_modal_name_color": "#020C1E",
+                                "ekit_team_modal_name_typography_typography": "custom",
+                                "ekit_team_modal_name_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 32,
+                                    "sizes": []
+                                },
+                                "ekit_team_modal_name_typography_font_weight": "600",
+                                "ekit_team_modal_name_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "ekit_team_modal_position_color": "#939EAB",
+                                "ekit_team_modal_position_typography_typography": "custom",
+                                "ekit_team_modal_position_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "ekit_team_info_color": "#44484D",
+                                "ekit_team_info_hover_color": "#033EA5",
+                                "ekit_team_icon_primary_color": "#939EAB",
+                                "ekit_team_hover_primary_color": "#033EA5",
+                                "__globals__": {
+                                    "ekit_team_name_hover_color": "",
+                                    "ekit_team_name_color": "",
+                                    "ekit_team_position_color": "",
+                                    "ekit_team_icon_primary_color": "",
+                                    "ekit_team_hover_primary_color": "",
+                                    "ekit_team_modal_name_color": "",
+                                    "ekit_team_modal_position_color": "",
+                                    "ekit_team_info_hover_color": "",
+                                    "ekit_team_info_color": ""
+                                },
+                                "ekit_team_thumbnail_size": "medium"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "elementskit-team",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "2e72ef9a",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "4c118568",
+                            "settings": {
+                                "ekit_team_image": {
+                                    "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/side-view-young-handsome-caucasian-businessman-in-front-of-modern-building-at-bangkok-city.jpg",
+                                    "id": 876
+                                },
+                                "ekit_team_name": "Natan Soto",
+                                "ekit_team_position": "Chief of Sales",
+                                "ekit_team_toggle_icon": "",
+                                "ekit_team_show_short_description": "",
+                                "ekit_team_short_description": "",
+                                "ekit_team_social_icons": [
+                                    {
+                                        "icon": "icon icon-facebook",
+                                        "label": "Facebook",
+                                        "_id": "c393fd2",
+                                        "ekit_team_label": "Facebook",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "5f7a29b",
+                                        "ekit_team_icons": {
+                                            "value": "icon icon-twitter",
+                                            "library": "ekiticons"
+                                        },
+                                        "ekit_team_label": "Twitter",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "_id": "174720d",
+                                        "ekit_team_icons": {
+                                            "value": "fab fa-linkedin-in",
+                                            "library": "fa-brands"
+                                        },
+                                        "ekit_team_label": "LinkedIn",
+                                        "ekit_team_link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    }
+                                ],
+                                "ekit_team_description": "Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum.",
+                                "ekit_team_phone": "+11112233344",
+                                "ekit_team_email": "info@example.com",
+                                "ekit_team_content_border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_team_name_color": "#020C1E",
+                                "ekit_team_name_hover_color": "#033EA5",
+                                "ekit_team_position_typography_typography": "custom",
+                                "ekit_team_position_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "ekit_team_position_typography_font_weight": "400",
+                                "ekit_team_position_color": "#939EAB",
+                                "ekit_team_modal_name_color": "#020C1E",
+                                "ekit_team_modal_name_typography_typography": "custom",
+                                "ekit_team_modal_name_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 32,
+                                    "sizes": []
+                                },
+                                "ekit_team_modal_name_typography_font_weight": "600",
+                                "ekit_team_modal_name_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "ekit_team_modal_position_color": "#939EAB",
+                                "ekit_team_modal_position_typography_typography": "custom",
+                                "ekit_team_modal_position_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "ekit_team_info_color": "#44484D",
+                                "ekit_team_info_hover_color": "#033EA5",
+                                "ekit_team_icon_primary_color": "#939EAB",
+                                "ekit_team_hover_primary_color": "#033EA5",
+                                "__globals__": {
+                                    "ekit_team_name_hover_color": "",
+                                    "ekit_team_name_color": "",
+                                    "ekit_team_position_color": "",
+                                    "ekit_team_icon_primary_color": "",
+                                    "ekit_team_hover_primary_color": "",
+                                    "ekit_team_modal_name_color": "",
+                                    "ekit_team_modal_position_color": "",
+                                    "ekit_team_info_hover_color": "",
+                                    "ekit_team_info_color": ""
+                                },
+                                "ekit_team_thumbnail_size": "medium"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "elementskit-team",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "13d97793",
+            "settings": {
+                "gap": "no",
+                "content_position": "middle",
+                "background_background": "classic",
+                "background_color": "#022E7E",
+                "padding": {
+                    "unit": "px",
+                    "top": "50",
+                    "right": "0",
+                    "bottom": "50",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": "40",
+                    "bottom": "80",
+                    "left": "40",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "60",
+                    "right": "20",
+                    "bottom": "60",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "155e2085",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "506df698",
+                            "settings": {
+                                "content_position": "middle",
+                                "structure": "20",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": 0,
+                                    "bottom": "0",
+                                    "left": 0,
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "54773dcd",
+                                    "settings": {
+                                        "_column_size": 50,
+                                        "_inline_size": 75,
+                                        "_inline_size_tablet": 60
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "6045eb18",
+                                            "settings": {
+                                                "title": "Looking for an Expert Financial Consultant?",
+                                                "align": "left",
+                                                "title_color": "#FFFFFF",
+                                                "typography_typography": "custom",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.3,
+                                                    "sizes": []
+                                                },
+                                                "_padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "15",
+                                                    "isLinked": false
+                                                },
+                                                "_border_border": "solid",
+                                                "_border_width": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "5",
+                                                    "isLinked": false
+                                                },
+                                                "_border_color": "#FDE427"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "19165f17",
+                                            "settings": {
+                                                "editor": "<p>Maecenas sed diam eget risus varius blandit sit amet non magna magnis dis parturient<\/p>",
+                                                "text_color": "rgba(255, 255, 255, 0.87)",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 15,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "23f428b7",
+                                    "settings": {
+                                        "_column_size": 50,
+                                        "_inline_size": 25,
+                                        "_inline_size_tablet": 40
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "3ff81273",
+                                            "settings": {
+                                                "text": "Book Now",
+                                                "align": "justify",
+                                                "button_text_color": "#022E7E",
+                                                "background_color": "#FDE427",
+                                                "hover_color": "#FFFFFF",
+                                                "button_background_hover_color": "#033EA500",
+                                                "border_border": "solid",
+                                                "border_width": {
+                                                    "unit": "px",
+                                                    "top": "2",
+                                                    "right": "2",
+                                                    "bottom": "2",
+                                                    "left": "2",
+                                                    "isLinked": true
+                                                },
+                                                "border_color": "#FDE427",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "__globals__": {
+                                                    "background_color": "",
+                                                    "button_text_color": "",
+                                                    "button_background_hover_color": "",
+                                                    "border_color": ""
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "button",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "6f5f52f5",
+                                            "settings": {
+                                                "view": "inline",
+                                                "icon_list": [
+                                                    {
+                                                        "text": "Free Call: +1-222-333-44444",
+                                                        "selected_icon": {
+                                                            "value": "fas fa-phone",
+                                                            "library": "fa-solid"
+                                                        },
+                                                        "_id": "954baec"
+                                                    }
+                                                ],
+                                                "icon_align": "center",
+                                                "icon_color": "rgba(255, 255, 255, 0.87)",
+                                                "icon_color_hover": "#FDE427",
+                                                "icon_size": {
+                                                    "unit": "px",
+                                                    "size": 13,
+                                                    "sizes": []
+                                                },
+                                                "icon_self_align": "left",
+                                                "text_color": "rgba(255, 255, 255, 0.87)",
+                                                "text_color_hover": "#FDE427",
+                                                "text_indent": {
+                                                    "unit": "px",
+                                                    "size": 6,
+                                                    "sizes": []
+                                                },
+                                                "icon_typography_typography": "custom",
+                                                "icon_typography_font_family": "Catamaran",
+                                                "icon_typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 15,
+                                                    "sizes": []
+                                                },
+                                                "icon_typography_letter_spacing": {
+                                                    "unit": "px",
+                                                    "size": 1,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "icon-list",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        },
+                        {
+                            "id": "5c524f44",
+                            "settings": {
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": 0,
+                                    "bottom": "0",
+                                    "left": 0,
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "279f798e",
+                                    "settings": {
+                                        "_column_size": 100,
+                                        "_inline_size": null
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "4f1bb56c",
+                                            "settings": {
+                                                "ekit_client_logo_repiter": [
+                                                    {
+                                                        "ekit_client_logo_list_title": "Title #1",
+                                                        "_id": "65771ed",
+                                                        "ekit_client_logo_image_normal": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/FABRIC.png",
+                                                            "id": 154
+                                                        },
+                                                        "ekit_client_logo_image_hover": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/plugins\/happy-elementor-addons\/assets\/imgs\/placeholder.jpg",
+                                                            "id": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "ekit_client_logo_list_title": "Title #2",
+                                                        "_id": "de25693",
+                                                        "ekit_client_logo_image_normal": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/quartzo.png",
+                                                            "id": 161
+                                                        },
+                                                        "ekit_client_logo_image_hover": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/plugins\/happy-elementor-addons\/assets\/imgs\/placeholder.jpg",
+                                                            "id": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "ekit_client_logo_list_title": "Title #3",
+                                                        "_id": "af66202",
+                                                        "ekit_client_logo_image_normal": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/MONEX.png",
+                                                            "id": 160
+                                                        },
+                                                        "ekit_client_logo_image_hover": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/plugins\/happy-elementor-addons\/assets\/imgs\/placeholder.jpg",
+                                                            "id": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "ekit_client_logo_list_title": "Title #4",
+                                                        "_id": "4b37767",
+                                                        "ekit_client_logo_image_normal": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/76-OSCAR.png",
+                                                            "id": 150
+                                                        },
+                                                        "ekit_client_logo_image_hover": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/plugins\/happy-elementor-addons\/assets\/imgs\/placeholder.jpg",
+                                                            "id": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "ekit_client_logo_list_title": "Title #5",
+                                                        "_id": "b0cd5ea",
+                                                        "ekit_client_logo_image_normal": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Hitachi.png",
+                                                            "id": 155
+                                                        },
+                                                        "ekit_client_logo_image_hover": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/plugins\/happy-elementor-addons\/assets\/imgs\/placeholder.jpg",
+                                                            "id": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "ekit_client_logo_list_title": "List Title",
+                                                        "ekit_client_logo_image_normal": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Elegra.png",
+                                                            "id": 153
+                                                        },
+                                                        "ekit_client_logo_image_hover": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/plugins\/happy-elementor-addons\/assets\/imgs\/placeholder.jpg",
+                                                            "id": ""
+                                                        },
+                                                        "_id": "996340c"
+                                                    },
+                                                    {
+                                                        "ekit_client_logo_list_title": "List Title",
+                                                        "ekit_client_logo_image_normal": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Andreas.png",
+                                                            "id": 151
+                                                        },
+                                                        "ekit_client_logo_image_hover": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/plugins\/happy-elementor-addons\/assets\/imgs\/placeholder.jpg",
+                                                            "id": ""
+                                                        },
+                                                        "_id": "42b0aad"
+                                                    },
+                                                    {
+                                                        "ekit_client_logo_list_title": "List Title",
+                                                        "ekit_client_logo_image_normal": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Centaur.png",
+                                                            "id": 152
+                                                        },
+                                                        "ekit_client_logo_image_hover": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/plugins\/happy-elementor-addons\/assets\/imgs\/placeholder.jpg",
+                                                            "id": ""
+                                                        },
+                                                        "_id": "0ede1da"
+                                                    },
+                                                    {
+                                                        "ekit_client_logo_list_title": "List Title",
+                                                        "ekit_client_logo_image_normal": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Randy.png",
+                                                            "id": 162
+                                                        },
+                                                        "ekit_client_logo_image_hover": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/plugins\/happy-elementor-addons\/assets\/imgs\/placeholder.jpg",
+                                                            "id": ""
+                                                        },
+                                                        "_id": "b5a59a3"
+                                                    },
+                                                    {
+                                                        "ekit_client_logo_list_title": "List Title",
+                                                        "ekit_client_logo_image_normal": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/57-DEVENDER.png",
+                                                            "id": 149
+                                                        },
+                                                        "ekit_client_logo_image_hover": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/plugins\/happy-elementor-addons\/assets\/imgs\/placeholder.jpg",
+                                                            "id": ""
+                                                        },
+                                                        "_id": "7b066dd"
+                                                    },
+                                                    {
+                                                        "ekit_client_logo_list_title": "List Title",
+                                                        "ekit_client_logo_image_normal": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/HUNT-COM.png",
+                                                            "id": 158
+                                                        },
+                                                        "ekit_client_logo_image_hover": {
+                                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/plugins\/happy-elementor-addons\/assets\/imgs\/placeholder.jpg",
+                                                            "id": ""
+                                                        },
+                                                        "_id": "2844fdc"
+                                                    }
+                                                ],
+                                                "ekit_client_logo_left_right_spacing": {
+                                                    "unit": "px",
+                                                    "size": 30,
+                                                    "sizes": []
+                                                },
+                                                "ekit_client_logo_top_bottom_spacing": {
+                                                    "unit": "px",
+                                                    "size": 0,
+                                                    "sizes": []
+                                                },
+                                                "ekit_client_logo_slidetosho": {
+                                                    "unit": "px",
+                                                    "size": 8,
+                                                    "sizes": []
+                                                },
+                                                "ekit_client_logo_rows": "1",
+                                                "ekit_client_logo_container_bg_color_background": "classic",
+                                                "ekit_client_logo_container_padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "ekit_client_logo_container_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "ekit_client_logo_container_min_height": {
+                                                    "unit": "px",
+                                                    "size": 40,
+                                                    "sizes": []
+                                                },
+                                                "ekit_client_logo_client_logo_background_group_background": "classic",
+                                                "ekit_client_logo_client_logo_background_group_color": "rgba(255, 255, 255, 0)",
+                                                "ekit_client_logo_image_style_border_radious": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "ekit_client_logo_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "ekit_client_logo_padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "ekit_client_logo_image_box_shadow_group_box_shadow_type": "yes",
+                                                "ekit_client_logo_image_box_shadow_group_box_shadow": {
+                                                    "horizontal": 0,
+                                                    "vertical": 0,
+                                                    "blur": 10,
+                                                    "spread": 0,
+                                                    "color": "rgba(0, 0, 0, 0)"
+                                                },
+                                                "ekit_client_logo_opacity": {
+                                                    "unit": "",
+                                                    "size": 0.5,
+                                                    "sizes": []
+                                                },
+                                                "ekit_client_logo_opacity_hover": {
+                                                    "unit": "",
+                                                    "size": 0.8,
+                                                    "sizes": []
+                                                },
+                                                "ekit_client_logo_slidetosho_tablet": {
+                                                    "unit": "px",
+                                                    "size": 6,
+                                                    "sizes": []
+                                                },
+                                                "ekit_client_logo_slidetosho_mobile": {
+                                                    "unit": "px",
+                                                    "size": 3,
+                                                    "sizes": []
+                                                },
+                                                "ekit_client_logo_speed": 4000
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "elementskit-client-logo",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "hide_title": "yes",
+        "ha_grid_zindex": "1000",
+        "background_background": "classic",
+        "background_color": "#FBF5F1",
+        "template": "elementor_header_footer"
+    }
+}

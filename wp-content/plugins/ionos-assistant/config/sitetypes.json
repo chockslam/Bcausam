@@ -1,0 +1,124 @@
+{
+    "sitetypes": {
+        "business": {
+            "headline": "business_headline",
+            "description": "business_description",
+            "themes": [
+                "airi",
+                "radiate",
+                "vantage",
+                "customizr",
+                "neve",
+                "corporate-plus",
+                "busiprof",
+                "businesstar",
+                "reykjavik",
+                "kadence"
+            ],
+            "homepage": "static"
+        },
+        "blog": {
+            "headline": "blog_headline",
+            "description": "blog_description",
+            "themes": [
+                "hemingway",
+                "hemila",
+                "elara",
+                "journal-blog",
+                "mazino",
+                "masonic",
+                "vivacious-magazine",
+                "news-portal",
+                "cenote",
+                "yosemite-lite",
+                "colormag",
+                "refresh-blog",
+                "kadence"
+            ],
+            "homepage": "posts"
+        },
+        "eshop": {
+            "headline": "eshop_headline",
+            "description": "eshop_description",
+            "themes": [
+                "responsive",
+                "shop-isle",
+                "suki",
+                "vogue",
+                "attire",
+                "rife-free",
+                "shoper",
+                "envo-online-store",
+                "trusted",
+                "easy-store",
+                "kadence"
+            ],
+            "homepage": "static"
+        },
+        "gallery": {
+            "headline": "gallery_headline",
+            "description": "gallery_description",
+            "themes": [
+                "photo-perfect",
+                "hitchcock",
+                "acmephoto",
+                "photofocus",
+                "moesia",
+                "portfolio-lite",
+                "fotografie",
+                "full-frame",
+                "arbutus",
+                "fukasawa",
+                "kadence"
+            ],
+            "homepage": "posts"
+        },
+        "personal": {
+            "headline": "personal_headline",
+            "description": "personal_description",
+            "themes": [
+                "rock-star",
+                "mh-musicmag",
+                "colibri-wp",
+                "agama-blue",
+                "responsive",
+                "highstarter",
+                "hemingway",
+                "kadence"
+            ],
+            "homepage": "static"
+        },
+        "podcast": {
+            "headline": "podcast_headline",
+            "description": "podcast_description",
+            "themes": [
+                "podcaster-secondline",
+                "virtue",
+                "bands",
+                "modern",
+                "colormag",
+                "ashe",
+                "journal-blog",
+                "kadence"
+            ],
+            "homepage": "posts"
+        },
+        "club": {
+            "headline": "club_headline",
+            "description": "club_description",
+            "themes": [
+                "landing-pageasy",
+                "hueman",
+                "kale",
+                "membershiply",
+                "busiprof",
+                "calliope",
+                "catch-base",
+                "eventpress",
+                "nosh-stw",
+                "kadence"
+            ],
+            "homepage": "static"
+        }
+    }
+}

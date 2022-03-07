@@ -1,0 +1,298 @@
+{
+    "version": "0.4",
+    "title": "Testimonials Carousel Block 2",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-testimonial",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "4f18da0e",
+            "settings": {
+                "gap": "no",
+                "background_background": "classic",
+                "background_color": "#FBF5F1",
+                "background_image": {
+                    "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/v03-cube-02-scaled.jpg",
+                    "id": 128
+                },
+                "background_position": "center center",
+                "background_attachment": "fixed",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_overlay_background": "classic",
+                "background_overlay_color": "#FBF5F1",
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 0.8,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "100",
+                    "right": "0",
+                    "bottom": "70",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "40",
+                    "right": "40",
+                    "bottom": "40",
+                    "left": "40",
+                    "isLinked": true
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": "15",
+                    "bottom": "80",
+                    "left": "15",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "5db988cb",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null,
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "2bb8fee9",
+                            "settings": {
+                                "ekit_testimonial_wartermark_enable": "yes",
+                                "ekit_testimonial_wartermarks": {
+                                    "value": "hm hm-quote2",
+                                    "library": "happy-icons"
+                                },
+                                "ekit_testimonial_wartermark_custom_position": "yes",
+                                "ekit_testimonial_wartermark_custom_position_offset_x": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "ekit_testimonial_title_separetor": "",
+                                "ekit_testimonial_data": [
+                                    {
+                                        "client_name": "Clara Sharp",
+                                        "_id": "53b9012",
+                                        "designation": "Chief Financial Officer",
+                                        "review": "Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. ",
+                                        "client_photo": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/attractive-business-woman.jpg",
+                                            "id": 874
+                                        },
+                                        "client_logo": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/LURCO-1.png",
+                                            "id": 205
+                                        },
+                                        "client_logo_active": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/plugins\/happy-elementor-addons\/assets\/imgs\/placeholder.jpg",
+                                            "id": ""
+                                        }
+                                    },
+                                    {
+                                        "client_name": "Misty Palmer",
+                                        "designation": "Chief Financial Officer",
+                                        "review": "Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue.",
+                                        "client_photo": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/young-beautiful-woman-talking-on-mobile-phone-.jpg",
+                                            "id": 873
+                                        },
+                                        "client_logo": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/FABRIC-1.png",
+                                            "id": 198
+                                        },
+                                        "client_logo_active": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/plugins\/happy-elementor-addons\/assets\/imgs\/placeholder.jpg",
+                                            "id": ""
+                                        },
+                                        "_id": "d04d1fd"
+                                    },
+                                    {
+                                        "client_name": "Sylvester Fisher",
+                                        "designation": "Chief Financial Officer",
+                                        "review": "Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue.",
+                                        "client_photo": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/business-man-on-phone-concept.jpg",
+                                            "id": 872
+                                        },
+                                        "client_logo": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/ORIENTAL.png",
+                                            "id": 188
+                                        },
+                                        "client_logo_active": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/plugins\/happy-elementor-addons\/assets\/imgs\/placeholder.jpg",
+                                            "id": ""
+                                        },
+                                        "_id": "248f40f"
+                                    }
+                                ],
+                                "ekit_testimonial_left_right_spacing": {
+                                    "unit": "px",
+                                    "size": 10,
+                                    "sizes": []
+                                },
+                                "ekit_testimonial_speed": 3000,
+                                "ekit_testimonial_layout_border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_testimonial_layout_shadow_box_shadow_type": "yes",
+                                "ekit_testimonial_layout_shadow_box_shadow": {
+                                    "horizontal": 0,
+                                    "vertical": 0,
+                                    "blur": 10,
+                                    "spread": 0,
+                                    "color": "rgba(3, 62, 165, 0.06)"
+                                },
+                                "ekit_testimonial_layout_active_border_color": "#FDE427",
+                                "ekit_testimonial_section_wraper_padding": {
+                                    "unit": "px",
+                                    "top": "40",
+                                    "right": "40",
+                                    "bottom": "40",
+                                    "left": "40",
+                                    "isLinked": true
+                                },
+                                "ekit_testimonial_section_wraper_use_height": "",
+                                "ekit_testimonial_description_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "ekit_testimonial_description_typography_font_style": "italic",
+                                "ekit_testimonial_description_typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0.3,
+                                    "sizes": []
+                                },
+                                "ekit_testimonial_description_color": "#44484D",
+                                "ekit_testimonial_client_name_normal_color": "#033EA5",
+                                "ekit_testimonial_client_name_typography_typography": "custom",
+                                "ekit_testimonial_client_name_typography_font_family": "Catamaran",
+                                "ekit_testimonial_client_name_typography_font_weight": "600",
+                                "ekit_testimonial_client_name_typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "ekit_testimonial_designation_normal_color": "#939EAB",
+                                "ekit_testimonial_client_spacing": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_testimonial_client_dot_bottom": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "ekit_testimonial_client_dot_width": {
+                                    "unit": "px",
+                                    "size": 20,
+                                    "sizes": []
+                                },
+                                "ekit_testimonial_client_dot_height": {
+                                    "unit": "px",
+                                    "size": 6,
+                                    "sizes": []
+                                },
+                                "ekit_testimonial_client_dot_border_radius": {
+                                    "unit": "px",
+                                    "top": "20",
+                                    "right": "20",
+                                    "bottom": "20",
+                                    "left": "20",
+                                    "isLinked": true
+                                },
+                                "ekit_testimonial_client_dot_background_background": "classic",
+                                "ekit_testimonial_client_dot_background_color": "#C5D3E3",
+                                "ekit_testimonial_client_dot_active_background_background": "classic",
+                                "ekit_testimonial_client_dot_active_background_color": "#033EA5",
+                                "ekit_testimonial_client_dot_active_width": {
+                                    "unit": "px",
+                                    "size": 24,
+                                    "sizes": []
+                                },
+                                "ekit_testimonial_client_dot_active_height": {
+                                    "unit": "px",
+                                    "size": 5,
+                                    "sizes": []
+                                },
+                                "ekit_testimonial_slidetoshow_tablet": 1,
+                                "ekit_testimonial_slidetoshow_mobile": 1,
+                                "ekit_testimonial_slidesToScroll_tablet": 1,
+                                "ekit_testimonial_slidesToScroll_mobile": 1,
+                                "ekit_testimonial_show_dot": "yes",
+                                "ekit_testimonial_layout_margin": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "ekit_testimonial_client_name_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 18,
+                                    "sizes": []
+                                },
+                                "ekit_testimonial_client_name_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "ekit_testimonial_description_color": "globals\/colors?id=5c4326a",
+                                    "ekit_testimonial_description_active_color": "",
+                                    "ekit_testimonial_designation_normal_color": ""
+                                },
+                                "ekit_testimonial_layout_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "elementskit-testimonial",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "hide_title": "yes",
+        "ha_grid_zindex": "1000",
+        "content_wrapper_html_tag": "section",
+        "template": "elementor_header_footer"
+    }
+}

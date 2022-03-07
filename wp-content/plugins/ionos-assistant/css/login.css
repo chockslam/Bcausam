@@ -1,0 +1,14 @@
+.assistant-card .card-content .card-content-inner {
+  padding: 0;
+}
+.assistant-card div#login form {
+  text-align: left;
+}
+.assistant-card div#login h1 a {
+  background-color: white;
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
+  -ms-border-radius: 90px;
+  -o-border-radius: 90px;
+  border-radius: 90px;
+}

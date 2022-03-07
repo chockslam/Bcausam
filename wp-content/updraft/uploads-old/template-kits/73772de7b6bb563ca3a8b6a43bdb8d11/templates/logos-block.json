@@ -1,0 +1,281 @@
+{
+    "version": "0.4",
+    "title": "Logos Block",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-logo-grid",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "dd91dac",
+            "settings": {
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": 0,
+                    "bottom": "0",
+                    "left": 0,
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "40",
+                    "right": "40",
+                    "bottom": "40",
+                    "left": "40",
+                    "isLinked": true
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "20",
+                    "right": "20",
+                    "bottom": "20",
+                    "left": "20",
+                    "isLinked": true
+                },
+                "background_background": "classic",
+                "background_color": "#FBF5F1",
+                "padding": {
+                    "unit": "px",
+                    "top": "60",
+                    "right": "0",
+                    "bottom": "60",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "__globals__": {
+                    "background_color": ""
+                }
+            },
+            "elements": [
+                {
+                    "id": "1932f4c1",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "359cc76c",
+                            "settings": {
+                                "logo_list": [
+                                    {
+                                        "image": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/TRAX.png",
+                                            "id": 210
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": true,
+                                            "nofollow": true
+                                        },
+                                        "_id": "368963f",
+                                        "name": "Brand Name"
+                                    },
+                                    {
+                                        "image": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Sunday-Plasma.png",
+                                            "id": 209
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": true,
+                                            "nofollow": true
+                                        },
+                                        "_id": "5599abc",
+                                        "name": "Brand Name"
+                                    },
+                                    {
+                                        "image": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/ROSTER.png",
+                                            "id": 208
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": true,
+                                            "nofollow": true
+                                        },
+                                        "_id": "11b836e",
+                                        "name": "Brand Name"
+                                    },
+                                    {
+                                        "image": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/MONEX-1.png",
+                                            "id": 207
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": true,
+                                            "nofollow": true
+                                        },
+                                        "_id": "7edf167",
+                                        "name": "Brand Name"
+                                    },
+                                    {
+                                        "image": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Mark-Sons.png",
+                                            "id": 206
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": true,
+                                            "nofollow": true
+                                        },
+                                        "_id": "03b81cd",
+                                        "name": "Brand Name"
+                                    },
+                                    {
+                                        "image": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/LURCO-1.png",
+                                            "id": 205
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": true,
+                                            "nofollow": true
+                                        },
+                                        "_id": "0e4fd2e",
+                                        "name": "Brand Name"
+                                    },
+                                    {
+                                        "image": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Limousines.png",
+                                            "id": 204
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": true,
+                                            "nofollow": true
+                                        },
+                                        "_id": "3d736e6",
+                                        "name": "Brand Name"
+                                    },
+                                    {
+                                        "image": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Hurley.png",
+                                            "id": 203
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": true,
+                                            "nofollow": true
+                                        },
+                                        "_id": "bb268d1",
+                                        "name": "Brand Name"
+                                    },
+                                    {
+                                        "image": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/HURLEX.png",
+                                            "id": 202
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": true,
+                                            "nofollow": true
+                                        },
+                                        "name": "Brand Name",
+                                        "_id": "5b845f2"
+                                    },
+                                    {
+                                        "image": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/HUNT-COM-1.png",
+                                            "id": 201
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": true,
+                                            "nofollow": true
+                                        },
+                                        "name": "Brand Name",
+                                        "_id": "1dd29c8"
+                                    },
+                                    {
+                                        "image": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/Hulk-1.png",
+                                            "id": 200
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": true,
+                                            "nofollow": true
+                                        },
+                                        "name": "Brand Name",
+                                        "_id": "d7c3133"
+                                    },
+                                    {
+                                        "image": {
+                                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/hiva-1.png",
+                                            "id": 199
+                                        },
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": true,
+                                            "nofollow": true
+                                        },
+                                        "name": "Brand Name",
+                                        "_id": "8cfbc83"
+                                    }
+                                ],
+                                "thumbnail_size": "full",
+                                "columns": "4",
+                                "grid_border_type": "none",
+                                "grid_bg_color": "#FFFFFF",
+                                "grid_border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "image_opacity": {
+                                    "unit": "px",
+                                    "size": 1,
+                                    "sizes": []
+                                },
+                                "image_opacity_hover": {
+                                    "unit": "px",
+                                    "size": 0.5,
+                                    "sizes": []
+                                },
+                                "image_bg_hover_transition": {
+                                    "unit": "px",
+                                    "size": 0.3,
+                                    "sizes": []
+                                },
+                                "columns_tablet": "3",
+                                "padding_mobile": {
+                                    "unit": "px",
+                                    "top": "12",
+                                    "right": "12",
+                                    "bottom": "12",
+                                    "left": "12",
+                                    "isLinked": true
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "ha-logo-grid",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "hide_title": "yes",
+        "ha_grid_zindex": "1000",
+        "background_background": "classic",
+        "background_color": "#FBF5F1",
+        "content_wrapper_html_tag": "section",
+        "template": "elementor_header_footer"
+    }
+}

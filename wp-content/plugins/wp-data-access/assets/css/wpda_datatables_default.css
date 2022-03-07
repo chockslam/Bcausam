@@ -1,0 +1,231 @@
+table.dataTable thead tr th,
+table.dataTable thead tr td,
+table.dataTable tfoot tr th {
+    white-space: nowrap;
+}
+
+.wpda_more_container {
+    text-align: center;
+}
+
+.wpda_more_button {
+    width: 100%;
+}
+
+.wpda_geo_globe {
+    font-size: 150%;
+    vertical-align: middle;
+}
+
+.wpda_geo_map {
+    display: none;
+    width: 100%;
+}
+
+div.wpda_geo_map div.wpdapro_geolocation_container {
+    width: 100%;
+}
+
+table.dataTable tbody td.wpda_geo_map_marker {
+    background: url('../images/spotlight.png') right top no-repeat;
+    position: relative;
+}
+
+table.dataTable tbody td.wpda_geo_map_marker div.wpda_geo_map_marker_link,
+table.dataTable tbody td.wpda_geo_map_marker_before div.wpda_geo_map_marker_link {
+    display: inline-block;
+    position: absolute;
+    font-weight: bold;
+    color: black;
+}
+
+table.dataTable tbody td.wpda_geo_map_marker div.wpda_geo_map_marker_link a,
+table.dataTable tbody td.wpda_geo_map_marker_before div.wpda_geo_map_marker_link a {
+    color: black;
+}
+
+table.dataTable tbody td.wpda_geo_map_marker div.wpda_geo_map_marker_link {
+    top: 2px;
+    right: 0;
+    width: 28px;
+    text-align: center;
+}
+
+table.dataTable tbody td.wpda_geo_map_marker_before {
+    background: url('../images/spotlight.png') left top no-repeat;
+    position: relative;
+    padding-left: 35px;
+}
+
+table.dataTable tbody td.wpda_geo_map_marker_before div.wpda_geo_map_marker_link {
+    top: 4px;
+    left: 8px;
+}
+
+.wpda_range_filter_globe {
+    float: right;
+    margin: 8px;
+}
+
+th.wpda_geo_distance,
+td.wpda_geo_distance {
+    text-align: right;
+}
+
+table.dataTable, table.dataTable th, table.dataTable td {
+    box-sizing: border-box;
+}
+
+table.wpda-child-modal {
+    border: none;
+}
+table.wpda-child-modal tbody {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+table.wpda-child-modal tbody td:first-child {
+    min-width: 15vw;
+}
+table.wpda-child-modal tbody td:last-child {
+    min-width: 25vw;
+}
+table.wpda-child-table tbody td.wpda-child-label {
+    font-weight: normal;
+}
+table.wpda-child-table tbody td.wpda-child-value {
+    font-weight: bold;
+}
+table.wpda-child-modal div.wpda-modal-footer {
+    padding-top: 10px;
+    text-align: center;
+}
+
+body div.dtr-modal div.dtr-modal-display {
+    width: min-content;
+    display: inline-table;
+    height: unset;
+}
+div.dtr-modal-content table.wpda-child-modal thead,
+div.dtr-modal-content table.wpda-child-modal tbody,
+div.dtr-modal-content table.wpda-child-modal tfoot {
+    display: block;
+}
+div.dtr-modal-content table.wpda-child-modal tbody {
+    max-height: 50vh;
+}
+div.dtr-modal-content table.wpda-child-table {
+    display: table-cell;
+}
+body div.dtr-modal {
+    z-index: 999999 !important;
+}
+.pagination .next::after {
+    content: none;
+}
+div.dataTables_wrapper.dt-bootstrap .dataTables_paginate .paginate_button {
+    border: none !important;
+}
+
+div.dtr-modal-content h2 {
+    text-align: center;
+}
+
+table.wpda-child-expanded,
+table.dataTable table.wpda-child-expanded > tr > td {
+    padding: 0;
+    margin: 0;
+    border: none;
+    width: 100%;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr>td.child {
+    padding: 0;
+    border: none;
+}
+
+/* RESET jQuery UI */
+div.dataTables_wrapper.dt-jqueryui .dataTables_filter input,
+div.dataTables_wrapper.dt-jqueryui .dataTables_length select {
+    color: inherit;
+}
+div.dataTables_wrapper.dt-jqueryui table.dataTable,
+div.dataTables_wrapper.dt-jqueryui table.dataTable th,
+div.dataTables_wrapper.dt-jqueryui table.dataTable td {
+    box-sizing: border-box;
+}
+div.dataTables_wrapper.dt-jqueryui table.dataTable,
+div.dataTables_wrapper.dt-jqueryui table.dataTable a {
+    _color: inherit;
+}
+div.dataTables_wrapper.dt-jqueryui table.dataTable a {
+    font-weight: bold;
+}
+div.dataTables_wrapper.dt-jqueryui table.dataTable.dtr-inline.collapsed > tbody > tr > td.dtr-control::before,
+div.dataTables_wrapper.dt-jqueryui table.dataTable.dtr-inline.collapsed > tbody > tr > th.dtr-control::before {
+    box-sizing: border-box;
+    background-color: unset;
+    color: inherit;
+    font-weight: bold;
+    padding-top: 1px;
+    height: 1.25em;
+    width: 1.25em;
+}
+div.dataTables_wrapper.dt-jqueryui table.dataTable.dtr-inline.collapsed > tbody > tr > td.dtr-control {
+    padding-left: 40px;
+}
+div.dataTables_wrapper.dt-jqueryui table.dataTable tbody tr:not(.selected) {
+    background-color: transparent;
+}
+input.wpda-close-button,
+input.wpda-close-button:hover {
+    border: none;
+}
+input.wpda-close-button:hover {
+    color: initial;
+}
+
+/* Responsive icon */
+table.dataTable.wpda-datatable.dtr-inline.collapsed > tbody > tr[role="row"] > td.dtr-control::before,
+table.dataTable.wpda-datatable.dtr-inline.collapsed > tbody > tr[role="row"] > th.dtr-control::before {
+    top: unset;
+    margin-top: 2px;
+}
+
+table.dataTable.wpda-datatable:not(.compact) thead tr th,
+table.dataTable.wpda-datatable:not(.compact) thead tr td,
+table.dataTable.wpda-datatable:not(.compact) tbody tr th,
+table.dataTable.wpda-datatable:not(.compact) tbody tr td,
+table.dataTable.wpda-datatable:not(.compact) tfoot tr th,
+table.dataTable.wpda-datatable:not(.compact) tfoot tr td {
+    padding: 8px 10px;
+}
+
+table.dataTable.wpda-datatable tbody tr td.child table.wpda-child-expanded>tr>td {
+    padding: 0;
+}
+table.dataTable.wpda-datatable tbody tr td.child table.wpda-child-expanded>tr>td table.wpda-child-table {
+    border: none;
+}
+
+table.dataTable.wpda-datatable th.wpda_format_number,
+table.dataTable.wpda-datatable td.wpda_format_number,
+table.dataTable.wpda-datatable th.wpda_format_date,
+table.dataTable.wpda-datatable td.wpda_format_date {
+    white-space: nowrap;
+}
+
+button.dt-button>span>i.fas {
+    font-size: 150%;
+    vertical-align: middle;
+}
+button.dt-button>span>i.wpda-space {
+    padding-right: 3px;
+}
+
+div.dataTables_wrapper div.dt-buttons,
+div.dataTables_wrapper div.dataTables_length{
+    padding-right: 10px;
+}
+
+div.dataTables_wrapper div.wpda-buttons {
+    display: flex;
+}

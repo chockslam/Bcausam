@@ -1,0 +1,216 @@
+@import 'mixins';
+
+@media @mobile, @tablet, @desktop and (max-height: 950px) {
+    body.assistant-page {
+        overflow-y: auto;
+
+        .header {
+            position: relative;
+        }
+        .assistant-card-container {
+            height: auto;
+        }
+    }
+}
+@media all and (max-width: 1024px) {
+    .assistant-card {
+        max-width: 100%;
+    }
+}
+@media @mobile {
+    body.assistant-page {
+        .assistant-card-container {
+            padding: 0;
+        }
+    }
+    .assistant-card {
+        .vendor(border-radius, 0);
+        
+        &:not(.card-login) .card-header {
+            display: none;
+        }
+        .themes-browser .theme-selector .theme-list .theme-list-inner a.theme {
+            width: 100%;
+        }
+        .card-footer {
+            display: block;
+            
+            .btn-group.right {
+                display: block;
+            }
+        }
+    }
+}
+@media all and (min-width: 420px) and (max-width: 1280px) {
+    .assistant-card .themes-browser {
+        .theme-selector .theme-list .theme-list-inner a.theme {
+            width: 50%;
+        }
+    }
+}
+@media @tablet, @mobile {
+    .assistant-card {
+        .diys-toolbar {
+            display: block;
+            margin: 0 -16px;
+            padding: 20px 50px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+
+            .diys-active-category {
+                line-height: 1.3;
+                display: table;
+                width: 100%;
+
+                .diys-sidebar-label,
+                .diys-sidebar-menu-btn {
+                    vertical-align: middle;
+                    display: table-cell;
+                }
+                .diys-sidebar-label {
+                    color: #2d323a;
+                    text-align: right;
+                }
+                .diys-sidebar-menu-btn {
+                    text-align: left;
+                    position: relative;
+                    padding: 0 20px;
+
+                    &:after,
+                    &:before {
+                        position: absolute;
+                        content: "";
+                        left: 0;
+                        top: 50%;
+                        width: 12px;
+                        height: 2px;
+                        .vendor(border-radius, 1px);
+                        .vendor(transition, .3s);
+                    }
+                    &:before {
+                        .vendor(transform, rotate(45deg));
+                        .vendor(transform-origin, 100% 100%);
+                    }
+                    &:after {
+                        .vendor(transform, rotate(-45deg));
+                        .vendor(transform-origin, 100% 0);
+                    }
+                }
+            }
+        }
+        .themes-browser {
+            .diys-sidebar {
+                border-right: 0 none;
+                position: fixed;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                padding: 45px 0 0;
+                .vendor(transform, translateX(-110%));
+                .vendor(transition-property, ~"width, height, top");
+                .vendor(transition-duration, ~".2s, .2s, .05s");
+                .vendor(transition-delay, ~".2s, .2s, .05s");
+
+                .diys-sidebar-tabs {
+                    height: 100%;
+                    padding: 50px 20px;
+                    overflow: hidden;
+                    .vendor(transition, .2s);
+                    .vendor(transform, translateX(-200%));
+                }
+                .diys-sidebar-background {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+
+                    .diys-sidebar-background-disc {
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 295px;
+                        height: 295px;
+                        background: rgba(255, 255, 255, 0);
+                        .vendor(border-radius, 295px);
+                        .vendor(transform, scale(.1) translateX(-2400%) translateY(-400%));
+                        .vendor(transition, .3s linear);
+                        .vendor(transition-delay, 0s);
+                    }
+                }
+                .diys-sidebar-tabs > ul {
+                    > li {
+                        text-align: center;
+
+                        a {
+                            .vendor(border-radius, 3px);
+                        }
+                        &.active a:after {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            .diys-sidebar-menu-btn {
+                padding-left: 28px;
+                display: block;
+                right: 20px;
+                top: 50px;
+                position: fixed;
+                z-index: 11;
+                opacity: 0;
+                .vendor(transition, none);
+                .vendor(transition-delay, .3s);
+
+                &:after,
+                &:before {
+                    position: absolute;
+                    content: "";
+                    left: 0;
+                    top: 50%;
+                    width: 25px;
+                    height: 2px;
+                    .vendor(border-radius, 1px);
+                    .vendor(transition, .3s);
+                    .vendor(transform-origin, 50% 50%);
+                }
+                &:before {
+                    .vendor(transform, rotate(-45deg));
+                }
+                &:after {
+                    .vendor(transform, rotate(45deg));
+                }
+            }
+            .diys-sidebar-wrapper.open {
+                .diys-sidebar {
+                    z-index: 11;
+                    .vendor(transform, translateX(0));
+                    .vendor(transition-delay, 0s);
+
+                    .diys-sidebar-background {
+                        .diys-sidebar-background-disc {
+                            background: rgba(255, 255, 255, 0.95);
+                            .vendor(transform, scale(7));
+                        }
+                    }
+                    .diys-sidebar-tabs {
+                        display: block;
+                        .vendor(transform, translateX(0));
+                        .vendor(transition-delay, .2s);
+                    }
+                }
+                .diys-sidebar-menu-btn {
+                    top: 16px;
+                    opacity: 1;
+                    .vendor(transition, ~"top .1s, opacity .3s");
+                    .vendor(transition-delay, .3s);
+                }
+            }
+            .theme-selector {
+                height: auto;
+            }
+        }
+    }
+}

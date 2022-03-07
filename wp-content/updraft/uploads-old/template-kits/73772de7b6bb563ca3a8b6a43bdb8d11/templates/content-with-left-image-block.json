@@ -1,0 +1,335 @@
+{
+    "version": "0.4",
+    "title": "Content with Left Image Block",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-about",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "23dea82",
+            "settings": {
+                "structure": "20",
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": 0,
+                    "bottom": "0",
+                    "left": 0,
+                    "isLinked": false
+                },
+                "content_position": "middle",
+                "margin_mobile": {
+                    "unit": "px",
+                    "top": "40",
+                    "right": 0,
+                    "bottom": "0",
+                    "left": 0,
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "20",
+                    "right": "20",
+                    "bottom": "20",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "2a2a028f",
+                    "settings": {
+                        "_column_size": 50,
+                        "_inline_size": null,
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "background_background": "classic",
+                        "background_image": {
+                            "url": "https:\/\/www.preemptive.hocud.com\/wp-content\/uploads\/business-team-with-scheme-on-flipboard-at-office.jpg",
+                            "id": 110
+                        },
+                        "background_position": "center center",
+                        "background_repeat": "no-repeat",
+                        "background_size": "cover"
+                    },
+                    "elements": [
+                        {
+                            "id": "5595c5ba",
+                            "settings": {
+                                "space_mobile": {
+                                    "unit": "px",
+                                    "size": 230,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "spacer",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "42d70560",
+                    "settings": {
+                        "_column_size": 50,
+                        "_inline_size": null,
+                        "padding": {
+                            "unit": "px",
+                            "top": "50",
+                            "right": "50",
+                            "bottom": "50",
+                            "left": "50",
+                            "isLinked": true
+                        },
+                        "background_background": "classic",
+                        "background_color": "#FBF5F1",
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "80",
+                            "right": "30",
+                            "bottom": "80",
+                            "left": "30",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "57eb61a3",
+                            "settings": {
+                                "ekit_heading_title": "Professional {{Financial}} services",
+                                "ekit_heading_sub_title_show": "yes",
+                                "ekit_heading_sub_title": "Grow your business with our intelligent solution",
+                                "ekit_heading_sub_title_position": "before_title",
+                                "ekit_heading_sub_title_tag": "h5",
+                                "ekit_heading_show_seperator": "",
+                                "ekit_heading_seperator_style": "elementskit-border-divider ekit-dotted",
+                                "ekit_heading_seperator_position": "bottom",
+                                "ekit_heading_title_color": "#020C1E",
+                                "ekit_heading_focused_title_color": "#033EA5",
+                                "ekit_heading_focused_title_typography_typography": "custom",
+                                "ekit_heading_focused_title_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "ekit_heading_sub_title_typography_typography": "custom",
+                                "ekit_heading_sub_title_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 13,
+                                    "sizes": []
+                                },
+                                "ekit_heading_sub_title_typography_font_weight": "600",
+                                "ekit_heading_sub_title_typography_text_transform": "uppercase",
+                                "ekit_heading_sub_title_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "ekit_heading_sub_title_typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0.3,
+                                    "sizes": []
+                                },
+                                "ekit_heading_seperator_color": "#033EA5",
+                                "ekit_heading_title_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "ekit_heading_focused_title_typography_font_weight": "600",
+                                "__globals__": {
+                                    "ekit_heading_title_typography_typography": "",
+                                    "ekit_heading_title_color": "",
+                                    "ekit_heading_focused_title_color": "",
+                                    "ekit_heading_sub_title_secondary_bg_color": "",
+                                    "ekit_heading_sub_title_color": "globals\/colors?id=955f555"
+                                },
+                                "ekit_heading_title_typography_typography": "custom",
+                                "ekit_heading_title_typography_font_family": "Catamaran",
+                                "ekit_heading_title_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 32,
+                                    "sizes": []
+                                },
+                                "ekit_heading_title_typography_font_weight": "600",
+                                "ekit_heading_title_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "ekit_heading_focused_title_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 32,
+                                    "sizes": []
+                                },
+                                "ekit_heading_use_sub_title_text_fill": "",
+                                "ekit_heading_sub_title_secondary_bg_background": "classic"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "elementskit-heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "b27007b",
+                            "settings": {
+                                "editor": "<p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nulla vitae elit libero, a pharetra augue.<\/p>",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "10",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "align": "left",
+                                "text_color": "#44484D",
+                                "__globals__": {
+                                    "text_color": ""
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "3131856d",
+                            "settings": {
+                                "chart_position": "horizontalBar",
+                                "labels": "January, February, March",
+                                "chart_data": [
+                                    {
+                                        "label": "Envato",
+                                        "data": "2, 4, 5",
+                                        "background_color": "#7D7DE9",
+                                        "background_hover_color": "#7D7DE9",
+                                        "border_color": "#7D7DE9",
+                                        "border_hover_color": "#7D7DE9",
+                                        "_id": "969082a"
+                                    },
+                                    {
+                                        "label": "Elements",
+                                        "data": "1, 6, 8",
+                                        "background_color": "#65C290",
+                                        "background_hover_color": "#65C290",
+                                        "border_color": "#65C290",
+                                        "border_hover_color": "#65C290",
+                                        "_id": "1e99364"
+                                    }
+                                ],
+                                "chart_height": {
+                                    "unit": "px",
+                                    "size": 280,
+                                    "sizes": []
+                                },
+                                "title_display": "yes",
+                                "chart_title": "Marketplace Analysis",
+                                "bar_width": {
+                                    "unit": "px",
+                                    "size": 70,
+                                    "sizes": []
+                                },
+                                "category_width": {
+                                    "unit": "px",
+                                    "size": 70,
+                                    "sizes": []
+                                },
+                                "bar_border_width": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "title_typography_toggle": "yes",
+                                "title_font_family": "Catamaran",
+                                "title_font_weight": "400",
+                                "legend_typography_toggle": "yes",
+                                "_padding": {
+                                    "unit": "px",
+                                    "top": "20",
+                                    "right": "20",
+                                    "bottom": "20",
+                                    "left": "20",
+                                    "isLinked": true
+                                },
+                                "_border_border": "solid",
+                                "_border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "_border_color": "rgba(39, 39, 63, 0.11)",
+                                "legend_reverse": "",
+                                "chart_animation_duration": 3000,
+                                "_padding_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "ha-bar-chart",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "477559f3",
+                            "settings": {
+                                "editor": "<p>Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nulla vitae elit libero, a pharetra augue.<\/p>",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "10",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "align": "left",
+                                "text_color": "#44484D",
+                                "__globals__": {
+                                    "text_color": ""
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "hide_title": "yes",
+        "ha_grid_zindex": "1000",
+        "content_wrapper_html_tag": "section",
+        "template": "elementor_header_footer"
+    }
+}

@@ -1,0 +1,688 @@
+/* DASHBOARD */
+
+#wpda-dashboard {
+    background-color: #fff;
+    color: inherit;
+    width: 100%;
+    margin-left: -20px;
+    padding: 0 0 0 20px;
+    border-bottom: 1px solid #c3c4c7;
+}
+#wpda-dashboard .wpda-dashboard {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+#wpda-dashboard .wpda-dashboard .wpda-dashboard-group {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 3px;
+    border-right: 1px solid #c3c4c7;
+}
+#wpda-dashboard .wpda-dashboard .wpda-dashboard-group:last-child {
+    margin-right: 20px;
+    border-right: none;
+}
+#wpda-dashboard .wpda-dashboard .wpda-dashboard-group:hover {
+    background-color: #f6f7f7;
+    font-weight: bold;
+}
+#wpda-dashboard .wpda-dashboard .wpda-dashboard-group .wpda-dashboard-item {
+    display: flex;
+    flex-direction: column;
+    font-size: 8.5px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #3c434a;
+}
+#wpda-dashboard .wpda-dashboard .wpda-dashboard-group .wpda-dashboard-item:hover {
+    color: #2271b1;
+    cursor: pointer;
+}
+#wpda-dashboard .wpda-dashboard .wpda-dashboard-group .wpda-dashboard-item .fas {
+    font-size: 28px;
+    padding: 10px 8px 0 8px;
+}
+#wpda-dashboard .wpda-dashboard .wpda-dashboard-group .wpda-dashboard-item div {
+    padding: 8px;
+}
+#wpda-dashboard .wpda-dashboard .wpda-dashboard-group .subject {
+    text-align: center;
+    font-size: 9px;
+    margin-bottom: 5px;
+}
+#wpda-dashboard-mobile {
+    background-color: #fff;
+    color: inherit;
+    margin-left: -10px;
+    padding: 0;
+    border-bottom: 1px solid #c3c4c7;
+}
+@media screen and (min-width: 782px) {
+    #wpda-dashboard-mobile {
+        margin-left: -20px;
+    }
+}
+#wpda-dashboard-drop-down {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.wpda-dashboard-toolbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    background-color: #fff;
+    color: inherit;
+    width: 100%;
+    margin-left: -20px;
+    padding: 0 0 0 20px;
+    border-bottom: 1px solid #c3c4c7;
+}
+
+.wpda-dashboard-toolbar > div > div {
+    display: inline-block;
+    margin: 0;
+    border-right: 1px solid #c3c4c7;
+    padding: 0 4px;
+}
+.wpda-dashboard-toolbar > div > div {
+    padding: 0 2px;
+}
+.wpda-dashboard-toolbar > div > div:last-child {
+    border: none;
+}
+.wpda-dashboard-toolbar > div > div > div {
+    display: inline-block;
+    text-align: center;
+    font-size: 8px;
+    line-height: 8px;
+    padding: 8px 4px;
+    margin: 0;
+    border: none;
+}
+.wpda-dashboard-toolbar > div > div > div i {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.wpda-dashboard-toolbar > div > div > div:hover {
+    background-color: #f6f7f7;
+}
+.wpda-dashboard-toolbar > div:nth-child(2) {
+    margin: auto;
+}
+
+.wpda-dashboard-toolbar > div > div:last-child {
+    margin-right: 20px;
+}
+.wpda-add-panel {
+    margin-left: -20px;
+    padding: 10px 0 0 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #c3c4c7;
+}
+.wpda-add-panel form {
+    padding: 0 20px 0 0;
+}
+.wpda-add-panel label {
+    font-weight: normal;
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    padding-right: 5px;
+}
+.wpda-add-panel div {
+    margin: 0;
+    padding: 0;
+}
+.wpda-add-panel div {
+    padding-bottom: 2px;
+}
+.wpda-add-panel div:last-child {
+    padding-bottom: 10px;
+}
+.wpda-dashboard-content {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.wpda-dashboard-column {
+    padding-right: 20px;
+    width: 0;
+}
+.wpda-dashboard-content .wpda-dashboard-column-1 {
+    flex: 1 1 100%;
+}
+.wpda-dashboard-content .wpda-dashboard-column-2 {
+    flex: 1 1 50%;
+}
+.wpda-dashboard-content .wpda-dashboard-column-3 {
+    flex: 1 1 33%;
+}
+.wpda-dashboard-content .wpda-dashboard-column-4 {
+    flex: 1 1 25%;
+}
+.wpda_nav_title {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 4px;
+}
+.wpda_nav_toggle {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#wpda-dashboard-mobile ul {
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#wpda-dashboard-mobile ul li.menu-item {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px 10px;
+    margin: 0;
+}
+#wpda-dashboard-mobile ul li.menu-item a {
+    text-decoration: none;
+    color: inherit;
+}
+#wpda-dashboard-mobile ul li.menu-item:hover {
+    background-color: grey;
+    color: white;
+}
+#wpda-dashboard-mobile .fas {
+    width: 20px;
+}
+.wpda-separator {
+    border-bottom: 1px solid #c3c4c7;
+}
+
+div.wpda-widget-content div.wpda-dashboard-chart-settings,
+div.wpda-widget-content div.wpda-dashboard-chart-settings div {
+    display: block;
+    padding: 0 0 2px 0;
+}
+
+div.wpda-widget-content div.wpda-dashboard-chart-settings textarea {
+    display: block;
+}
+
+.wpda_insert_query_builder {
+    float: right;
+}
+
+textarea.wpda_chart_sql {
+    width: 100% !important;
+    min-height: 160px;
+    padding: 10px;
+
+}
+
+.wpda-dashboard-chart-settings-buttons {
+    text-align: right;
+    padding-top: 10px !important;
+}
+
+fieldset.wpda_fieldset.wpda_fieldset_dashboard {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+}
+
+fieldset.wpda_fieldset.wpda_fieldset_chart_layout label {
+    display: inline-block;
+    width: 60px;
+}
+
+div.wpda-dailog-layout div {
+    padding: 2px;
+}
+
+div.wpda-dailog-layout label {
+    display: inline-block;
+    width: 100px;
+}
+
+div.ui-dialog div.ui-dialog-content {
+    padding: 1px;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+    border-width: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#adminmenuwrap {
+    margin-top: 0 !important;
+}
+
+/* WIDGET */
+
+.wpda-widget {
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.wpda-widget:last-child {
+    margin-bottom: 0;
+}
+.wpda-widget .ui-widget-header {
+    font-size: 120%;
+}
+.wpda-widget .wpda-chart-container {
+    overflow: auto;
+    padding: 10px !important;
+}
+.wpda-widget .wpda-chart-container .wpda_widget_chart_selection {
+    display: inline-block;
+    width: calc( 100% - 15px );
+    padding-right: 0;
+}
+.wpda-widget .wpda-chart-container .wpda_widget_chart_selection select {
+    float: right;
+}
+.wpda_widget_chart_container {
+    padding: 5px;
+}
+.wpda-widget-content div div {
+    align-self: center;
+}
+.wpda-widget-content div.ui-tabs {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+}
+.wpda-widget-content div.ui-tabs.wpda-dbms-container {
+    padding: 12px 16px 16px 16px !important;
+}
+.wpda-widget-content .ui-tabs .ui-tabs-panel {
+    width: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.wpda-widget-content ul.ui-tabs-nav {
+    background: unset;
+    border: none !important;
+    border-bottom: 1px solid rgb(170, 170, 170) !important;
+    width: 100%;
+    border-radius: 0;
+    padding-right: 0;
+    margin: 0 -0.2em 0 -0.1em;
+
+    background: unset;
+    border: none !important;
+    border-bottom: 1px solid rgb(170, 170, 170) !important;
+    width: -webkit-fill-available;
+    border-radius: 0;
+    margin: 0 -4px;
+    padding: 0;
+}
+.wpda-widget-content div:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px 4px 0 0;
+    padding: 6px;
+}
+.wpda-widget-content div:first-child span.icons i {
+    cursor: pointer;
+}
+.wpda-widget-content div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 0 0 4px 4px;
+    border-top: none;
+    box-sizing: border-box;
+    width: 100%;
+}
+table.wpda_dbms_table {
+    width: 100%;
+    margin: 10px;
+}
+table.wpda_dbms_table tbody tr th.wpda-widget-dbms-separator {
+    padding-top: 20px;
+}
+table.wpda_dbms_table tbody tr th.wpda-widget-dbms-separator-end {
+    padding-bottom: 10px;
+}
+table.wpda_dbms_table tbody tr th {
+    background-color: transparent;
+    text-align: right;
+}
+table.wpda_dbms_table tbody th {
+    white-space: nowrap;
+}
+table.wpda_dbms_table tbody tr th.wpda-widget-dbms-separator,
+table.wpda_dbms_table tbody tr th.wpda-dbms-link {
+    text-align: left;
+}
+table.wpda-widget-dbms {
+    table-layout: fixed;
+    width: 100%;
+    margin-top: 5px;
+}
+table.wpda-widget-dbms thead tr {
+    display: block;
+    background-color: #555;
+    color: #fff;
+}
+table.wpda-widget-dbms tbody {
+    display: block;
+    height: 240px;
+    overflow-y: scroll;
+    border-collapse: collapse;
+}
+table.wpda-widget-dbms th {
+    text-align: left;
+}
+.wpda-widget-dbms tbody tr:hover {
+    background: #ddd;
+}
+.wpda-widget-dbms th {
+    padding: 5px 4px;
+}
+.wpda-widget-dbms td {
+    padding: 5px;
+}
+.wpda-dbms-link {
+    cursor: pointer;
+}
+.ui-widget {
+    font-family: inherit !important;
+    font-size: inherit !important;
+}
+
+div.wpda-dashboard-content div.dataTables_wrapper,
+div.wpda-dashboard-content div.dataTables_wrapper div.dt-buttons,
+div.wpda-dashboard-content div.dataTables_wrapper div.dataTables_length,
+div.wpda-dashboard-content div.dataTables_wrapper div.dataTables_paginate,
+div.wpda-dashboard-content div.dataTables_wrapper div.DataTables_sort_wrapper {
+    display: block;
+}
+div.wpda-dashboard-content div.dataTables_wrapper div.dataTables_wrapper,
+div.wpda-dashboard-content div.dataTables_wrapper div.dataTables_length,
+div.wpda-dashboard-content div.dataTables_wrapper div.dt-buttons,
+div.wpda-dashboard-content div.dataTables_wrapper div.dataTables_filter,
+div.wpda-dashboard-content div.dataTables_wrapper div.dataTables_info,
+div.wpda-dashboard-content div.dataTables_wrapper div.dataTables_paginate {
+    padding: 0;
+}
+div.wpda-dashboard-content div.dataTables_wrapper div.dataTables_length {
+    padding-left: 10px;
+}
+div.wpda-dashboard-content div.dataTables_wrapper div.dataTables_filter {
+    margin-right: -2px;
+}
+div.wpda-dashboard-content div.dataTables_wrapper div.dataTables_paginate {
+    width: auto;
+    margin-right: -2px;
+}
+div.wpda-dashboard-content div.dataTables_wrapper th {
+    text-align: left;
+}
+div.wpda-dashboard-content div.dataTables_wrapper th.wpdaforms-action-icons {
+    text-align: right;
+}
+
+div.wpda-dashboard-content div.wpdadataproject_menu,
+div.wpda-dashboard-content div.wpdadataproject_menu_items,
+div.wpda-dashboard-content div.wpdadataproject_menu_pages,
+div.wpda-dashboard-content div.wpdadataproject_menu_pages div {
+    display: block;
+    padding: 0;
+}
+div.wpda-dashboard-content div.wpdadataproject_menu {
+    padding: 10px 10px 0 10px;
+}
+div.wpda-dashboard-content div.wpdadataproject_menu_pages {
+    padding: 0 10px 10px 10px;
+}
+div.wpda-dashboard-content table.ui-widget-content {
+    border: none;
+}
+div.wpda-dashboard-content div.wpdadataproject_menu .ui-menu {
+    margin-bottom: 7px;
+}
+div.wpda-dashboard-content div.wpdadataproject_menu .ui-menu li div:hover {
+    background: #f6f7f7 !important;
+}
+div.wpda-dashboard-content div.wpdadataforms_table div.dt-buttons {
+    margin-bottom: 10px;
+}
+div.wpda-dashboard-content div.wpdadataforms_table div.dataTables_length {
+    padding-left: 0;
+}
+div.wpdadataforms_modal .dt-buttons {
+    text-align: right;
+    width: 100%;
+}
+div.wpdadataforms_modal .ui-toolbar {
+    clear: both;
+}
+
+div.wpda-dashboard-content table.wpda-datatable {
+    padding: 10px 0;
+}
+div.wpda-dashboard-content button.dt-button {
+    margin: 0;
+    height: 30px;
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc {
+    background-image: none;
+}
+
+/* TOOLTIP */
+
+.wpda_tooltip_css {
+    background: black;
+    color: white;
+    border: 2px solid white;
+    font: bold 10px "Helvetica Neue", Sans-Serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 7px black;
+}
+i.wpda_tooltip:hover {
+    cursor: pointer;
+}
+.wpda_tooltip_dashboard {
+    background: black;
+    color: white;
+    border: 2px solid white;
+    font: bold 10px "Helvetica Neue", Sans-Serif;
+    box-shadow: 0 0 7px black;
+}
+.wpda_tooltip_icons_css, .arrow:after {
+    background: black;
+    border: 2px solid white;
+}
+.wpda_tooltip_icons_css {
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    font: bold 10px "Helvetica Neue", Sans-Serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 7px black;
+}
+.arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+}
+.arrow.top {
+    top: -16px;
+    bottom: auto;
+}
+.arrow.left {
+    left: 20%;
+}
+.arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px black;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.arrow.top:after {
+    bottom: -20px;
+    top: auto;
+}
+
+/* CHART TYPES */
+ul.wpda_google_chart_types {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.wpda_google_chart_types li {
+    display: inline-block;
+}
+ul.wpda_google_chart_types li input[type="checkbox"] {
+    display: none;
+}
+ul.wpda_google_chart_types li label {
+    border: 1px solid #fff;
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin: 0 2px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+ul.wpda_google_chart_types li label::before {
+    background-color: white;
+    color: white;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #c3c4c7;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+}
+ul.wpda_google_chart_types li label img {
+    height: 120px;
+    width: 120px;
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+    margin: 4px 4px 0 4px;
+}
+ul.wpda_google_chart_types li input[type="checkbox"]:checked+label {
+    border-color: #8c8f94;
+    border-radius: 4px;
+}
+ul.wpda_google_chart_types li input[type="checkbox"]:checked+label::before {
+    content: "\2713";
+    background-color: #8c8f94;
+    transform: scale(1.4);
+    left: 119px;
+}
+ul.wpda_google_chart_types li input[type="checkbox"]:checked+label img {
+    box-shadow: 0 0 5px #dedede;
+}
+
+div.wpda-query-select-content textarea {
+    width: 100%;
+    height: 100px;
+    max-height: 100px;
+}
+.ui-dialog {
+    z-index: 999999 !important;
+}
+
+div.wpda_dashboard_free_message {
+    padding: 4px;
+    text-align: center;
+}
+div.wpda_dashboard_free_message table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.wpda-widget-content .wpda_widget_chart_container * {
+    border-radius: 0 !important;
+}
+div.wpda_widget_chart_container .goog-inline-block,
+div.wpda_widget_chart_container .google-visualization-table-page-numbers {
+    display: inline-block !important;
+    width: unset !important;
+}
+div.wpda_widget_chart_container .google-visualization-table,
+div.wpda_widget_chart_container .google-visualization-table>div {
+    padding: 0 !important;
+}
+div.wpda_widget_chart_container .google-visualization-table .gradient,
+div.wpda_widget_chart_container .goog-custom-button {
+    background-image: none !important;
+    background: #ddd !important;
+    padding: 0 !important;
+}
+div.wpda_widget_chart_container .google-visualization-table-page-numbers a {
+    width: 20px;
+    text-align: center !important;
+}
+
+div.wpda-add-share-dashboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.google-visualization-tooltip {
+    pointer-events: none
+}
+
+.wpda-dashboard-share {
+    padding-right: 8px;
+}
+fieldset.wpda-dashboard-rename label {
+    width: 100px;
+    display: inline-block;
+}
+div[aria-describedby=shareDashboard] .ui-dialog-title,
+div[aria-describedby=shareWidget] .ui-dialog-title {
+    overflow: visible;
+    margin-right: 20px;
+}
+#shareDashboard select {
+    box-sizing: border-box;
+}
+
+div.wpda-widget-content .dataTables_wrapper .dataTables_length select {
+    padding-right: 1.6em;
+}
