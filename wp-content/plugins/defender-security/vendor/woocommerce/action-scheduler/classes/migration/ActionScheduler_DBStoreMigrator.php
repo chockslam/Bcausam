@@ -27,9 +27,10 @@ class ActionScheduler_DBStoreMigrator extends ActionScheduler_DBStore {
 		try {
 			/** @var \wpdb $wpdb */
 			global $wpdb;
-
+			
+			
 			$action_id = parent::save_action( $action, $scheduled_date );
-
+			var_dump($action_id);
 			if ( null !== $last_attempt_date ) {
 				$data = [
 					'last_attempt_gmt'   => $this->get_scheduled_date_string( $action, $last_attempt_date ),

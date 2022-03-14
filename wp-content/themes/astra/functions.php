@@ -196,7 +196,8 @@ add_action( 'elementor_pro/forms/trust-prospect-list-form', function( $record, $
 	// database for the tags of the charity
 	$inputtedName = $fields['email'];
 	$inputtedCharityNumber = $fields['charityNumber'];
-	
+	var_dump($inputtedCharityNumber);
+	var_dump($inputtedName);
 	// TODO: Charity commission API call
 	// 
 	// return $Whats = [] - array of charity classifications code, i.e. 101,102,107...
