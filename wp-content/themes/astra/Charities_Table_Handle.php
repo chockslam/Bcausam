@@ -2,7 +2,8 @@
     
     define("PATH", "C:\\xampp\\htdocs\\Bcausam\\wp-content\\themes\\astra");
     define("FILE", "CharitiesClassification.json");
-
+    define("SERVER_PATH", "/homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-content/themes/astra/");
+    
     function GetJSON_local($fileName){
         set_time_limit(0);
         ini_set('memory_limit', '-1');
@@ -37,7 +38,7 @@
     function GetJSON_server($absPath, $fileName){
         set_time_limit(0);
         ini_set('memory_limit', '-1');
-        $fcontent = file_get_contents($absPath."\\".$fileName);
+        $fcontent = file_get_contents($absPath."/".$fileName);
         $json_a = json_decode(preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $fcontent), true);
         return $json_a;
     }
@@ -110,12 +111,15 @@
         $newData = getDataForDatabase();
         //var_dump($newData);
         global $wpdb;
+        $count = 0;
         foreach($newData as $key => $value){
-            $wpdb->insert("charities_classifications", array(
+            if($wpdb->insert("charities_classifications", array(
                 'ID'                  => $key,
                 'CLASSIFICATION CODE' => $value
-            ));
+            )))
+                $count++;
         }
+        return $count;
     }
 
 
