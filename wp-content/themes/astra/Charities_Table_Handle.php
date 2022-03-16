@@ -39,7 +39,10 @@
         set_time_limit(0);
         ini_set('memory_limit', '-1');
         $fcontent = file_get_contents($absPath."/".$fileName);
+        
+        //$fcontent = stripcslashes(trim($fcontent,'"'));
         $json_a = json_decode(preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $fcontent), true);
+        var_dump($json_a);
         return $json_a;
     }
 
@@ -92,7 +95,7 @@
     }
 
     function getDataForDatabase(){
-        $charities = GetJSON_server(PATH, FILE);
+        $charities = GetJSON_server(SERVER_PATH, FILE);
         $funderIDs = GetFunders($charities);
         $fundersWhatClassific = GetWhatClassification($charities, $funderIDs);
         return $fundersWhatClassific;
@@ -104,21 +107,31 @@
         $preparation = $wpdb->prepare($sql);
         return $wpdb->query($preparation);
     }
+    
     function wpdbUpdateServer(){
         
         deleteOldRecords();
 
-        $newData = getDataForDatabase();
+        $newData = file(SERVER_PATH.'SQL.csv');
         //var_dump($newData);
         global $wpdb;
         $count = 0;
-        foreach($newData as $key => $value){
+        foreach($newData as $line){
+            $toInsert = str_getcsv($line);
             if($wpdb->insert("charities_classifications", array(
-                'ID'                  => $key,
-                'CLASSIFICATION CODE' => $value
-            )))
-                $count++;
+                        'ID'                  => $toInsert[0],
+                        'CLASSIFICATION CODE' => $toInsert[1]
+                    )))
+                    $count++;
         }
+        var_dump($count);
+        // foreach($newData as $key => $value){
+        //     if($wpdb->insert("charities_classifications", array(
+        //         'ID'                  => $key,
+        //         'CLASSIFICATION CODE' => $value
+        //     )))
+        //         $count++;
+        // }
         return $count;
     }
 
