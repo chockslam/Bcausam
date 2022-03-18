@@ -1,6 +1,7 @@
 <?php
     
-    define("PATH", "C:\\xampp\\htdocs\\Bcausam\\wp-content\\themes\\astra");
+    define("PATH", "C:\\xampp\\htdocs\\Bcausam\\wp-content\\themes\\astra\\");
+    define("CSV_SQL", "SQL.csv");
     define("FILE", "CharitiesClassification.json");
     define("SERVER_PATH", "/homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-content/themes/astra/");
     
@@ -100,7 +101,17 @@
         $fundersWhatClassific = GetWhatClassification($charities, $funderIDs);
         return $fundersWhatClassific;
     }
+    // ------------------------------------------FUNCTIONS ABOVE THIS LINE ARE NOT USED----------------------------- 
+    // ------------------------------------------FUNCTIONS ABOVE THIS LINE ARE NOT USED----------------------------- 
+    // ------------------------------------------FUNCTIONS ABOVE THIS LINE ARE NOT USED----------------------------- 
+    // ------------------------------------------FUNCTIONS ABOVE THIS LINE ARE NOT USED----------------------------- 
+    // ------------------------------------------FUNCTIONS ABOVE THIS LINE ARE NOT USED----------------------------- 
+    // ------------------------------------------FUNCTIONS ABOVE THIS LINE ARE NOT USED----------------------------- 
+    // ------------------------------------------FUNCTIONS ABOVE THIS LINE ARE NOT USED----------------------------- 
 
+    /**
+     * Deleting all the records using $wpdb. 
+     */
     function deleteOldRecords(){
         global $wpdb;
         $sql = "TRUNCATE TABLE `charities_classifications`";
@@ -108,31 +119,33 @@
         return $wpdb->query($preparation);
     }
     
+    /**
+     * Updating wpdb with new info using .csv file created externally using python script.
+     */
     function wpdbUpdateServer(){
         
+        // Truncate table before inserting new rows.
         deleteOldRecords();
 
-        $newData = file(SERVER_PATH.'SQL.csv');
-        //var_dump($newData);
-        global $wpdb;
-        $count = 0;
+        // Read CSV file
+        $newData = file(SERVER_PATH.CSV_SQL);
+        
+        // Insert query format...
+        $SQLupd = "INSERT into `charities_classifications` (`ID`, `CLASSIFICATION CODE`)
+                   VALUES ";
+
+        global $wpdb;                                                                       // $wpdb - global variable that used to interact with the database.
+        $place_holder = "(%d, '%s')";                                                       // create placeholder to be added to the sql query. Example format is (200001, '101;102;103')
+        
+        // For each line in the .csv format.
         foreach($newData as $line){
-            $toInsert = str_getcsv($line);
-            if($wpdb->insert("charities_classifications", array(
-                        'ID'                  => $toInsert[0],
-                        'CLASSIFICATION CODE' => $toInsert[1]
-                    )))
-                    $count++;
+            $toInsert = str_getcsv($line);                                                  // turn .csv string into an array 
+            $SQLupd = $SQLupd.sprintf($place_holder, $toInsert[0], $toInsert[1]).",";       // fill in the placeholder and add it to the 'update query format'
         }
-        var_dump($count);
-        // foreach($newData as $key => $value){
-        //     if($wpdb->insert("charities_classifications", array(
-        //         'ID'                  => $key,
-        //         'CLASSIFICATION CODE' => $value
-        //     )))
-        //         $count++;
-        // }
-        return $count;
+        
+        // trim last coma and, execute the prepared query, return count of affected rows
+        return $wpdb->query( $wpdb->prepare( substr_replace($SQLupd ,"",-1) ) );            // Returns the count of the affected rows.
+        
     }
 
 

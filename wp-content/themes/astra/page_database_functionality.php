@@ -34,11 +34,11 @@ get_header(); ?>
 
 		<?php
 			require 'Charities_Table_Handle.php';
-			// var_dump("HERE");
-			// $numUpdated = "0";
-			$numUpdated = wpdbUpdateServer();
-			// $numUpdated = GetJSON_server(PATH, FILE);
-			echo $numUpdated." funders were added to the database";
+			$numUpdated = wpdbUpdateServer();										// Update table
+			if($numUpdated)															
+				echo $numUpdated." funders were added to the database";				// Feedback to the user.
+			else
+				echo "Something went wrong..."
 		?>
 
 		<?php astra_primary_content_bottom(); ?>
