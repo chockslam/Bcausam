@@ -178,31 +178,52 @@ require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-functions.php';
 
 // Testing new form record
 add_action( 'elementor_pro/forms/trust-prospect-list-form', function( $record, $handler ) {
-    //make sure its our form
-    $form_name = $record->get_form_settings( 'trust-prospect-list-form' );
+  //make sure its our form
+  $form_name = $record->get_form_settings( 'trust-prospect-list-form' );
 
-    // Replace MY_FORM_NAME with the name you gave your form
-    if ( 'trust-prospect-list-form' !== $form_name ) {
-        return;
-    }
+  // Replace MY_FORM_NAME with the name you gave your form
+  if ( 'trust-prospect-list-form' !== $form_name ) {
+      return;
+  }
 
-    $raw_fields = $record->get( 'fields' );
-    $fields = [];
-    foreach ( $raw_fields as $id => $field ) {
-        $fields[ $id ] = $field['value'];
-    }
-	
-	// Once these inputs had been retrieved from the form submission, store them here then makethe api call to the charity comission to search the 
-	// database for the tags of the charity
-	$inputtedName = $fields['email'];
-	$inputtedCharityNumber = $fields['charityNumber'];
-	
-	// TODO: Charity commission API call
-	// 
-	// return $Whats = [] - array of charity classifications code, i.e. 101,102,107...
-	//  $csvCont = $file = fopen("contacts.csv","r");
-	// 	print_r(fgetcsv($file));
-	//$res = wp_get_http( "http://bcausam.co.uk/wp-content/uploads/2022/03", "Classific.csv" );
+  $raw_fields = $record->get( 'fields' );
+  $fields = [];
+  foreach ( $raw_fields as $id => $field ) {
+      $fields[ $id ] = $field['value'];
+  }
+
+  // Once these inputs had been retrieved from the form submission, store them here then makethe api call to the charity comission to search the 
+  // database for the tags of the charity
+  $inputtedName = $fields['email'];
+  $inputtedCharityNumber = $fields['charityNumber'];
+
+  // TODO: Charity commission API call
+  
+  // Setting headers and arguments for API request
+  $headers = array(
+    'Cache-Control: no-cache',
+    'Ocp-Apim-Subscription-Key: 6ee601d9b98f4a7eb9a73a57e7e366d1',);
+
+  $args = [
+    'method'=> 'GET',
+    'headers' => $headers,
+
+  ]
+
+  // Creating the URL and adding the user inputted Charity Number
+  $url = 'https://api.charitycommission.gov.uk/register/api/charitydetails/'
+  $url = $url + $inputtedCharityNumber + "/0"
+
+  // Handling the response
+  $response = wp_remote_request($url,$args)
+  
+  // Filtering the response to just the "What" category
+  $WhoWhatWhere = $response["who_what_where"]
+  $What = array_filter($WhoWhatWhere, function($k){
+    return $k == "What"
+  }, ARRAY_FILTER_USE_KEY)
+
+
 
 });
 		   
