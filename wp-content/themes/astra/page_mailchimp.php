@@ -34,8 +34,8 @@ get_header(); ?>
 
 		<?php 
 			require 'mandrill-transactional.php';
-			$code = test_connection();
-			echo $code;
+			$res = send_test("w19005151@northumbria.ac.uk");
+			print_r($res);
 		?>
 
 		<?php astra_primary_content_bottom(); ?>

@@ -24,6 +24,37 @@
         }
     }
 
+    function send_test($email_addr) {
+        $url = "https://mandrillapp.com/api/1.0/messages/send";
+        $content = array(
+            "key" => MC_API_KEY,
+            "message" => array(
+                "html" => "<p>This is a test email from the Mandrill API</p>",
+                "from_email" => "keith@bcausam.co.uk",
+                "from_name" => "Keith",
+                "subject" => "Test Email",
+                "to" => array(
+                    array(
+                        "email" => $email_addr,
+                        "name" => "Test User",
+                        "type" => "to"
+                    )
+                )
+            )
+        );
+        $content = json_encode($content);
+        $q = wp_remote_post($url, array(
+            'method' => 'POST',
+            'body' => $content,
+            'headers' => array(
+                'Content-Type' => 'application/json'
+            )
+        ));
+        $response = wp_remote_retrieve_body($q);
+        $response = json_decode($response, true);
+        return $response;
+    }
+
     // function postMessage($messageContent) {
     //     $arr = array(
     //         'body'  =>  $messageContent
@@ -41,13 +72,10 @@
 
     // function formatMessage($message) {
     //     $content = array(
-    //         'key' => $MC_API_KEY,
+    //         'key' => MC_API_KEY,
     //         'template' => $MC_TEMPLATE_NAME,
     //         'template_content' => template_content,
-    //         'message' => message_content,
-    //         'async' => false,
-    //         'ip_pool' => 'Main Pool',
-    //         'send_at' => 'test'
+    //         'message' => $message_content,
     //     );
     // }
 
