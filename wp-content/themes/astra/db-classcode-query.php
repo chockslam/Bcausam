@@ -5,47 +5,67 @@
 //     define("PATH", "C:\\xampp\\htdocs\\Bcausam\\wp-content\\themes\\astra");
 //     define("SERVER_PATH", "/homepages/9/d834021495/htdocs/clickandbuilds/Bcausam/wp-content/themes/astra/");
 
+    function callAPI($url, $header)
+    {
+        $response = wp_remote_get($url, $header);
+        //print_r($response);
+        if($response->errors['http_request_failed'])
+        {
+            callAPI($url, $header);
+        }
+        else{
+            $body = wp_remote_retrieve_body($response);
+            return $body;
+        }
+    }
+
     function CopyDatabase()
     {   
-        // $inputtedCharityNumber = '200054';
+        $inputtedCharityNumber = '200054';
         
-        // // TODO: Charity commission API call
+        // TODO: Charity commission API call
         
-        // // Setting headers and arguments for API request
-        // $header = array(
-        //     'headers' => array(
-        //         'Cache-Control' => 'no-cache',
-        //         'Ocp-Apim-Subscription-Key' => '6ee601d9b98f4a7eb9a73a57e7e366d1',
-        //     )
-        // );
+        // Setting headers and arguments for API request
+        $header = array(
+            'headers' => array(
+                'Cache-Control' => 'no-cache',
+                'Ocp-Apim-Subscription-Key' => '6ee601d9b98f4a7eb9a73a57e7e366d1',
+            )
+        );
         
-        // // Creating the URL and adding the user inputted Charity Number
-        // $url = 'https://api.charitycommission.gov.uk/register/api/allcharitydetails/';
-        // $url = $url . $inputtedCharityNumber . "/0";
+        // Creating the URL and adding the user inputted Charity Number
+        $url = 'https://api.charitycommission.gov.uk/register/api/allcharitydetails/';
+        $url = $url . $inputtedCharityNumber . "/0";
         
-        // // Handling the response
-        // $response = wp_remote_get($url, $header);
-        // $body = wp_remote_retrieve_body($response);
+        // Handling the response
+        //$response = wp_remote_get($url, $header);
+        
+        //$body = wp_remote_retrieve_body($response);
+        
 
-        // // Filtering the response to just the "What" category
-        // //$response = $response["body"];  
-        
-        // $response = json_decode($body, true);
-        // gettype($response);
-        // $response = $response["who_what_where"];
-        
-        // $validClassCodes = array();
-        // foreach($response as $arr)
-        // {
-        //     array_push($validClassCodes, $arr['classification_code']);
-        // }
+        $body = callAPI($url, $header);
+        //return $body;
 
-        // $validClassCodes = array_filter($validClassCodes, function($code){
-        //     //if(str_contains($code, '10' || '11'))
+        //Filtering the response to just the "What" category
+        //$response = $response["body"];  
+        
+        $response = json_decode($body, true);
+        gettype($response);
+        //return $response;
+        $response = $response["who_what_where"];
+        
+        $validClassCodes = array();
+        foreach($response as $arr)
+        {
+            array_push($validClassCodes, $arr['classification_code']);
+        }
+
+        $validClassCodes = array_filter($validClassCodes, function($code){
+            //if(str_contains($code, '10' || '11'))
             
-        //     return ($code < 200);
+            return ($code < 200);
             
-        // });
+        });
         //return $validClassCodes;
 
         //Init db
@@ -65,12 +85,12 @@
             $res[$entry->ID] = explode(';', $entry->CLASSIFICATION_CODE);
         }
         //Call query class code function, put '$validClassCodes' in for first parameter
-        $finish = QueryClassCode("101", $res);
+        $finish = QueryClassCode($validClassCodes, $res);
         //Return query class code function
-        return $finish;
+        //return $finish;
 
-        //$end = QueryIDs($finish);
-        //return $end;
+        $end = QueryIDs($finish);
+        return $end;
     }
     
     //Function for comparing the class code
@@ -96,61 +116,97 @@
         return $validIDs;
     }
 
-    // function QueryIDs($arrayOfIDs)
-    // {
-    //     //$arrayExtract = implode(',', $arrayOfIDs);
+    function StillActive($arrayOfIDs)
+    {
 
-    //     //return $arrayExtract;
+    }
 
-    //     $chunked = array_chunk($arrayOfIDs, 10, true);
-    //     //return $chunked;
+    function QueryIDs($arrayOfActiveIDs)
+    {
+        //$arrayExtract = implode(',', $arrayOfIDs);
+
+        //return $arrayExtract;
+
+        $chunked = array_chunk($arrayOfActiveIDs, 10, true);
+        //return $chunked;
         
-    //     //Setting headers and arguments for API request
-    //     $header = array(
-    //         'headers' => array(
-    //             'Cache-Control' => 'no-cache',
-    //             'Ocp-Apim-Subscription-Key' => '6ee601d9b98f4a7eb9a73a57e7e366d1',
-    //         )
-    //     );
+        //Setting headers and arguments for API request
+        $header = array(
+            'headers' => array(
+                'Cache-Control' => 'no-cache',
+                'Ocp-Apim-Subscription-Key' => '6ee601d9b98f4a7eb9a73a57e7e366d1',
+            )
+        );
         
-    //     //Creating the URL and adding the user inputted Charity Number
-    //     $url = 'https://api.charitycommission.gov.uk/register/api/charitydetailsmulti/';
+        //Creating the URL and adding the user inputted Charity Number
+        $url = 'https://api.charitycommission.gov.uk/register/api/charitydetailsmulti/';
 
-    //     $compResponse = array();
-    //     $count = 0;
+        $compResponse = array();
+        $count = 0;
 
-    //     shuffle($chunked);
+        shuffle($chunked);
 
-    //     foreach($chunked as $tenChunkOfIDs)
-    //     {
-    //         $count++;
-    //         if($count < 2)
-    //         {
-    //             $tenStringOfIDs = implode(',', $tenChunkOfIDs);
-    //             $modifiedURL = $url . $tenStringOfIDs;
+        foreach($chunked as $tenChunkOfIDs)
+        {
+            $count++;
+            if($count < 2)
+            {
+                $tenStringOfIDs = implode(',', $tenChunkOfIDs);
+                $modifiedURL = $url . $tenStringOfIDs;
     
-    //             // // Handling the response
-    //             $response = wp_remote_get($modifiedURL, $header);
-    //             $body = wp_remote_retrieve_body($response);
+                // // Handling the response
+                $response = wp_remote_get($modifiedURL, $header);
+                $body = wp_remote_retrieve_body($response);
     
-    //             $response = json_decode($body, true);
-    //             gettype($response);
-    //             //$response = $response->charity_name;
+                $response = json_decode($body, true);
+                gettype($response);
+                //$response = $response->charity_name;
 
-    //             // $response = array_filter($response, function($filtered){
-    //             //     return $filtered == 'charity_name';
-    //             // });
+                // $response = array_filter($response, function($filtered){
+                //     return $filtered == 'charity_name';
+                // });
 
-    //             // for($i = 0; $i < 10; $i++)
-    //             // {
-    //             //     return $response[$i][$i]["charity_name"];
-    //             // }
+                // for($i = 0; $i < 10; $i++)
+                // {
+                //     return $response[$i][$i]["charity_name"];
+                // }
                 
-    //             array_push($compResponse, $response);
-    //             //gettype($response);
-    //         }
-    //     }
-    //     return $compResponse;
-    // }
+                array_push($compResponse, $response);
+                //gettype($response);
+            }
+        }
+        //return $compResponse;
+
+        echo "<table>";
+        echo "<tr>";
+        echo "<th>Name</th>";
+        echo "<th>Number</th>";
+        echo "<th>Contact info</th>";
+        echo "</tr>";
+        for($i = 0; $i < 10; $i++)
+        {
+            echo $i;
+            echo "<tr>";
+            echo "<td>" .  $compResponse[0][$i]['charity_name'] . "</td>";
+            echo "<td>" .  $compResponse[0][$i]['reg_charity_number'] . "</td>";
+            echo "<td>Email: " .  $compResponse[0][$i]['email'] . 
+            "<br>Number: " .  $compResponse[0][$i]['phone'] . 
+            "<br>Web: " .  $compResponse[0][$i]['web'] . "</td>";
+            echo "</tr>";
+        }
+        // array_map(function($item) use($compResponse){
+        //     foreach($compResponse as $key => $value)
+        //     {
+        //         echo "<tr>";
+        //         echo "<td>" .  $compResponse[$key][$key]['charity_name'] . "</td>";
+        //         echo "<td>" .  $compResponse[$key][$key]['reg_charity_number'] . "</td>";
+        //         echo "<td>Email: " .  $compResponse[$key][$key]['email'] . 
+        //         "<br>Number: " .  $compResponse[$key][$key]['phone'] . 
+        //         "<br>Web: " .  $compResponse[$key][$key]['web'] . "</td>";
+        //         echo "</tr>";
+        //     }
+        // }, $compResponse);
+        echo "</table>";
+    }
 
 ?>
