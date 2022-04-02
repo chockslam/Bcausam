@@ -34,7 +34,9 @@ get_header(); ?>
 
 		<?php
 			require 'Charities_Table_Handle.php';
-			$numUpdated = wpdbUpdateServer();										// Update table
+			$numUpdated = wpdbUpdateServer();	
+
+			//var_dump($numUpdated);													// Update table
 			if($numUpdated)															
 				echo $numUpdated." funders were added to the database";				// Feedback to the user.
 			else

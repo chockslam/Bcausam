@@ -109,6 +109,21 @@
     // ------------------------------------------FUNCTIONS ABOVE THIS LINE ARE NOT USED----------------------------- 
     // ------------------------------------------FUNCTIONS ABOVE THIS LINE ARE NOT USED----------------------------- 
 
+//Define the function to remove the spacial character
+
+    // code from https://linuxhint.com/remove_special_characters_string_php/ 
+    function rm_special_char($str) {
+
+        //Remove "#","'" and ";" using str_replace() function
+        
+        $result = str_replace( array("'", "%", "+"), '', $str);
+        return $result;
+        //The output after remove
+        
+        //echo "<br/><b>Text after remove: </b> <br/>".$result;
+        
+    }
+
     /**
      * Deleting all the records using $wpdb. 
      */
@@ -116,12 +131,14 @@
         global $wpdb;
         $sql = "TRUNCATE TABLE `charities_classifications`";
         $preparation = $wpdb->prepare($sql);
-        return $wpdb->query($preparation);
+        $q = $wpdb->query($preparation);
+        return $q;
     }
     
     /**
      * Updating wpdb with new info using .csv file created externally using python script.
      */
+
     function wpdbUpdateServer(){
         
         // Truncate table before inserting new rows.
@@ -131,21 +148,41 @@
         $newData = file(SERVER_PATH.CSV_SQL);
         
         // Insert query format...
-        $SQLupd = "INSERT into `charities_classifications` (`ID`, `CLASSIFICATION CODE`)
+        $SQLupd = "INSERT into `charities_classifications` (`id`, `name`, `class_codes`, `phone`, `email`, `web`, `expenditure`)
                    VALUES ";
 
-        global $wpdb;                                                                       // $wpdb - global variable that used to interact with the database.
-        $place_holder = "(%d, '%s')";                                                       // create placeholder to be added to the sql query. Example format is (200001, '101;102;103')
+                                                                                                            // $wpdb - global variable that used to interact with the database.
+        $place_holder = "(%d, '%s', '%s', '%s', '%s', '%s', '%s')";                                                       // create placeholder to be added to the sql query. Example format is (200001, '101;102;103')
         
         // For each line in the .csv format.
         foreach($newData as $line){
             $toInsert = str_getcsv($line);                                                  // turn .csv string into an array 
-            $SQLupd = $SQLupd.sprintf($place_holder, $toInsert[0], $toInsert[1]).",";       // fill in the placeholder and add it to the 'update query format'
+            //var_dump($toInsert);
+            if(strlen($toInsert[3])<=5){
+                $toInsert[3] = "Not available";
+            }
+            if(strlen($toInsert[4])<=5){
+                $toInsert[4] = "Not available";
+            }
+            if(strlen($toInsert[5])<=5){
+                $toInsert[5] = "Not available";
+            }
+            //delete "'" from strings
+            $toInsert[1] = rm_special_char($toInsert[1]);
+            $toInsert[2] = rm_special_char($toInsert[2]);
+            $toInsert[3] = rm_special_char($toInsert[3]);
+            $toInsert[4] = rm_special_char($toInsert[4]);
+            $toInsert[5] = rm_special_char($toInsert[5]);
+            $toInsert[6] = rm_special_char($toInsert[6]);
+            
+            $SQLupd = $SQLupd.sprintf($place_holder, $toInsert[0], $toInsert[1], $toInsert[2], $toInsert[3], $toInsert[4], $toInsert[5], $toInsert[6]).",";       // fill in the placeholder and add it to the 'update query format'
         }
-        
+        global $wpdb; 
         // trim last coma and, execute the prepared query, return count of affected rows
-        return $wpdb->query( $wpdb->prepare( substr_replace($SQLupd ,"",-1) ) );            // Returns the count of the affected rows.
-        
+        $SQLupd = substr_replace($SQLupd ,"",-1);
+        $prep = $wpdb->prepare( $SQLupd );
+        $res = $wpdb->query( $prep );
+        return $res;                                                                    // Returns the count of the affected rows.
     }
 
 
