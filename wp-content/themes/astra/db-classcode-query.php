@@ -82,8 +82,9 @@
         foreach($result as $key => $entry)
         {
             //Every entry ID remove ';' from classification code
-            $res[$entry->ID] = explode(';', $entry->CLASSIFICATION_CODE);
+            $res[$entry->id] = explode(';', $entry->class_codes);
         }
+        //return $res;
         //Call query class code function, put '$validClassCodes' in for first parameter
         $finish = QueryClassCode($validClassCodes, $res);
         //Return query class code function
@@ -116,96 +117,41 @@
         return $validIDs;
     }
 
-    function StillActive($arrayOfIDs)
-    {
-
-    }
-
+    //Change function so it does not query api to db
     function QueryIDs($arrayOfActiveIDs)
     {
-        //$arrayExtract = implode(',', $arrayOfIDs);
-
-        //return $arrayExtract;
-
-        $chunked = array_chunk($arrayOfActiveIDs, 10, true);
-        //return $chunked;
+        //Init db
+        global $wpdb;
+        //Query the db
+        $sqlQuery = "SELECT * FROM charities_classifications WHERE id IN (". implode(',', $arrayOfActiveIDs) .")";
+        //Prepare the sql query for safe execution
+        $preparation = $wpdb->prepare($sqlQuery);
+        //Retrieves an entire sql result set from database
+        $result = $wpdb->get_results($preparation);
+        //return $result;
+        //Create new array
+        $res = array();
+        //Converting into associative array
+        $res = json_decode(json_encode($result), true);
         
-        //Setting headers and arguments for API request
-        $header = array(
-            'headers' => array(
-                'Cache-Control' => 'no-cache',
-                'Ocp-Apim-Subscription-Key' => '6ee601d9b98f4a7eb9a73a57e7e366d1',
-            )
-        );
-        
-        //Creating the URL and adding the user inputted Charity Number
-        $url = 'https://api.charitycommission.gov.uk/register/api/charitydetailsmulti/';
-
-        $compResponse = array();
-        $count = 0;
-
-        shuffle($chunked);
-
-        foreach($chunked as $tenChunkOfIDs)
-        {
-            $count++;
-            if($count < 2)
-            {
-                $tenStringOfIDs = implode(',', $tenChunkOfIDs);
-                $modifiedURL = $url . $tenStringOfIDs;
-    
-                // // Handling the response
-                $response = wp_remote_get($modifiedURL, $header);
-                $body = wp_remote_retrieve_body($response);
-    
-                $response = json_decode($body, true);
-                gettype($response);
-                //$response = $response->charity_name;
-
-                // $response = array_filter($response, function($filtered){
-                //     return $filtered == 'charity_name';
-                // });
-
-                // for($i = 0; $i < 10; $i++)
-                // {
-                //     return $response[$i][$i]["charity_name"];
-                // }
-                
-                array_push($compResponse, $response);
-                //gettype($response);
-            }
-        }
-        //return $compResponse;
-
         echo "<table>";
         echo "<tr>";
         echo "<th>Name</th>";
         echo "<th>Number</th>";
         echo "<th>Contact info</th>";
+        echo "<th>Expenditure</th>";
         echo "</tr>";
-        for($i = 0; $i < 10; $i++)
+        for($i = 0; $i < count($res); $i++)
         {
-            echo $i;
             echo "<tr>";
-            echo "<td>" .  $compResponse[0][$i]['charity_name'] . "</td>";
-            echo "<td>" .  $compResponse[0][$i]['reg_charity_number'] . "</td>";
-            echo "<td>Email: " .  $compResponse[0][$i]['email'] . 
-            "<br>Number: " .  $compResponse[0][$i]['phone'] . 
-            "<br>Web: " .  $compResponse[0][$i]['web'] . "</td>";
+            echo "<td>" .  $res[$i]['name'] . "</td>";
+            echo "<td>" .  $res[$i]['id'] . "</td>";
+            echo "<td>Email: " .  $res[$i]['email'] . 
+                    "<br>Tel. Number: " .  $res[$i]['phone'] . 
+                    "<br>Web: " .  $res[$i]['web'] . "</td>";
+            echo "<td>" . $res[$i]['expenditure'] . "</td>";
             echo "</tr>";
         }
-        // array_map(function($item) use($compResponse){
-        //     foreach($compResponse as $key => $value)
-        //     {
-        //         echo "<tr>";
-        //         echo "<td>" .  $compResponse[$key][$key]['charity_name'] . "</td>";
-        //         echo "<td>" .  $compResponse[$key][$key]['reg_charity_number'] . "</td>";
-        //         echo "<td>Email: " .  $compResponse[$key][$key]['email'] . 
-        //         "<br>Number: " .  $compResponse[$key][$key]['phone'] . 
-        //         "<br>Web: " .  $compResponse[$key][$key]['web'] . "</td>";
-        //         echo "</tr>";
-        //     }
-        // }, $compResponse);
         echo "</table>";
     }
 
