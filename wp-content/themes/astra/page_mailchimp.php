@@ -34,7 +34,7 @@ get_header(); ?>
 
 		<?php 
 			require 'mandrill-transactional.php';
-			$res = send_test("w19005151@northumbria.ac.uk");
+			$res = test_email("no.reply@bcausam.co.uk");
 			print_r($res);
 		?>
 
