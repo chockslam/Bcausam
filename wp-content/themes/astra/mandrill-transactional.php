@@ -84,8 +84,7 @@
         return $response;
     }
 
-    function postMessage($email_addr, $funders_array) {
-        $url = "https://mandrillapp.com/api/1.0/messages/send-template";
+    function build_content($email_addr, $funders_array){
         $content = array(
             "key" => MC_API_KEY,
             "template_name" => "FunderListTest",
@@ -111,8 +110,12 @@
                 )
                 ),
             );
-            
-        $content = json_encode($content);
+            return $content;
+    }
+
+    function postMessage($content) {
+        $url = "https://mandrillapp.com/api/1.0/messages/send-template";
+        $encoded_content = json_encode($content);
         $q = wp_remote_post($url, array(
             'method' => 'POST',
             'body' => $content,
