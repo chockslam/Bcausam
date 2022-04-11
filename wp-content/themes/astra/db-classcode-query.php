@@ -84,7 +84,7 @@
             //Every entry ID remove ';' from classification code
             $res[$entry->id] = explode(';', $entry->class_codes);
         }
-        //return $res;
+        // return $res;
         //Call query class code function, put '$validClassCodes' in for first parameter
         $finish = QueryClassCode($validClassCodes, $res);
         //Return query class code function
@@ -133,26 +133,27 @@
         $res = array();
         //Converting into associative array
         $res = json_decode(json_encode($result), true);
+        return $res;
         
-        echo "<table>";
-        echo "<tr>";
-        echo "<th>Name</th>";
-        echo "<th>Number</th>";
-        echo "<th>Contact info</th>";
-        echo "<th>Expenditure</th>";
-        echo "</tr>";
-        for($i = 0; $i < count($res); $i++)
-        {
-            echo "<tr>";
-            echo "<td>" .  $res[$i]['name'] . "</td>";
-            echo "<td>" .  $res[$i]['id'] . "</td>";
-            echo "<td>Email: " .  $res[$i]['email'] . 
-                    "<br>Tel. Number: " .  $res[$i]['phone'] . 
-                    "<br>Web: " .  $res[$i]['web'] . "</td>";
-            echo "<td>" . $res[$i]['expenditure'] . "</td>";
-            echo "</tr>";
-        }
-        echo "</table>";
+        // echo "<table>";
+        // echo "<tr>";
+        // echo "<th>Name</th>";
+        // echo "<th>Number</th>";
+        // echo "<th>Contact info</th>";
+        // echo "<th>Expenditure</th>";
+        // echo "</tr>";
+        // for($i = 0; $i < count($res); $i++)
+        // {
+        //     echo "<tr>";
+        //     echo "<td>" .  $res[$i]['name'] . "</td>";
+        //     echo "<td>" .  $res[$i]['id'] . "</td>";
+        //     echo "<td>Email: " .  $res[$i]['email'] . 
+        //             "<br>Tel. Number: " .  $res[$i]['phone'] . 
+        //             "<br>Web: " .  $res[$i]['web'] . "</td>";
+        //     echo "<td>" . $res[$i]['expenditure'] . "</td>";
+        //     echo "</tr>";
+        // }
+        // echo "</table>";
     }
 
 ?>

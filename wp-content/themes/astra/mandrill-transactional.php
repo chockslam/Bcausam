@@ -84,19 +84,19 @@
         return $response;
     }
 
-    function build_content($email_addr, $funders_array){
+    function build_content($email_addr, $funders_array, $csv){
         $content = array(
             "key" => MC_API_KEY,
             "template_name" => "FunderListTest",
             "template_content" => array(),
             "message" => array(
-                "from_email" => DEFAULT_EMAIL,
-                "from_name" => DEFAULT_NAME,
+                "from_email" => "keith@bcausam.co.uk",
+                "from_name" => "Keith",
                 "subject" => "Test Email",
                 "to" => array(
                     array(
                         "email" => $email_addr,
-                        "name" => "Test User",
+                        "name" => "Charity User",
                         "type" => "to"
                     )
                 ),
@@ -106,19 +106,26 @@
                     array(
                         "name" => "funders",
                         "content" => $funders_array
-                    ),
-                )
+                    )
                 ),
-            );
-            return $content;
+                "attachments" => array(
+                    array(
+                        "type" => "text/csv",
+                        "name" => "funders.csv",
+                        "content" => base64_encode($csv)
+                    )
+                )
+            ),
+        );
+        return $content;
     }
 
-    function postMessage($content) {
+    function post_message($content) {
         $url = "https://mandrillapp.com/api/1.0/messages/send-template";
         $encoded_content = json_encode($content);
         $q = wp_remote_post($url, array(
             'method' => 'POST',
-            'body' => $content,
+            'body' => $encoded_content,
             'headers' => array(
                 'Content-Type' => 'application/json',
                 'X-MC-MergeLanguage' => 'handlebars'
@@ -127,6 +134,22 @@
         $response = wp_remote_retrieve_body($q);
         $response = json_decode($response, true);
         return $response;
+    }
+
+    function build_csv($funders_array){
+        $keys = array_keys($funders_array[0]);
+        $csv = "";
+        foreach($keys as $key){
+            $csv .= $key . ",";
+        }
+        $csv .= "\n";
+        foreach($funders_array as $funder){
+            foreach($funder as $key => $value){
+                $csv .= $value . ",";
+            }
+            $csv .= "\n";
+        }
+        return $csv;
     }
 
     // function postMessage($messageContent) {
