@@ -1,11 +1,14 @@
 <?php
-	class FundersFormClass extends \ElementorPro\Modules\Forms\Classes\Action_Base {
-		public function get_name() {
-			return 'funders_form-submit';
+
+
+class FundersFormClass extends \ElementorPro\Modules\Forms\Classes\Action_Base {
+	
+	public function get_name() {
+			return 'funders_form';
 		}
 		
 		public function get_label() {
-			return __( 'Funders Form', 'elmformaction' );
+			return __( 'Funders Form', 'text-domain' );
 		}
 		
 		/**
@@ -16,28 +19,34 @@
 		public function run( $record, $ajax_handler ) {
 			$settings = $record->get( 'form_settings' );
 		
-			if ( empty( $settings['email_field'] ) ) {
+			if ( empty( $settings['email'] ) ) {
 				return;
 			}
 
-			if ( empty( $settings['charity_field'] ) ) {
+			if ( empty( $settings['charity_number'] ) ) {
 				return;
 			}
-		
+			
 			
 			$raw_fields = $record->get( 'fields' );
 			$fields = [];
 			foreach ( $raw_fields as $id => $field ) {
 				$fields[ $id ] = $field['value'];
 			}
-
+			
 			require 'mandrill-transactional.php';
 			require 'db-classcode-query.php';
-
+			
 			// Once these inputs had been retrieved from the form submission, store them here then makethe api call to the charity comission to search the 
 			// database for the tags of the charity
-			$inputtedName = $fields[$setting['email_field']];
-			$inputtedCharityNumber = $fields[$setting['charity_field']];
+			
+			// $inputtedName = $fields[$setting['email']];
+			// $inputtedCharityNumber = $fields[$setting['charity_number']];
+			
+			
+			$inputtedName = $fields['email'];
+			$inputtedCharityNumber = $fields['charity_number'];
+			
 			$var = CopyDatabase($inputtedCharityNumber);
 			
 			// MailChimp monkey
@@ -60,7 +69,7 @@
 	
 			
 			// TODO: Give the user a response
-			// $ajax_handler->add_response_data( 'success_image', $settings['success_image']['url'] );
+			// $ajax_handler->add_response_data( 'You did it' );
 		}
 		
 		/**
@@ -68,9 +77,9 @@
 		 */
 		public function register_settings_section( $widget ) {
 			$widget->start_controls_section(
-				'section_charityform',
+				'section_funders_form',
 				[
-					'label' => __( 'Custom', 'elmformaction' ),
+					'label' => __( 'funders_form', 'text-domain' ),
 					'condition' => [
 						'submit_actions' => $this->get_name(),
 					],
@@ -78,17 +87,17 @@
 			);
 			
 			$widget->add_control(
-				'email_field',
+				'email',
 				[
-					'label' => __( 'Email Field ID', 'text-domain' ),
+					'label' => __( 'email', 'text-domain' ),
 					'type' => \Elementor\Controls_Manager::TEXT,
 				]
 				);
 
 			$widget->add_control(
-				'charity_field',
+				'charity_number',
 				[
-					'label' => __( 'Charity Field ID', 'text-domain' ),
+					'label' => __( 'charity number', 'text-domain' ),
 					'type' => \Elementor\Controls_Manager::TEXT,
 				]
 			);
@@ -100,8 +109,8 @@
 
 		public function on_export($element) {
 			unset(
-				$element['email_field'],
-				$element['charity_field'],
+				$element['email'],
+				$element['charity_number'],
 			);
 		}
 	}
