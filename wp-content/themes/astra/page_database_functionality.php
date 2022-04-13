@@ -34,8 +34,13 @@ get_header(); ?>
 
 		<?php
 			require 'Charities_Table_Handle.php';
-			$numUpdated = wpdbUpdateServer();
-			echo $numUpdated." funders were added to the database";
+			$numUpdated = wpdbUpdateServer();	
+
+			//var_dump($numUpdated);													// Update table
+			if($numUpdated)															
+				echo $numUpdated." funders were added to the database";				// Feedback to the user.
+			else
+				echo "Something went wrong..."
 		?>
 
 		<?php astra_primary_content_bottom(); ?>
