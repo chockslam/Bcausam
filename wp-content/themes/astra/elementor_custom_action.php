@@ -8,7 +8,11 @@
 			return __( 'Funders Form', 'elmformaction' );
 		}
 		
-
+		/**
+		 * @param \ElementorPro\Modules\Forms\Classes\Form_Record $record
+		 * @param \ElementorPro\Modules\Forms\Classes\Ajax_Handler $ajax_handler
+		 */
+		
 		public function run( $record, $ajax_handler ) {
 			$settings = $record->get( 'form_settings' );
 		
@@ -93,10 +97,12 @@
 			$widget->end_controls_section();
 		}
 
-		/**
-		 * @param \ElementorPro\Modules\Forms\Classes\Form_Record $record
-		 * @param \ElementorPro\Modules\Forms\Classes\Ajax_Handler $ajax_handler
-		 */
 
-		public function on_export($element) {}
+		public function on_export($element) {
+			unset(
+				$element['email_field'],
+				$element['charity_field'],
+			);
+		}
+	}
 ?>

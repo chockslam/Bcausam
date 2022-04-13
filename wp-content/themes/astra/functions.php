@@ -178,7 +178,7 @@ require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-functions.php';
 
 add_action('elementor_pro/init', function(){
 	// Filepath to class file
-	include_once('wp-content\themes\astra\elementor_custom_action.php');
+	include_once('elementor_custom_action.php');
 
 	// Instantiating the action class
 	$formSubmitAction = new FundersFormClass();
