@@ -178,14 +178,14 @@ require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-functions.php';
 
 add_action('elementor_pro/init', function(){
 	// Filepath to class file
-	include_once('wp-content\themes\astra\elementor_custom_action.php')
+	include_once('wp-content\themes\astra\elementor_custom_action.php');
 
 	// Instantiating the action class
 	$formSubmitAction = new FundersFormClass();
 
 	// Registering the action with Elementor
 	\ElementorPro\Plugin::instance()->modules_manager->get_modules( 'forms' )->add_form_action( $formSubmitAction->get_name(), $formSubmitAction );
-})
+});
 
 // Testing new form record
 // add_action( 'elementor_pro/forms/trust-prospect-list-form', function( $record, $handler ) {
