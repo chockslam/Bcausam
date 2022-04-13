@@ -5,6 +5,9 @@
     DEFINE('DEFAULT_NAME', "Keith");
 
     function test_connection() {
+        // Tests the connection to MailChimp
+        // Returns true if connection is successful
+        // Returns false if connection cannot be made
         $url = "https://mandrillapp.com/api/1.0/users/ping";
         $content = array(
             "key" => MC_API_KEY,
@@ -27,6 +30,8 @@
     }
 
     function test_email($email_addr) {
+        // Sends a test email to the user
+        // Tests the functionality of the API
         $url = "https://mandrillapp.com/api/1.0/messages/send-template";
         $content = array(
             "key" => MC_API_KEY,
@@ -85,6 +90,12 @@
     }
 
     function build_content($email_addr, $funders_array, $csv){
+        // Builds the content array that will be sent to the Mailchimp API
+        // Inputs:
+        //    $email_addr: The email address of the user
+        //    $funders_array: An array of the funders that will be shown to the user
+        //    $csv: The CSV file that will be attached to the email, which is a string of the CSV data
+        // Returns the content array
         $content = array(
             "key" => MC_API_KEY,
             "template_name" => "FunderListTest",
@@ -121,6 +132,8 @@
     }
 
     function post_message($content) {
+        // Posts the message with the inputted content to Mailchimp
+        // Returns the response from the API
         $url = "https://mandrillapp.com/api/1.0/messages/send-template";
         $encoded_content = json_encode($content);
         $q = wp_remote_post($url, array(
@@ -137,9 +150,13 @@
     }
 
     function build_csv($funders_array){
+        // Builds the CSV file that will be attached to the email
+        // Inputs:
+        //    $funders_array: An array of the funders that the user has selected
+        // Returns the CSV file
         $keys = array_keys($funders_array[0]);
         $csv = "";
-        foreach($keys as $key){
+        foreach ($keys as $key){
             $csv .= $key . ",";
         }
         $csv .= "\n";
@@ -151,31 +168,4 @@
         }
         return $csv;
     }
-
-    // function postMessage($messageContent) {
-    //     $arr = array(
-    //         'body'  =>  $messageContent
-    //     );
-
-    //     $response = wp_remote_post("https://mandrillapp.com/api/1.0/message/send-template", array(
-    //         'method' => 'POST',
-    //         'body' => $arr,
-    //         'headers' => array(
-    //             'Content-Type' => 'application/json'
-    //         )
-    //     ));
-    // }
-
-
-    // function formatMessage($message) {
-    //     $content = array(
-    //         'key' => MC_API_KEY,
-    //         'template' => $MC_TEMPLATE_NAME,
-    //         'template_content' => template_content,
-    //         'message' => $message_content,
-    //     );
-    // }
-
-
-
 ?>
