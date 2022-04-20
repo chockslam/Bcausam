@@ -233,6 +233,7 @@ add_action( 'elementor_pro/forms/new_record', function( $record, $handler ) {
 	$mc_csv = build_csv($var);
 	$mc_content = build_content($inputtedEmail, $funderlist_short, $mc_csv);
 	$res = post_message($mc_content);
+	$handler->add_record_data( 'mailchimp_response', $res );
 },10,2);
 		   
 
