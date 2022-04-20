@@ -30,8 +30,7 @@
         // }
     }
 
-    function CopyDatabase($inputtedCharityNumber)
-    {   
+    function CopyDatabase($inputtedCharityNumber){   
         $testNumber = '200017';
         
         // TODO: Charity commission API call
