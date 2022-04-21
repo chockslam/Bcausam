@@ -207,17 +207,6 @@ add_action( 'elementor_pro/forms/new_record', function( $record, $handler ) {
 	foreach ( $raw_fields as $id => $field ) {
 		$fields[ $id ] = $field['value'];
 	}
-  
-
-	$test_user = array( //Test user information, email redirects to ben's email
-		"email" => "no.reply@bcausam.co.uk",
-		"charityNumber" => "1088281",
-	);
-
-	// Once these inputs had been retrieved from the form submission, store them here then makethe api call to the charity comission to search the 
-	// database for the tags of the charity
-	// $inputtedName = $test_user['email'];
-	// $inputtedCharityNumber = $test_user['charityNumber'];
 
 	$inputtedEmail = $fields['email'];
 	$inputtedCharityNumber = $fields['charity_number'];
@@ -231,8 +220,9 @@ add_action( 'elementor_pro/forms/new_record', function( $record, $handler ) {
 
 	$funderlist_short = array_slice($var, 0, 5);
 	$mc_csv = build_csv($var);
-	$mc_content = build_content($inputtedEmail, $funderlist_short, $mc_csv);
+	$mc_content = build_content($inputtedEmail, $inputtedCharityNumber, $funderlist_short, $mc_csv);
 	$res = post_message($mc_content);
+	
 	$handler->add_record_data( 'mailchimp_response', $res );
 },10,2);
 		   

@@ -5,6 +5,7 @@
     DEFINE('DEFAULT_NAME', "Keith");
 
     function test_connection() {
+        // Tests the connection to MailChimp servers and the validity of the API key
         $url = "https://mandrillapp.com/api/1.0/users/ping";
         $content = array(
             "key" => MC_API_KEY,
@@ -27,6 +28,7 @@
     }
 
     function test_email($email_addr) {
+        // Sends a test email to the address provided
         $url = "https://mandrillapp.com/api/1.0/messages/send-template";
         $content = array(
             "key" => MC_API_KEY,
@@ -84,15 +86,21 @@
         return $response;
     }
 
-    function build_content($email_addr, $funders_array, $csv){
+    function build_content($email_addr, $charity_number, $funders_array, $csv){
+        // Builds the content that will be sent to the email address provided
+        // $email_addr = email address to send to
+        // $charitynumber = charity number of recipient
+        // $funders_array = array of funders to send to email address
+        // $csv = csv file to attach to email
+
         $content = array(
             "key" => MC_API_KEY,
-            "template_name" => "FunderListTest",
+            "template_name" => "FunderList",
             "template_content" => array(),
             "message" => array(
                 "from_email" => "keith@bcausam.co.uk",
                 "from_name" => "Keith",
-                "subject" => "Test Email",
+                "subject" => "Your Funders List",
                 "to" => array(
                     array(
                         "email" => $email_addr,
@@ -103,6 +111,10 @@
                 "merge" => true,
                 "merge_language" => "handlebars",
                 "global_merge_vars" => array(
+                    array(
+                        "name" => "recipient_number",
+                        "content" => $charity_number
+                    ),
                     array(
                         "name" => "funders",
                         "content" => $funders_array
@@ -121,6 +133,7 @@
     }
 
     function post_message($content) {
+        // Posts the email content constructed using build_content() to Mandrill servers
         $url = "https://mandrillapp.com/api/1.0/messages/send-template";
         $encoded_content = json_encode($content);
         $q = wp_remote_post($url, array(
@@ -138,44 +151,10 @@
 
     function build_csv($funders_array){
         $keys = array_keys($funders_array[0]);
-        $csv = "";
-        foreach($keys as $key){
-            $csv .= $key . ",";
-        }
-        $csv .= "\n";
+        $csv = "Funder ID,Name,Contact Email,Website Address,Contact telephone\n";
         foreach($funders_array as $funder){
-            foreach($funder as $key => $value){
-                $csv .= $value . ",";
-            }
-            $csv .= "\n";
+            $csv .= $funder['id'] . "," . $funder['name'] . "," . $funder['email'] . "," . $funder['web'] . "," . $funder['phone'] . "\n";
         }
         return $csv;
     }
-
-    // function postMessage($messageContent) {
-    //     $arr = array(
-    //         'body'  =>  $messageContent
-    //     );
-
-    //     $response = wp_remote_post("https://mandrillapp.com/api/1.0/message/send-template", array(
-    //         'method' => 'POST',
-    //         'body' => $arr,
-    //         'headers' => array(
-    //             'Content-Type' => 'application/json'
-    //         )
-    //     ));
-    // }
-
-
-    // function formatMessage($message) {
-    //     $content = array(
-    //         'key' => MC_API_KEY,
-    //         'template' => $MC_TEMPLATE_NAME,
-    //         'template_content' => template_content,
-    //         'message' => $message_content,
-    //     );
-    // }
-
-
-
 ?>
