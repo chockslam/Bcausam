@@ -153,7 +153,7 @@
         $keys = array_keys($funders_array[0]);
         $csv = "Funder ID,Name,Contact Email,Website Address,Contact telephone\n";
         foreach($funders_array as $funder){
-            $csv .= $funder['id'] . "," . $funder['name'] . "," . $funder['email'] . "," . $funder['web'] . "," . $funder['phone'] . "\n";
+            $csv .= $funder['id'] . "," . str_replace(","," ",$funder['name']) . "," . $funder['email'] . "," . $funder['web'] . "," . $funder['phone'] . "\n";
         }
         return $csv;
     }
