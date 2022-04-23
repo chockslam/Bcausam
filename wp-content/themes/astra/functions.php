@@ -222,8 +222,19 @@ add_action( 'elementor_pro/forms/new_record', function( $record, $handler ) {
 	$mc_csv = build_csv($var);
 	$mc_content = build_content($inputtedEmail, $inputtedCharityNumber, $funderlist_short, $mc_csv);
 	$res = post_message($mc_content);
+
+	// Display result to user
+	$output = array(
+		'results' => ""
+	);
+
+	if ($res == true) {
+		$output["result"] = "Success! The email will be sent to you within the next few minutes.";
+	} else {
+		$output["result"] =  "Failed to send message. If this error persists, please contant keith@bcausam.co.uk.";
+	}
 	
-	$handler->add_record_data( 'mailchimp_response', $res );
+	$handler->add_response_data( true, $output );
 },10,2);
 		   
 

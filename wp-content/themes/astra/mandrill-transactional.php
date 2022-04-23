@@ -146,7 +146,11 @@
         ));
         $response = wp_remote_retrieve_body($q);
         $response = json_decode($response, true);
-        return $response;
+        if (array_key_exists("code", $response)) {
+            return false;
+        } else {
+            return true;
+        }
     }
 
     function build_csv($funders_array){
