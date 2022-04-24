@@ -1,5 +1,5 @@
 <?php
-    
+    //  GLEBS MEDVEDEVS (19012503) FILE
     define("PATH", "C:\\xampp\\htdocs\\Bcausam\\wp-content\\themes\\astra\\");
     define("CSV_SQL", "SQL.csv");
     define("FILE", "CharitiesClassification.json");

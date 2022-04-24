@@ -33,6 +33,7 @@ get_header(); ?>
 		<?php astra_primary_content_top(); ?>
 
 		<?php
+			//  GLEBS MEDVEDEVS (19012503) FILE
 			require 'Charities_Table_Handle.php';
 			$numUpdated = wpdbUpdateServer();	
 
