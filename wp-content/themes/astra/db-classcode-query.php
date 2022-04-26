@@ -39,7 +39,7 @@
         $header = array(
             'headers' => array(
                 'Cache-Control' => 'no-cache',
-                'Ocp-Apim-Subscription-Key' => '6ee601d9b98f4a7eb9a73a57e7e366d1',
+                'Ocp-Apim-Subscription-Key' => '###########',
             ),
             'timeout' => 30,
         );

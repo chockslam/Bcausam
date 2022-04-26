@@ -3,9 +3,9 @@
     // Author: Ben Palmer 
     // Northumbria University 19005151
 
-    DEFINE('MC_API_KEY',"cQCVN00C9F8Jr24yCYKxZQ"); // Set the Mandrill API Key here
-    DEFINE('DEFAULT_EMAIL', "keith@bcausam.co.uk"); // Set the default sending email address here
-    DEFINE('DEFAULT_NAME', "Keith at Bcausam"); // Set the default sending name here
+    DEFINE('MC_API_KEY',"#############"); // Set the Mandrill API Key here
+    DEFINE('DEFAULT_EMAIL', "###########"); // Set the default sending email address here
+    DEFINE('DEFAULT_NAME', "##########"); // Set the default sending name here
 
     function test_connection() {
         // Tests the connection to MailChimp servers and the validity of the API key
