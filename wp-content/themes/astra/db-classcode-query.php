@@ -36,10 +36,13 @@
         // TODO: Charity commission API call
         
         // Setting headers and arguments for API request
+
+        $CCapikey = getenv('CHARITY_COMMISION_API_KEY');
+
         $header = array(
             'headers' => array(
                 'Cache-Control' => 'no-cache',
-                'Ocp-Apim-Subscription-Key' => '###########',
+                'Ocp-Apim-Subscription-Key' => $CCapikey,
             ),
             'timeout' => 30,
         );

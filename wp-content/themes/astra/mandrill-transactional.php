@@ -3,15 +3,14 @@
     // Author: Ben Palmer 
     // Northumbria University 19005151
 
-    DEFINE('MC_API_KEY',"#############"); // Set the Mandrill API Key here
-    DEFINE('DEFAULT_EMAIL', "###########"); // Set the default sending email address here
-    DEFINE('DEFAULT_NAME', "##########"); // Set the default sending name here
+    $MCapikey = getenv('MAILCHIMP_API_KEY');
+    $KeithEmail = getenv('KEITH_EMAIL');
 
     function test_connection() {
         // Tests the connection to MailChimp servers and the validity of the API key
         $url = "https://mandrillapp.com/api/1.0/users/ping";
         $content = array(
-            "key" => MC_API_KEY,
+            "key" => $MCapikey,
         );
         $content = json_encode($content);
         $q = wp_remote_post($url, array(
@@ -34,11 +33,11 @@
         // Sends a test email to the address provided
         $url = "https://mandrillapp.com/api/1.0/messages/send-template";
         $content = array(
-            "key" => MC_API_KEY,
+            "key" => $MCapikey,
             "template_name" => "FunderListTest",
             "template_content" => array(),
             "message" => array(
-                "from_email" => "keith@bcausam.co.uk",
+                "from_email" => $KeithEmail,
                 "from_name" => "Keith",
                 "subject" => "Test Email",
                 "to" => array(
@@ -97,11 +96,11 @@
         // $csv = csv file to attach to email
 
         $content = array(
-            "key" => MC_API_KEY,
+            "key" => $MCapikey,
             "template_name" => "FunderList",
             "template_content" => array(),
             "message" => array(
-                "from_email" => "keith@bcausam.co.uk",
+                "from_email" => $KeithEmail,
                 "from_name" => "Keith",
                 "subject" => "Your Funders List",
                 "to" => array(
