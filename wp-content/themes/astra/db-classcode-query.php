@@ -8,20 +8,30 @@
     function callAPI($url, $header)
     {
         $response = wp_remote_get($url, $header);
-        //print_r($response);
-        if($response->errors['http_request_failed'])
-        {
-            callAPI($url, $header);
-        }
-        else{
-            $body = wp_remote_retrieve_body($response);
-            return $body;
-        }
+
+        
+        // $decodedReponse = json_decode($response, true);
+
+        // print_r($response);
+        
+        // print_r($response->errors['http_request_failed'][0]);
+
+        $body = wp_remote_retrieve_body($response);
+        return $body;
+        
+        // if($response->errors['http_request_failed'][0])
+        // {
+        //     callAPI($url, $header);
+            
+        // }
+        // else{
+        //     $body = wp_remote_retrieve_body($response);
+        //     return $body;
+        // }
     }
 
-    function CopyDatabase()
-    {   
-        $inputtedCharityNumber = '200054';
+    function CopyDatabase($inputtedCharityNumber){   
+        $testNumber = '200017';
         
         // TODO: Charity commission API call
         
@@ -29,29 +39,29 @@
         $header = array(
             'headers' => array(
                 'Cache-Control' => 'no-cache',
-                'Ocp-Apim-Subscription-Key' => '6ee601d9b98f4a7eb9a73a57e7e366d1',
-            )
+                'Ocp-Apim-Subscription-Key' => '###########',
+            ),
+            'timeout' => 30,
         );
         
         // Creating the URL and adding the user inputted Charity Number
         $url = 'https://api.charitycommission.gov.uk/register/api/allcharitydetails/';
+
+        // Real call
         $url = $url . $inputtedCharityNumber . "/0";
+
+        // Test call
+        // $url = $url . $testNumber . "/0";
         
         // Handling the response
-        //$response = wp_remote_get($url, $header);
-        
-        //$body = wp_remote_retrieve_body($response);
-        
-
+    
         $body = callAPI($url, $header);
-        //return $body;
 
         //Filtering the response to just the "What" category
-        //$response = $response["body"];  
         
         $response = json_decode($body, true);
-        gettype($response);
-        //return $response;
+        
+
         $response = $response["who_what_where"];
         
         $validClassCodes = array();

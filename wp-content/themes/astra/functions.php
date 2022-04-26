@@ -176,66 +176,65 @@ require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-filters.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-hooks.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-functions.php';
 
-add_action('elementor_pro/init', function(){
-	// Filepath to class file
-	include_once('elementor_custom_action.php');
+// add_action('elementor_pro/init', function(){
+// 	// Filepath to class file
+// 	include_once('elementor_custom_action.php');
 
-	// Instantiating the action class
-	$formSubmitAction = new FundersFormClass();
+// 	// Instantiating the action class
+// 	$formSubmitAction = new FundersFormClass();
 
-	// Registering the action with Elementor
-	\ElementorPro\Plugin::instance()->modules_manager->get_modules( 'forms' )->add_form_action( $formSubmitAction->get_name(), $formSubmitAction );
-});
+// 	// Registering the action with Elementor
+// 	\ElementorPro\Plugin::instance()->modules_manager->get_modules( 'forms' )->add_form_action( $formSubmitAction->get_name(), $formSubmitAction );
+// });
 
 // Testing new form record
-// add_action( 'elementor_pro/forms/trust-prospect-list-form', function( $record, $handler ) {
-// 	//make sure its our form
-// 	$form_name = $record->get_form_settings( 'trust-prospect-list-form' );
+
+
+require 'mandrill-transactional.php';
+require 'db-classcode-query.php';
+
+add_action( 'elementor_pro/forms/new_record', function( $record, $handler ) {
+	//make sure its our form
+	$form_name = $record->get_form_settings( 'form_name' );
   
-// 	// Replace MY_FORM_NAME with the name you gave your form
-// 	if ( 'trust-prospect-list-form' !== $form_name ) {
-// 		return;
-// 	}
+	// Replace MY_FORM_NAME with the name you gave your form
+	if ( 'funders_form' !== $form_name ) {
+		return;
+	}
   
-// 	$raw_fields = $record->get( 'fields' );
-// 	$fields = [];
-// 	foreach ( $raw_fields as $id => $field ) {
-// 		$fields[ $id ] = $field['value'];
-// 	}
-  
-// 	require 'mandrill-transactional.php';
-// 	require 'db-classcode-query.php';
+	$raw_fields = $record->get( 'fields' );
+	$fields = [];
+	foreach ( $raw_fields as $id => $field ) {
+		$fields[ $id ] = $field['value'];
+	}
 
-// 	$test_user = array( //Test user information, email redirects to ben's email
-// 		"email" => "no.reply@bcausam.co.uk",
-// 		"charityNumber" => "1088281",
-// 	);
-// 	print_r($test_user);
+	$inputtedEmail = $fields['email'];
+	$inputtedCharityNumber = $fields['charity_number'];
 
-// 	// Once these inputs had been retrieved from the form submission, store them here then makethe api call to the charity comission to search the 
-// 	// database for the tags of the charity
-// 	$inputtedName = $test_user['email'];
-// 	$inputtedCharityNumber = $test_user['charityNumber'];
-// 	$var = CopyDatabase($inputtedCharityNumber);
+	$var = CopyDatabase($inputtedCharityNumber);
 	
-// 	// MailChimp monkey
-// 	if (!test_connection()) {
-// 		echo "Failed to connect to MailChimp";
-// 	}
+	// MailChimp monkey
+	if (!test_connection()) {
+		echo "Failed to connect to MailChimp";
+	}
 
+	$funderlist_short = array_slice($var, 0, 5);
+	$mc_csv = build_csv($var);
+	$mc_content = build_content($inputtedEmail, $inputtedCharityNumber, $funderlist_short, $mc_csv);
+	$res = post_message($mc_content);
+
+	// Display result to user
+	$output = array(
+		'results' => ""
+	);
+
+	if ($res == true) {
+		$output["result"] = "Success! The email will be sent to you within the next few minutes.";
+	} else {
+		$output["result"] =  "Failed to send message. If this error persists, please contant keith@bcausam.co.uk.";
+	}
 	
-// 	$funderlist_short = array_slice($var, 0, 5);
-
-// 	$mc_csv = build_csv($var);
-// 	// print_r($mc_csv);
-
-	
-// 	$mc_content = build_content($inputtedName, $funderlist_short, $mc_csv);
-// 	// print_r($mc_content);
-
-// 	$res = post_message($mc_content);
-
-// 	print_r($res);
-// });
+	$handler->add_response_data( true, $output );
+},10,2);
 		   
 
